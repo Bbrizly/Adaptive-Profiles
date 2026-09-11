@@ -19,9 +19,7 @@
       <a href="/devices" data-nav>Devices</a>
       <a href="/developers" data-nav>Developers</a>
     </nav>
-    <div class="top-actions">
-      <button class="button button-primary" id="openSubmit" type="button">Add profile</button>
-    </div>
+    <div class="top-actions"><button class="button button-primary" id="openSubmit" type="button">Add profile</button></div>
   </header>
 
   <main id="content" tabindex="-1"><div class="loading-shell"><div class="spinner"></div><p>Loading registry…</p></div></main>
@@ -30,7 +28,7 @@
     <form id="submitForm" method="dialog">
       <div class="dialog-head">
         <div><div class="eyebrow">Community contribution</div><h2 id="submitTitle">Add a profile</h2><p>Provide a public Google Sheet or a small CSV. We create a reviewable GitHub pull request; nothing writes directly to the registry.</p></div>
-        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+        <button class="icon-button" type="button" value="cancel" aria-label="Close">×</button>
       </div>
       <div class="form-grid">
         <label>Game<select name="gameId" id="submitGame" required></select></label>
@@ -53,11 +51,12 @@
 
       <div id="turnstileMount"></div>
       <div id="submitStatus" class="form-status" aria-live="polite"></div>
-      <div class="dialog-actions"><button class="button button-ghost" value="cancel">Cancel</button><button class="button button-primary" id="submitButton" type="submit">Create submission PR</button></div>
+      <div class="dialog-actions"><button class="button button-ghost" type="button" value="cancel">Cancel</button><button class="button button-primary" id="submitButton" type="submit">Create submission PR</button></div>
     </form>
   </dialog>
 
   <footer><span>Adaptive Profiles</span><span>Public structured data · Git-backed · No patient data</span><a href="https://github.com/Bbrizly/Adaptive-Profiles" rel="noreferrer">GitHub</a></footer>
+  <script type="module" src="/dialog-fix.js"></script>
   <script type="module" src="/app.js"></script>
 </body>
 </html>
