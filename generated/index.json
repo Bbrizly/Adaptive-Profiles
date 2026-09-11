@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "aliases": [
+        "Minecraft Java Edition",
+        "Minecraft Bedrock Edition"
+      ],
+      "platforms": [
+        "pc",
+        "xbox",
+        "playstation",
+        "switch"
+      ],
+      "actions": [
+        {"id": "move", "name": "Move", "category": "movement", "kind": "axis-2d"},
+        {"id": "look", "name": "Look", "category": "movement", "kind": "pointer"},
+        {"id": "attack", "name": "Attack / Destroy", "category": "gameplay", "kind": "digital"},
+        {"id": "use", "name": "Use / Place", "category": "gameplay", "kind": "digital"},
+        {"id": "jump", "name": "Jump", "category": "movement", "kind": "digital"},
+        {"id": "sprint", "name": "Sprint", "category": "movement", "kind": "digital"},
+        {"id": "sneak", "name": "Sneak", "category": "movement", "kind": "digital"},
+        {"id": "inventory", "name": "Inventory", "category": "menu", "kind": "menu"},
+        {"id": "drop", "name": "Drop Item", "category": "gameplay", "kind": "digital"},
+        {"id": "pause", "name": "Pause / Menu", "category": "menu", "kind": "menu"}
+      ],
+      "source": {
+        "url": "https://www.minecraft.net/en-us/article/minecraft-controls",
+        "title": "Minecraft Controls"
+      },
+      "controls": [
+        {
+          "platform": "pc",
+          "scheme": "default-keyboard-mouse",
+          "bindings": [
+            {"action": "move", "control": "W / A / S / D"},
+            {"action": "look", "control": "Mouse movement"},
+            {"action": "attack", "control": "Left Mouse Button"},
+            {"action": "use", "control": "Right Mouse Button"},
+            {"action": "jump", "control": "Space"},
+            {"action": "sprint", "control": "Left Control"},
+            {"action": "sneak", "control": "Left Shift"},
+            {"action": "inventory", "control": "E"},
+            {"action": "drop", "control": "Q"},
+            {"action": "pause", "control": "Escape"}
+          ],
+          "source": {"url": "https://help.minecraft.net/hc/en-us/articles/360059148111-Minecraft-Java-Edition-Hotkeys", "title": "Minecraft Java Edition Hotkeys", "verifiedAt": "2026-09-11"}
+        },
+        {
+          "platform": "playstation",
+          "scheme": "default-controller",
+          "bindings": [
+            {"action": "attack", "control": "R2"},
+            {"action": "use", "control": "L2"},
+            {"action": "jump", "control": "Cross"},
+            {"action": "sneak", "control": "Circle"},
+            {"action": "inventory", "control": "Triangle"},
+            {"action": "drop", "control": "D-Pad Down"}
+          ],
+          "source": {"url": "https://www.minecraft.net/en-us/article/minecraft-controls", "title": "Minecraft Controls", "verifiedAt": "2026-09-11"}
+        },
+        {
+          "platform": "xbox",
+          "scheme": "default-controller",
+          "bindings": [
+            {"action": "attack", "control": "Right Trigger"},
+            {"action": "use", "control": "Left Trigger"},
+            {"action": "jump", "control": "A"},
+            {"action": "sneak", "control": "B"},
+            {"action": "inventory", "control": "Y"},
+            {"action": "drop", "control": "D-Pad Down"}
+          ],
+          "source": {"url": "https://www.minecraft.net/en-us/article/minecraft-controls", "title": "Minecraft Controls", "verifiedAt": "2026-09-11"}
+        }
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "id": "quadstick-fps",
+      "name": "QuadStick FPS",
+      "manufacturer": "QuadStick",
+      "inputs": [
+        {"id": "joystick", "name": "Joystick", "kind": "axis-2d"},
+        {"id": "left-sip", "name": "Left Sip", "kind": "digital"},
+        {"id": "left-puff", "name": "Left Puff", "kind": "digital"},
+        {"id": "center-sip", "name": "Center Sip", "kind": "digital"},
+        {"id": "center-puff", "name": "Center Puff", "kind": "digital"},
+        {"id": "right-sip", "name": "Right Sip", "kind": "digital"},
+        {"id": "right-puff", "name": "Right Puff", "kind": "digital"},
+        {"id": "lip", "name": "Lip", "kind": "digital"}
+      ]
+    },
+    {
+      "id": "quadstick-original",
+      "name": "QuadStick Original",
+      "manufacturer": "QuadStick",
+      "inputs": [
+        {"id": "joystick", "name": "Joystick", "kind": "axis-2d"},
+        {"id": "left-sip", "name": "Left Sip", "kind": "digital"},
+        {"id": "left-puff", "name": "Left Puff", "kind": "digital"},
+        {"id": "center-sip", "name": "Center Sip", "kind": "digital"},
+        {"id": "center-puff", "name": "Center Puff", "kind": "digital"},
+        {"id": "right-sip", "name": "Right Sip", "kind": "digital"},
+        {"id": "right-puff", "name": "Right Puff", "kind": "digital"},
+        {"id": "lip", "name": "Lip", "kind": "digital"}
+      ]
+    }
+  ],
+  "profiles": []
+}

@@ -1,0 +1,61 @@
+name: Registry validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Syntax check
+        run: |
+          node --check tools/registry.mjs
+          node --check tools/validate.mjs
+          node --check tools/build-index.mjs
+          node --check worker/index.js
+          node --check site/app.js
+          node --check site/dialog-fix.js
+          node --check tests/worker.test.mjs
+      - name: Validate source registry
+        run: node tools/validate.mjs
+      - name: Worker regression tests
+        run: node tests/worker.test.mjs
+
+  publish-index:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rebuild generated read model
+        run: node tools/build-index.mjs
+      - name: Verify generated index
+        run: node tools/validate.mjs --check-index
+      - name: Commit derived index when source data changed
+        run: |
+          if git diff --quiet -- generated/index.json; then
+            echo "Index already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/index.json
+          git commit -m "Update generated registry index"
+          git push origin main

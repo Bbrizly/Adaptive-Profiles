@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptive-profiles.dev/schemas/device.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "manufacturer", "inputs"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "manufacturer": {"type": "string"},
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "kind"],
+        "properties": {"id": {"type": "string"}, "name": {"type": "string"}, "kind": {"enum": ["digital", "axis-1d", "axis-2d", "pointer"]}}
+      }
+    }
+  }
+}

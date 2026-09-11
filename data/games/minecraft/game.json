@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft",
+  "name": "Minecraft",
+  "aliases": ["Minecraft Java Edition", "Minecraft Bedrock Edition"],
+  "platforms": ["pc", "xbox", "playstation", "switch"],
+  "actions": [
+    {"id": "move", "name": "Move", "category": "movement", "kind": "axis-2d"},
+    {"id": "look", "name": "Look", "category": "movement", "kind": "pointer"},
+    {"id": "attack", "name": "Attack / Destroy", "category": "gameplay", "kind": "digital"},
+    {"id": "use", "name": "Use / Place", "category": "gameplay", "kind": "digital"},
+    {"id": "jump", "name": "Jump", "category": "movement", "kind": "digital"},
+    {"id": "sprint", "name": "Sprint", "category": "movement", "kind": "digital"},
+    {"id": "sneak", "name": "Sneak", "category": "movement", "kind": "digital"},
+    {"id": "inventory", "name": "Inventory", "category": "menu", "kind": "menu"},
+    {"id": "drop", "name": "Drop Item", "category": "gameplay", "kind": "digital"},
+    {"id": "pause", "name": "Pause / Menu", "category": "menu", "kind": "menu"}
+  ],
+  "source": {
+    "url": "https://www.minecraft.net/en-us/article/minecraft-controls",
+    "title": "Minecraft Controls"
+  }
+}

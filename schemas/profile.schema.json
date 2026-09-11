@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptive-profiles.dev/schemas/profile.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "title", "description", "gameId", "platform", "deviceId", "semanticStatus", "mappings", "tags", "contributor", "source", "snapshot", "createdAt"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-+[a-z0-9]+)*$"},
+    "title": {"type": "string", "minLength": 2, "maxLength": 100},
+    "description": {"type": "string", "maxLength": 500},
+    "gameId": {"type": "string"},
+    "platform": {"enum": ["pc", "xbox", "playstation", "switch"]},
+    "deviceId": {"type": "string"},
+    "semanticStatus": {"enum": ["unmapped", "mapped"]},
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["input", "action", "behavior"],
+        "properties": {"input": {"type": "string"}, "action": {"type": "string"}, "behavior": {"enum": ["normal", "tap", "hold", "toggle", "repeat"]}}
+      }
+    },
+    "tags": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}, "uniqueItems": true, "maxItems": 10},
+    "contributor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["displayName"],
+      "properties": {"displayName": {"type": "string", "minLength": 1, "maxLength": 60}, "github": {"type": "string", "maxLength": 39}}
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {"type": {"enum": ["google-sheet", "csv"]}, "url": {"type": "string", "format": "uri"}}
+    },
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "sha256"],
+      "properties": {"file": {"const": "profile.csv"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+    },
+    "createdAt": {"type": "string"}
+  }
+}

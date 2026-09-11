@@ -1,0 +1,16 @@
+{
+  "name": "adaptive-profiles",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.mjs --check-index",
+    "build:index": "node tools/build-index.mjs",
+    "check": "node --check worker/index.js && node --check site/app.js && node tools/validate.mjs --check-index",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.36.0"
+  }
+}

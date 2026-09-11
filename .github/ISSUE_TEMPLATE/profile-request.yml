@@ -1,0 +1,31 @@
+name: Request a profile
+description: Request an adaptive profile that does not exist yet.
+title: "[PROFILE REQUEST] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not include private medical or patient information."
+  - type: input
+    id: game
+    attributes:
+      label: Game
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Adaptive device
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [PC, Xbox, PlayStation, Switch]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Optional notes
+      description: Describe the kind of layout you need. Do not include medical records or identifying health information.
