@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0e13">
+  <meta name="description" content="Find, understand and share adaptive gaming control profiles.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; connect-src 'self' https://raw.githubusercontent.com https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; img-src 'self' data:; base-uri 'none'; form-action 'self'">
+  <title>Adaptive Profiles</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="/" data-nav aria-label="Adaptive Profiles home"><span class="brand-mark">AP</span><span>Adaptive Profiles</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/games" data-nav>Games</a>
+      <a href="/profiles" data-nav>Profiles</a>
+      <a href="/devices" data-nav>Devices</a>
+      <a href="/developers" data-nav>Developers</a>
+    </nav>
+    <div class="top-actions">
+      <button class="button button-primary" id="openSubmit" type="button">Add profile</button>
+    </div>
+  </header>
+
+  <main id="content" tabindex="-1"><div class="loading-shell"><div class="spinner"></div><p>Loading registry…</p></div></main>
+
+  <dialog id="submitDialog" class="submit-dialog" aria-labelledby="submitTitle">
+    <form id="submitForm" method="dialog">
+      <div class="dialog-head">
+        <div><div class="eyebrow">Community contribution</div><h2 id="submitTitle">Add a profile</h2><p>Provide a public Google Sheet or a small CSV. We create a reviewable GitHub pull request; nothing writes directly to the registry.</p></div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+      <div class="form-grid">
+        <label>Game<select name="gameId" id="submitGame" required></select></label>
+        <label>Platform<select name="platform" id="submitPlatform" required></select></label>
+        <label>Adaptive device<select name="deviceId" id="submitDevice" required></select></label>
+        <label>Profile title<input name="title" maxlength="100" required placeholder="Standard layout"></label>
+        <label class="span-2">Short description<textarea name="description" maxlength="500" rows="3" placeholder="What is this layout optimized for?"></textarea></label>
+        <label>Your name<input name="displayName" maxlength="60" required placeholder="Alex"></label>
+        <label>GitHub username <span class="optional">optional</span><input name="github" maxlength="39" placeholder="alex123"></label>
+        <label class="span-2">Tags <span class="optional">optional, comma separated</span><input name="tags" maxlength="200" placeholder="beginner, low-fatigue"></label>
+      </div>
+
+      <fieldset class="source-picker"><legend>Profile source</legend>
+        <label class="source-option"><input type="radio" name="sourceType" value="google-sheet" checked><span><strong>Google Sheet</strong><small>Paste the existing public QuadStick sheet. We preserve the link and take a CSV snapshot.</small></span></label>
+        <label class="source-option"><input type="radio" name="sourceType" value="csv"><span><strong>CSV file</strong><small>One UTF-8 .csv file, maximum 128 KiB. It becomes the versioned snapshot in GitHub.</small></span></label>
+      </fieldset>
+
+      <div id="googleSource"><label>Public Google Sheet URL<input name="googleSheetUrl" type="url" placeholder="https://docs.google.com/spreadsheets/d/…"></label></div>
+      <div id="csvSource" hidden><label class="drop-zone" id="dropZone"><input name="csv" id="csvInput" type="file" accept=".csv,text/csv"><span class="drop-title">Drop a CSV here</span><span id="csvName">or choose a file</span><small>Only CSV is accepted. No generic uploads.</small></label></div>
+
+      <div id="turnstileMount"></div>
+      <div id="submitStatus" class="form-status" aria-live="polite"></div>
+      <div class="dialog-actions"><button class="button button-ghost" value="cancel">Cancel</button><button class="button button-primary" id="submitButton" type="submit">Create submission PR</button></div>
+    </form>
+  </dialog>
+
+  <footer><span>Adaptive Profiles</span><span>Public structured data · Git-backed · No patient data</span><a href="https://github.com/Bbrizly/Adaptive-Profiles" rel="noreferrer">GitHub</a></footer>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+openapi: 3.1.0
+info:
+  title: Adaptive Profiles API
+  version: 1.0.0
+  description: Public read API over the Git-backed Adaptive Profiles registry.
+servers:
+  - url: /api/v1
+paths:
+  /health:
+    get:
+      summary: Service health
+      responses:
+        '200': {description: Healthy}
+  /index:
+    get:
+      summary: Complete generated registry
+      responses:
+        '200': {description: Registry index}
+  /games:
+    get:
+      summary: List games
+      responses:
+        '200': {description: Games}
+  /games/{id}:
+    get:
+      summary: Get a game and its profiles
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      responses:
+        '200': {description: Game}
+        '404': {description: Not found}
+  /devices:
+    get:
+      summary: List adaptive devices
+      responses:
+        '200': {description: Devices}
+  /devices/{id}:
+    get:
+      summary: Get an adaptive device and its profiles
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      responses:
+        '200': {description: Device}
+        '404': {description: Not found}
+  /profiles:
+    get:
+      summary: List profiles
+      parameters:
+        - {name: game, in: query, schema: {type: string}}
+        - {name: device, in: query, schema: {type: string}}
+        - {name: platform, in: query, schema: {type: string}}
+      responses:
+        '200': {description: Profiles}
+  /profiles/{id}:
+    get:
+      summary: Get profile metadata
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      responses:
+        '200': {description: Profile}
+        '404': {description: Not found}
+  /profiles/{id}/csv:
+    get:
+      summary: Get frozen CSV snapshot
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+      responses:
+        '200': {description: CSV snapshot, content: {text/csv: {schema: {type: string}}}}
+  /search:
+    get:
+      summary: Search registry
+      parameters:
+        - {name: q, in: query, required: true, schema: {type: string, maxLength: 100}}
+      responses:
+        '200': {description: Search results}
+  /submissions/profile:
+    post:
+      summary: Validate a structured profile and open a GitHub pull request
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [gameId, platform, deviceId, title, displayName, sourceType]
+      responses:
+        '201': {description: Pull request created}
+        '422': {description: Invalid submission}
+        '429': {description: Rate limited}

@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { INDEX_PATH, loadRegistry, stableIndexText, validateRegistry } from './registry.mjs';
+import { INDEX_PATH, buildIndex, loadRegistry, validateRegistry } from './registry.mjs';
 
 const registry = loadRegistry();
 const errors = validateRegistry(registry);
@@ -10,9 +10,10 @@ if (errors.length) {
 }
 
 if (process.argv.includes('--check-index')) {
-  const expected = stableIndexText(registry);
-  const actual = fs.existsSync(INDEX_PATH) ? fs.readFileSync(INDEX_PATH, 'utf8') : '';
-  if (actual !== expected) {
+  let actual;
+  try { actual = JSON.parse(fs.readFileSync(INDEX_PATH, 'utf8')); }
+  catch { actual = null; }
+  if (JSON.stringify(actual) !== JSON.stringify(buildIndex(registry))) {
     console.error('generated/index.json is stale. Run: node tools/build-index.mjs');
     process.exit(1);
   }
