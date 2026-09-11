@@ -30,9 +30,6 @@ jobs:
         run: node tools/validate.mjs
       - name: Worker regression tests
         run: node tests/worker.test.mjs
-      - name: Verify committed index on platform changes
-        if: github.event_name != 'pull_request'
-        run: node tools/validate.mjs --check-index
 
   publish-index:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -49,6 +46,8 @@ jobs:
           node-version: 22
       - name: Rebuild generated read model
         run: node tools/build-index.mjs
+      - name: Verify generated index
+        run: node tools/validate.mjs --check-index
       - name: Commit derived index when source data changed
         run: |
           if git diff --quiet -- generated/index.json; then
