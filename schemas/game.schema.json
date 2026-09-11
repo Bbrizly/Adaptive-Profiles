@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptive-profiles.dev/schemas/game.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "platforms", "actions", "source"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "minLength": 1, "maxLength": 120},
+    "aliases": {"type": "array", "items": {"type": "string", "maxLength": 120}, "uniqueItems": true},
+    "platforms": {"type": "array", "items": {"enum": ["pc", "xbox", "playstation", "switch"]}, "uniqueItems": true},
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "category", "kind"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "category": {"type": "string"},
+          "kind": {"enum": ["digital", "axis-1d", "axis-2d", "pointer", "menu", "system"]}
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "title"],
+      "properties": {"url": {"type": "string", "format": "uri"}, "title": {"type": "string"}}
+    }
+  }
+}

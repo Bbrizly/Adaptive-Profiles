@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptive-profiles.dev/schemas/control.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "gameId", "platform", "scheme", "bindings", "source"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "gameId": {"type": "string"},
+    "platform": {"enum": ["pc", "xbox", "playstation", "switch"]},
+    "scheme": {"type": "string"},
+    "bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["action", "control"],
+        "properties": {"action": {"type": "string"}, "control": {"type": "string", "minLength": 1, "maxLength": 120}}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "title", "verifiedAt"],
+      "properties": {"url": {"type": "string", "format": "uri"}, "title": {"type": "string"}, "verifiedAt": {"type": "string"}}
+    }
+  }
+}
