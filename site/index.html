@@ -2,60 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0b0e13">
-  <meta name="description" content="Find, understand and share adaptive gaming control profiles.">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; connect-src 'self' https://raw.githubusercontent.com https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; img-src 'self' data:; base-uri 'none'; form-action 'self'">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#090c10">
+  <meta name="description" content="Find, understand, and share adaptive gaming control profiles across games, platforms, and devices.">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="Adaptive Profiles">
+  <meta property="og:description" content="A public, Git-backed registry for adaptive gaming control profiles.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; connect-src 'self' https://raw.githubusercontent.com https://api.github.com https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; img-src 'self' data:; base-uri 'none'; form-action 'self'">
   <title>Adaptive Profiles</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
+
   <header class="topbar">
-    <a class="brand" href="/" data-nav aria-label="Adaptive Profiles home"><span class="brand-mark">AP</span><span>Adaptive Profiles</span></a>
-    <nav class="nav" aria-label="Primary">
-      <a href="/games" data-nav>Games</a>
-      <a href="/profiles" data-nav>Profiles</a>
-      <a href="/devices" data-nav>Devices</a>
-      <a href="/developers" data-nav>Developers</a>
-    </nav>
-    <div class="top-actions"><button class="button button-primary" id="openSubmit" type="button">Add profile</button></div>
+    <div class="topbar-inner">
+      <a class="brand" href="/" data-route="/" aria-label="Adaptive Profiles home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-copy"><strong>Adaptive Profiles</strong><small>Community registry</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/games" data-route="/games">Games</a>
+        <a href="/profiles" data-route="/profiles">Profiles</a>
+        <a href="/devices" data-route="/devices">Devices</a>
+        <a href="/developers" data-route="/developers">Developers</a>
+      </nav>
+      <div class="top-actions">
+        <a class="github-link" href="https://github.com/Bbrizly/Adaptive-Profiles" rel="noreferrer" aria-label="Open Adaptive Profiles on GitHub">GitHub</a>
+        <button class="button button-primary" id="openSubmit" type="button"><span class="button-plus" aria-hidden="true">+</span> Add profile</button>
+      </div>
+    </div>
   </header>
 
-  <main id="content" tabindex="-1"><div class="loading-shell"><div class="spinner"></div><p>Loading registry…</p></div></main>
+  <div class="trust-strip" role="status">
+    <div class="trust-strip-inner">
+      <span><i class="status-dot"></i> Public registry</span>
+      <span>Git-versioned</span>
+      <span>Reviewed contributions</span>
+      <span>No patient data</span>
+    </div>
+  </div>
 
-  <dialog id="submitDialog" class="submit-dialog" aria-labelledby="submitTitle">
+  <main id="content" tabindex="-1">
+    <div class="loading-shell"><div class="spinner" aria-hidden="true"></div><p>Loading registry…</p></div>
+  </main>
+
+  <dialog id="submitDialog" class="modal submit-dialog" aria-labelledby="submitTitle">
     <form id="submitForm" method="dialog">
       <div class="dialog-head">
-        <div><div class="eyebrow">Community contribution</div><h2 id="submitTitle">Add a profile</h2><p>Provide a public Google Sheet or a small CSV. We create a reviewable GitHub pull request; nothing writes directly to the registry.</p></div>
-        <button class="icon-button" type="button" value="cancel" aria-label="Close">×</button>
+        <div>
+          <div class="eyebrow">Community contribution</div>
+          <h2 id="submitTitle">Add an adaptive profile</h2>
+          <p>Bring an existing public Google Sheet or CSV. The submission becomes a reviewable GitHub pull request before it can enter the registry.</p>
+        </div>
+        <button class="icon-button" type="button" value="cancel" aria-label="Close dialog">×</button>
       </div>
+
+      <div class="flow-steps" aria-label="Submission flow">
+        <span class="flow-step active"><b>1</b> Describe</span><i></i><span class="flow-step"><b>2</b> Import</span><i></i><span class="flow-step"><b>3</b> Review PR</span>
+      </div>
+
       <div class="form-grid">
         <label>Game<select name="gameId" id="submitGame" required></select></label>
         <label>Platform<select name="platform" id="submitPlatform" required></select></label>
         <label>Adaptive device<select name="deviceId" id="submitDevice" required></select></label>
         <label>Profile title<input name="title" maxlength="100" required placeholder="Standard layout"></label>
-        <label class="span-2">Short description<textarea name="description" maxlength="500" rows="3" placeholder="What is this layout optimized for?"></textarea></label>
+        <label class="span-2">What is this layout good for?<textarea name="description" maxlength="500" rows="3" placeholder="Example: Low-fatigue layout with combat actions concentrated on sip/puff inputs."></textarea></label>
         <label>Your name<input name="displayName" maxlength="60" required placeholder="Alex"></label>
         <label>GitHub username <span class="optional">optional</span><input name="github" maxlength="39" placeholder="alex123"></label>
-        <label class="span-2">Tags <span class="optional">optional, comma separated</span><input name="tags" maxlength="200" placeholder="beginner, low-fatigue"></label>
+        <label class="span-2">Tags <span class="optional">optional · comma separated</span><input name="tags" maxlength="200" placeholder="beginner, low-fatigue, one-mode"></label>
       </div>
 
       <fieldset class="source-picker"><legend>Profile source</legend>
-        <label class="source-option"><input type="radio" name="sourceType" value="google-sheet" checked><span><strong>Google Sheet</strong><small>Paste the existing public QuadStick sheet. We preserve the link and take a CSV snapshot.</small></span></label>
-        <label class="source-option"><input type="radio" name="sourceType" value="csv"><span><strong>CSV file</strong><small>One UTF-8 .csv file, maximum 128 KiB. It becomes the versioned snapshot in GitHub.</small></span></label>
+        <label class="source-option"><input type="radio" name="sourceType" value="google-sheet" checked><span class="source-icon" aria-hidden="true">G</span><span><strong>Google Sheet</strong><small>Best for existing QuadStick profiles. We preserve the source link and freeze the reviewed CSV.</small></span></label>
+        <label class="source-option"><input type="radio" name="sourceType" value="csv"><span class="source-icon" aria-hidden="true">CSV</span><span><strong>CSV file</strong><small>One UTF-8 CSV up to 128 KiB. No generic file uploads and no opaque attachments.</small></span></label>
       </fieldset>
 
-      <div id="googleSource"><label>Public Google Sheet URL<input name="googleSheetUrl" type="url" placeholder="https://docs.google.com/spreadsheets/d/…"></label></div>
-      <div id="csvSource" hidden><label class="drop-zone" id="dropZone"><input name="csv" id="csvInput" type="file" accept=".csv,text/csv"><span class="drop-title">Drop a CSV here</span><span id="csvName">or choose a file</span><small>Only CSV is accepted. No generic uploads.</small></label></div>
+      <div id="googleSource"><label class="field-label">Public Google Sheet URL<input name="googleSheetUrl" type="url" placeholder="https://docs.google.com/spreadsheets/d/…"></label></div>
+      <div id="csvSource" hidden><label class="drop-zone" id="dropZone"><input name="csv" id="csvInput" type="file" accept=".csv,text/csv"><span class="drop-icon" aria-hidden="true">⇧</span><span class="drop-title">Drop a CSV here</span><span id="csvName">or choose a file</span><small>CSV only · maximum 128 KiB</small></label></div>
 
+      <div class="privacy-note"><strong>Public data only.</strong> Do not submit names of patients, diagnoses, clinical notes, contact information, or other health information.</div>
       <div id="turnstileMount"></div>
       <div id="submitStatus" class="form-status" aria-live="polite"></div>
-      <div class="dialog-actions"><button class="button button-ghost" type="button" value="cancel">Cancel</button><button class="button button-primary" id="submitButton" type="submit">Create submission PR</button></div>
+      <div class="dialog-actions"><button class="button button-ghost" type="button" value="cancel">Cancel</button><button class="button button-primary" id="submitButton" type="submit">Create review PR <span aria-hidden="true">→</span></button></div>
     </form>
   </dialog>
 
-  <footer><span>Adaptive Profiles</span><span>Public structured data · Git-backed · No patient data</span><a href="https://github.com/Bbrizly/Adaptive-Profiles" rel="noreferrer">GitHub</a></footer>
+  <dialog id="qcmDialog" class="modal qcm-dialog" aria-labelledby="qcmTitle">
+    <div class="qcm-modal-body">
+      <div class="qcm-launch-icon" aria-hidden="true"><span></span></div>
+      <div class="eyebrow">Open safely in QCM</div>
+      <h2 id="qcmTitle">Opening QuadStick Config Manager…</h2>
+      <p id="qcmBody">Your browser is handing this profile to QCM. QCM will fetch the exact reviewed CSV snapshot, verify it, and open it in the editor. It will not install anything automatically.</p>
+      <div class="launch-progress" id="qcmProgress"><span></span></div>
+      <div class="qcm-safety-row"><span>1. Resolve profile</span><span>2. Verify snapshot</span><span>3. Review in editor</span></div>
+      <div class="qcm-fallback" id="qcmFallback" hidden>
+        <div class="fallback-copy"><strong>QCM did not open?</strong><span>Install or update QCM, then try again. Deep links require a build that includes Adaptive Profiles support.</span></div>
+        <div class="fallback-actions"><a class="button button-primary" id="qcmDownload" href="https://github.com/Bbrizly/Quadstick-Config-Manager/releases/latest" rel="noreferrer">Get / update QCM</a><button class="button" id="qcmRetry" type="button">Try again</button><button class="button button-ghost" id="qcmCopy" type="button">Copy QCM link</button></div>
+      </div>
+      <button class="icon-button qcm-close" type="button" aria-label="Close dialog">×</button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="brand-mark mini" aria-hidden="true"><span></span><span></span><span></span></span><div><strong>Adaptive Profiles</strong><small>Open adaptive gaming infrastructure.</small></div></div>
+      <div class="footer-links"><a href="/games" data-route="/games">Games</a><a href="/profiles" data-route="/profiles">Profiles</a><a href="/devices" data-route="/devices">Devices</a><a href="/developers" data-route="/developers">API</a><a href="https://github.com/Bbrizly/Adaptive-Profiles" rel="noreferrer">GitHub</a></div>
+      <div class="footer-note">Public structured data · Git-backed · No patient records</div>
+    </div>
+  </footer>
+
   <script type="module" src="/dialog-fix.js"></script>
   <script type="module" src="/app.js"></script>
 </body>
