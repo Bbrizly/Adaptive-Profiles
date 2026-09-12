@@ -27,6 +27,7 @@ jobs:
           # app.js detects github.io and uses hash routing + raw GitHub data.
           sed -i \
             -e 's|href="/styles.css"|href="/Adaptive-Profiles/styles.css"|g' \
+            -e 's|href="/render-fixes.css"|href="/Adaptive-Profiles/render-fixes.css"|g' \
             -e 's|href="/favicon.svg"|href="/Adaptive-Profiles/favicon.svg"|g' \
             -e 's|src="/dialog-fix.js"|src="/Adaptive-Profiles/dialog-fix.js"|g' \
             -e 's|src="/app.js"|src="/Adaptive-Profiles/app.js"|g' \
