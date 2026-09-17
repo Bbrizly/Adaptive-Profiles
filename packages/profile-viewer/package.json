@@ -1,0 +1,8 @@
+{
+  "name": "@adaptive-profiles/profile-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.tsx",
+  "peerDependencies": { "react": "^19.0.0" }
+}

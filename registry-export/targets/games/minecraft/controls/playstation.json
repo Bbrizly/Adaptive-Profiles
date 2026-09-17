@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "gameId": "minecraft",
+  "platform": "playstation",
+  "scheme": "default-controller",
+  "bindings": [
+    {
+      "action": "attack",
+      "control": "R2"
+    },
+    {
+      "action": "use",
+      "control": "L2"
+    },
+    {
+      "action": "jump",
+      "control": "Cross"
+    },
+    {
+      "action": "sneak",
+      "control": "Circle"
+    },
+    {
+      "action": "inventory",
+      "control": "Triangle"
+    },
+    {
+      "action": "drop",
+      "control": "D-Pad Down"
+    }
+  ],
+  "source": {
+    "url": "https://www.minecraft.net/en-us/article/minecraft-controls",
+    "title": "Minecraft Controls",
+    "verifiedAt": "2026-09-11"
+  }
+}

@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { INDEX_PATH, buildIndex, loadRegistry, validateRegistry } from './registry.mjs';
+import { INDEX_PATH, INDEX_V2_PATH, buildIndex, buildIndexV2, loadRegistry, validateRegistry } from './registry.mjs';
 
 const registry = loadRegistry();
 const errors = validateRegistry(registry);
@@ -15,6 +15,15 @@ if (process.argv.includes('--check-index')) {
   catch { actual = null; }
   if (JSON.stringify(actual) !== JSON.stringify(buildIndex(registry))) {
     console.error('generated/index.json is stale. Run: node tools/build-index.mjs');
+    process.exit(1);
+  }
+}
+
+if (process.argv.includes('--check-v2')) {
+  let actual;
+  try { actual = JSON.parse(fs.readFileSync(INDEX_V2_PATH, 'utf8')); } catch { actual = null; }
+  if (JSON.stringify(actual) !== JSON.stringify(buildIndexV2(registry))) {
+    console.error('generated/index.v2.json is stale. Run: node tools/build-index.mjs --v2');
     process.exit(1);
   }
 }

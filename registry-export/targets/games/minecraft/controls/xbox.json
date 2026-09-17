@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "gameId": "minecraft",
+  "platform": "xbox",
+  "scheme": "default-controller",
+  "bindings": [
+    {
+      "action": "attack",
+      "control": "Right Trigger"
+    },
+    {
+      "action": "use",
+      "control": "Left Trigger"
+    },
+    {
+      "action": "jump",
+      "control": "A"
+    },
+    {
+      "action": "sneak",
+      "control": "B"
+    },
+    {
+      "action": "inventory",
+      "control": "Y"
+    },
+    {
+      "action": "drop",
+      "control": "D-Pad Down"
+    }
+  ],
+  "source": {
+    "url": "https://www.minecraft.net/en-us/article/minecraft-controls",
+    "title": "Minecraft Controls",
+    "verifiedAt": "2026-09-11"
+  }
+}

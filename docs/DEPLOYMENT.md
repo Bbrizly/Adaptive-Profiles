@@ -9,19 +9,22 @@ The canonical registry is GitHub in both modes.
 
 ## Production: Cloudflare Worker
 
-The repository includes `worker/index.js`, `site/`, and `wrangler.jsonc`.
+The repository includes `worker/index.js`, the React/Vite `web/` app, and `wrangler.jsonc`.
 
 ### Required GitHub credential
 
-Create a fine-grained GitHub token scoped **only** to `Bbrizly/Adaptive-Profiles` with:
+Create a fine-grained GitHub token scoped **only** to the active registry repository with:
 
 - Contents: read/write
 - Pull requests: read/write
+
+During compatibility migration, the active registry is `Bbrizly/Adaptive-Profiles`. After the QCM gate is cleared, set `REGISTRY_GITHUB_OWNER`, `REGISTRY_GITHUB_REPO`, and `REGISTRY_GITHUB_BRANCH` to the public registry and grant the token access to that repository. The Worker prefers `REGISTRY_GITHUB_TOKEN` and temporarily falls back to `GITHUB_TOKEN`.
 
 Store it as a Worker secret:
 
 ```bash
 npx wrangler secret put GITHUB_TOKEN
+npx wrangler secret put REGISTRY_GITHUB_TOKEN
 ```
 
 A GitHub App is the preferred later replacement if contribution volume grows. Do not give the Worker access to unrelated repositories.
@@ -50,7 +53,7 @@ npm run check
 npm run deploy
 ```
 
-Wrangler deploys the Worker and `site/` assets together. `/api/*` runs through the Worker; normal page requests are served by the static asset binding with SPA fallback.
+Wrangler serves `web/dist` and deploys it with the Worker. `/api/*` runs through the Worker; normal page requests are served by the static asset binding with SPA fallback.
 
 Never commit `.dev.vars`, `.env`, GitHub tokens, Turnstile secrets, or other credentials.
 
@@ -73,12 +76,12 @@ TURNSTILE_SECRET=<optional>
 
 ## Read-only GitHub Pages preview
 
-The manual `.github/workflows/pages-preview.yml` workflow deploys only the contents of `site/`.
+The manual `.github/workflows/pages-preview.yml` workflow builds and deploys the static `web/dist` bundle.
 
 The preview intentionally:
 
 - reads `generated/index.json` directly from raw GitHub
-- uses hash routing so project Pages paths refresh safely
+- is read-only and may need a Pages base-path adjustment for project-site hosting
 - links profile snapshots directly to raw GitHub
 - disables website profile submission because no Worker credential exists
 - keeps `Open in QCM` available for accepted profiles
@@ -102,9 +105,9 @@ Every pull request runs `.github/workflows/validate.yml`.
 On pushes to `main`:
 
 1. source data is validated
-2. Worker regression/security tests run
-3. `generated/index.json` is rebuilt deterministically
-4. if source content changed, the generated index is committed back to `main`
+2. Worker regression/security and frontend checks run
+3. `generated/index.json` and `generated/index.v2.json` are rebuilt deterministically
+4. if source content changed, both generated indexes are committed back to `main`
 
 The generated file is a read model, not a second source of truth.
 

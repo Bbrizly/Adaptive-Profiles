@@ -3,14 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "workspaces": ["web", "packages/*"],
   "scripts": {
     "validate": "node tools/validate.mjs --check-index",
     "build:index": "node tools/build-index.mjs",
-    "check": "node --check worker/index.js && node --check site/app.js && node tools/validate.mjs --check-index",
-    "dev": "wrangler dev",
+    "build:index:v2": "node tools/build-index.mjs --v2",
+    "export:registry": "node tools/export-registry.mjs",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run validate && node --check worker/index.js",
+    "dev": "npm run build --workspace web && wrangler dev",
+    "build": "npm run build --workspace web && npm run build:index && npm run build:index:v2",
+    "test": "node tests/worker.test.mjs && npm run test --workspace web",
+    "typecheck": "npm run typecheck --workspace web",
+    "lint": "npm run lint --workspace web",
+    "deploy:preview": "wrangler deploy --env preview",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.15.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4",
     "wrangler": "^4.36.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
   }
 }

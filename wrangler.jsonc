@@ -4,7 +4,7 @@
   "main": "worker/index.js",
   "compatibility_date": "2026-09-11",
   "assets": {
-    "directory": "./site",
+    "directory": "./web/dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     "run_worker_first": ["/api/*"]
@@ -13,6 +13,9 @@
     "GITHUB_OWNER": "Bbrizly",
     "GITHUB_REPO": "Adaptive-Profiles",
     "GITHUB_BRANCH": "main",
+    "REGISTRY_GITHUB_OWNER": "Bbrizly",
+    "REGISTRY_GITHUB_REPO": "Adaptive-Profiles",
+    "REGISTRY_GITHUB_BRANCH": "main",
     "PUBLIC_ORIGIN": "",
     "TURNSTILE_SITE_KEY": ""
   },
@@ -26,5 +29,20 @@
       "simple": {"limit": 10, "period": 60}
     }
   ],
-  "observability": {"enabled": true}
+  "observability": {"enabled": true},
+  "env": {
+    "preview": {
+      "name": "adaptive-profiles-preview",
+      "vars": {
+        "GITHUB_OWNER": "Bbrizly",
+        "GITHUB_REPO": "Adaptive-Profiles",
+        "GITHUB_BRANCH": "main",
+        "REGISTRY_GITHUB_OWNER": "Bbrizly",
+        "REGISTRY_GITHUB_REPO": "Adaptive-Profiles",
+        "REGISTRY_GITHUB_BRANCH": "main",
+        "PUBLIC_ORIGIN": "",
+        "TURNSTILE_SITE_KEY": ""
+      }
+    }
+  }
 }

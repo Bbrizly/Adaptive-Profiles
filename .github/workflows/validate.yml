@@ -26,6 +26,10 @@ jobs:
           node --check site/app.js
           node --check site/dialog-fix.js
           node --check tests/worker.test.mjs
+      - name: Install application dependencies
+        run: npm ci
+      - name: Application checks
+        run: npm run typecheck && npm run test && npm run build
       - name: Validate source registry
         run: node tools/validate.mjs
       - name: Worker regression tests
@@ -46,16 +50,16 @@ jobs:
           node-version: 22
       - name: Rebuild generated read model
         run: node tools/build-index.mjs
-      - name: Verify generated index
-        run: node tools/validate.mjs --check-index
+      - name: Verify generated indexes
+        run: node tools/validate.mjs --check-index --check-v2
       - name: Commit derived index when source data changed
         run: |
-          if git diff --quiet -- generated/index.json; then
+          if git diff --quiet -- generated/index.json generated/index.v2.json; then
             echo "Index already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/index.json
+          git add generated/index.json generated/index.v2.json
           git commit -m "Update generated registry index"
           git push origin main

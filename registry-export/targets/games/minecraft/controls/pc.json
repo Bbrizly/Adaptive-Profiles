@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "gameId": "minecraft",
+  "platform": "pc",
+  "scheme": "default-keyboard-mouse",
+  "bindings": [
+    {
+      "action": "move",
+      "control": "W / A / S / D"
+    },
+    {
+      "action": "look",
+      "control": "Mouse movement"
+    },
+    {
+      "action": "attack",
+      "control": "Left Mouse Button"
+    },
+    {
+      "action": "use",
+      "control": "Right Mouse Button"
+    },
+    {
+      "action": "jump",
+      "control": "Space"
+    },
+    {
+      "action": "sprint",
+      "control": "Left Control"
+    },
+    {
+      "action": "sneak",
+      "control": "Left Shift"
+    },
+    {
+      "action": "inventory",
+      "control": "E"
+    },
+    {
+      "action": "drop",
+      "control": "Q"
+    },
+    {
+      "action": "pause",
+      "control": "Escape"
+    }
+  ],
+  "source": {
+    "url": "https://help.minecraft.net/hc/en-us/articles/360059148111-Minecraft-Java-Edition-Hotkeys",
+    "title": "Minecraft Java Edition Hotkeys",
+    "verifiedAt": "2026-09-11"
+  }
+}

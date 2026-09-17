@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "id": "quadstick-fps",
+  "name": "QuadStick FPS",
+  "manufacturer": "QuadStick",
+  "inputs": [
+    {
+      "id": "joystick",
+      "name": "Joystick",
+      "kind": "axis-2d"
+    },
+    {
+      "id": "left-sip",
+      "name": "Left Sip",
+      "kind": "digital"
+    },
+    {
+      "id": "left-puff",
+      "name": "Left Puff",
+      "kind": "digital"
+    },
+    {
+      "id": "center-sip",
+      "name": "Center Sip",
+      "kind": "digital"
+    },
+    {
+      "id": "center-puff",
+      "name": "Center Puff",
+      "kind": "digital"
+    },
+    {
+      "id": "right-sip",
+      "name": "Right Sip",
+      "kind": "digital"
+    },
+    {
+      "id": "right-puff",
+      "name": "Right Puff",
+      "kind": "digital"
+    },
+    {
+      "id": "lip",
+      "name": "Lip",
+      "kind": "digital"
+    }
+  ]
+}

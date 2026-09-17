@@ -36,3 +36,18 @@ assert.equal(body.title, 'Invalid profile');
 assert.match(body.detail, /gameId is required/);
 
 console.log('Worker security tests passed.');
+
+const previousFetch = globalThis.fetch;
+const legacyIndex = { schemaVersion: 1, games: [{ id: 'minecraft', name: 'Minecraft', aliases: [], platforms: ['pc'], actions: [], source: { url: 'https://example.com', title: 'Minecraft' }, controls: [] }], devices: [{ id: 'quadstick-fps', name: 'QuadStick FPS', manufacturer: 'QuadStick', inputs: [] }], profiles: [] };
+globalThis.fetch = async () => new Response(JSON.stringify(legacyIndex), { status: 200, headers: { 'content-type': 'application/json' } });
+const readEnv = { GITHUB_OWNER: 'Bbrizly', GITHUB_REPO: 'Adaptive-Profiles', GITHUB_BRANCH: 'main' };
+const v1 = await worker.fetch(new Request('https://profiles.example/api/v1/index'), readEnv);
+assert.equal(v1.status, 200);
+assert.deepEqual(Object.keys((await v1.json()).data).sort(), ['devices', 'games', 'profiles', 'schemaVersion']);
+const v2 = await worker.fetch(new Request('https://profiles.example/api/v2/targets'), readEnv);
+assert.equal(v2.status, 200);
+assert.equal((await v2.json()).data[0].kind, 'game');
+const missing = await worker.fetch(new Request('https://profiles.example/api/v2/profiles/does-not-exist'), readEnv);
+assert.equal(missing.status, 404);
+globalThis.fetch = previousFetch;
+console.log('Worker V1/V2 read compatibility tests passed.');

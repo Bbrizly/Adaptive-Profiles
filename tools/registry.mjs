@@ -7,6 +7,7 @@ const GAMES_ROOT = path.join(ROOT, 'data', 'games');
 const DEVICES_ROOT = path.join(ROOT, 'data', 'devices');
 const PROFILES_ROOT = path.join(ROOT, 'data', 'profiles');
 export const INDEX_PATH = path.join(ROOT, 'generated', 'index.json');
+export const INDEX_V2_PATH = path.join(ROOT, 'generated', 'index.v2.json');
 
 const slugRe = /^[a-z0-9]+(?:-+[a-z0-9]+)*$/;
 const platforms = new Set(['pc', 'xbox', 'playstation', 'switch']);
@@ -159,3 +160,42 @@ export function buildIndex(registry = loadRegistry()) {
 }
 
 export function stableIndexText(registry = loadRegistry()) { return JSON.stringify(buildIndex(registry), null, 2) + '\n'; }
+
+export function buildIndexV2(registry = loadRegistry()) {
+  const v1 = buildIndex(registry);
+  const targets = v1.games.map(game => ({
+    schemaVersion: 2,
+    id: game.id,
+    kind: 'game',
+    name: game.name,
+    aliases: game.aliases || [],
+    categories: ['gaming'],
+    platforms: game.platforms,
+    actions: game.actions,
+    source: game.source,
+    controls: game.controls || []
+  }));
+  const devices = v1.devices.map(device => ({ ...device, schemaVersion: 2 }));
+  const profiles = v1.profiles.map(profile => ({
+    schemaVersion: 2,
+    id: profile.id,
+    title: profile.title,
+    description: profile.description,
+    target: { kind: 'game', id: profile.gameId },
+    gameId: profile.gameId,
+    platform: profile.platform,
+    deviceId: profile.deviceId,
+    semanticStatus: profile.semanticStatus,
+    mappings: profile.mappings,
+    tags: profile.tags,
+    contributor: profile.contributor,
+    source: profile.source,
+    snapshot: profile.snapshot,
+    revision: profile.revision || 1,
+    createdAt: profile.createdAt,
+    updatedAt: profile.updatedAt || profile.createdAt
+  }));
+  return { schemaVersion: 2, targets: targets.sort((a, b) => a.name.localeCompare(b.name)), devices, profiles: profiles.sort((a, b) => a.title.localeCompare(b.title) || a.id.localeCompare(b.id)) };
+}
+
+export function stableIndexV2Text(registry = loadRegistry()) { return JSON.stringify(buildIndexV2(registry), null, 2) + '\n'; }

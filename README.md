@@ -1,5 +1,39 @@
 # Adaptive Profiles
 
+Adaptive Profiles is a public library of accessible control configurations. Find a setup for a game or software target, understand how it maps adaptive-device inputs to semantic actions, and open the reviewed snapshot in compatible software such as QCM.
+
+## Architecture
+
+```text
+React/Vite static assets (web/dist)
+              │
+Cloudflare Worker (/api/v1 and /api/v2)
+              │
+Git-backed registry (legacy source during migration)
+```
+
+The public registry remains Git-backed. V2 introduces generic targets (`game` or `software`) while retaining the V1 game/device/index contract for released clients. The prepared `registry-export/` directory is ready to publish as `Bbrizly/Adaptive-Profiles-Registry` once QCM compatibility and GitHub permissions are resolved.
+
+## Local development
+
+```bash
+npm install
+npm run dev
+npm run build
+npm run test
+npm run typecheck
+npm run lint
+npm run check
+```
+
+Vite uses port 5173 and proxies `/api` to Wrangler on port 8787. A Worker token is only needed for submission testing; read APIs are public.
+
+## Deployment
+
+`npm run deploy:preview` targets the `adaptive-profiles-preview` environment. `npm run deploy` targets the existing `adaptive-profiles` Worker and remains a deliberate manual step. Required configuration is documented in `.env.example` and `docs/DEPLOYMENT.md`; never commit tokens.
+
+See [docs/V2_MIGRATION.md](docs/V2_MIGRATION.md) for migration, compatibility, and rollback details.
+
 Adaptive Profiles is a public, Git-backed registry for adaptive gaming control profiles.
 
 It turns scattered spreadsheets and forum links into three clean, reusable layers:

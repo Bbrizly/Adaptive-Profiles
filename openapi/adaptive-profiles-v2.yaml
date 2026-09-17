@@ -1,0 +1,20 @@
+openapi: 3.1.0
+info:
+  title: Adaptive Profiles API V2
+  version: 2.0.0
+  description: Generic target/device/profile API. V1 remains available for released clients.
+servers:
+  - url: /api/v2
+paths:
+  /index: {get: {summary: Complete V2 registry index, responses: {'200': {description: Registry index}}}}
+  /targets: {get: {summary: List games and software targets, responses: {'200': {description: Targets}}}}
+  /targets/{id}: {get: {summary: Get a target and its profiles, parameters: [{name: id, in: path, required: true, schema: {type: string}}], responses: {'200': {description: Target}, '404': {description: Not found}}}}
+  /games: {get: {summary: List game targets, responses: {'200': {description: Games}}}}
+  /software: {get: {summary: List software targets, responses: {'200': {description: Software}}}}
+  /devices: {get: {summary: List adaptive devices, responses: {'200': {description: Devices}}}}
+  /profiles: {get: {summary: List profiles, parameters: [{name: target, in: query, schema: {type: string}}, {name: device, in: query, schema: {type: string}}, {name: platform, in: query, schema: {type: string}}], responses: {'200': {description: Profiles}}}}
+  /profiles/{id}: {get: {summary: Get a profile, parameters: [{name: id, in: path, required: true, schema: {type: string}}], responses: {'200': {description: Profile}, '404': {description: Not found}}}}
+  /profiles/{id}/csv: {get: {summary: Get the reviewed CSV snapshot, responses: {'200': {description: CSV}}}}
+  /search: {get: {summary: Search targets, devices and profiles, parameters: [{name: q, in: query, required: true, schema: {type: string, maxLength: 100}}], responses: {'200': {description: Search results}}}}
+  /submissions/profiles: {post: {summary: Submit a profile for maintainer review, responses: {'201': {description: Pull request created}, '422': {description: Invalid submission}}}}
+  /profiles/{id}/proposals: {post: {summary: Suggest an update using an expected revision and snapshot hash, responses: {'201': {description: Proposal created}, '409': {description: Stale profile}}}}
