@@ -1,0 +1,37 @@
+ Profile Name ,,Mouse Mode,,,,,,,,Comments
+valheim.csv,,Normal,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,mp_right_sip,,,,,,,,Basic mouse only configuration for PC users
+mouse_left,normal,left,,,,,,,,
+mouse_right,normal,right,,,,,,,,
+mouse_up,normal,up,,,,,,,,
+mouse_down,normal,down,,,,,,,,
+mouse_left_button,normal,mp_center_sip,,,,,,,,Attack 
+mouse_right_button,normal,mp_center_puff,,,,,,,,Block
+mouse_middle_button,normal,mp_right_center_sip,,,,,,,,Secondary Attack
+kb_r,normal,mp_center_puff_soft,,,,,,,,toggle wep
+kb_f,normal,mp_triple_sip,,,,,,,,power
+kb_m,normal,right_puff,,,,,,,,Map
+kb_tab,normal,mp_right_center_puff,,,,,,,,inv
+kb_left_shift,toggle,mp_left_sip,,,,,,,,sprint
+kb_w,toggle,mp_left_center_puff,,,,,,,,walk
+kb_e,normal,mp_left_center_sip,,,,,,,,Use
+kb_x,normal,mp_left_puff_soft,,,,,,,,Sit
+kb_left_control,normal,mp_center_sip_soft,,,,,,,,Crouch
+kb_space,normal,lip,,,,,,,,Jump
+mouse_right_button,normal,mp_left_puff,,,,,,,,dodge
+kb_space,normal,mp_left_puff,,,,,,,,
+kb_comma,normal,mp_left_right_sip,,,,,,,,Zoom out
+kb_dot,normal,mp_left_right_puff,,,,,,,,Zoom In
+kb_right_shift,toggle,mp_right_sip_soft,,,,,,,,Divide stacks
+kb_escape,normal,right_sip,,,,,,,,Menu
+kb_1,normal,mp_right_center_sip_soft,,,,,,,,Quick Equip 1
+kb_2,normal,mp_right_center_puff_soft,,,,,,,,Quick Equip 2
+kb_3,normal,mp_left_center_puff_soft,,,,,,,,Quick Equip 3
+kb_4,normal,mp_triple_puff,,,,,,,,Quick Equip 4
+kb_5,normal,mp_triple_sip_soft,,,,,,,,Quick Equip 5
+kb_6,normal,mp_triple_puff_soft,,,,,,,,Quick Equip 6 
+kb_7,normal,mp_left_sip_soft,,,,,,,,Quick Equip 7
+kb_8,normal,mp_right_puff_soft,,,,,,,,Quick Equip 8
+kb_left_shift,force_off,mp_right_center_puff,,,,,,,,
+kb_right_shift,force_off,mp_right_center_puff,,,,,,,,

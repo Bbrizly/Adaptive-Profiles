@@ -1,0 +1,24 @@
+Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,
+obradinn.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,
+kb_a,greater_than 9,left,,,,,,,,,,,,,,,,Left
+kb_d,greater_than 9,right,,,,,,,,,,,,,,,,Right
+kb_w,greater_than 9,up,,,,,,,,,,,,,,,,Up
+kb_s,greater_than 9,down,,,,,,,,,,,,,,,,Down
+kb_right_alt,normal,mp_triple_puff_soft,,,,,,,,Switch screens,,,,,,,,Switch screens
+kb_tab,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+kb_tab,normal,mp_triple_puff,,,,,,,,,,,,,,,,open/Close book
+kb_escape,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Escape
+kb_space,normal,mp_center_sip,,,,,,,,,,,,,,,,Action
+kb_q,normal,mp_right_sip,,,,,,,,,,,,,,,,Table of contents
+kb_e,normal,mp_right_puff,,,,,,,,,,,,,,,,Zoom
+mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,click
+mouse_left,normal,mp_left_sip,,,,,,,,,,,,,,,,Left
+mouse_right,normal,mp_left_puff,,,,,,,,,,,,,,,,Right
+mouse_up,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Up
+mouse_down,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Down
+mouse_left,greater_than 50,left,,,,,,,,,,,,,,,,Left
+mouse_right,greater_than 50,right,,,,,,,,,,,,,,,,Right
+mouse_up,greater_than 50,up,,,,,,,,,,,,,,,,Up
+mouse_down,greater_than 50,down,,,,,,,,,,,,,,,,Down

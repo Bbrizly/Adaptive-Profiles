@@ -1,0 +1,33 @@
+Profile Name,,Right joy,,,,,,,,Comments,Build Controls
+XboxFortnite.csv,,Normal,,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,,
+increment_mode,normal,,,,,,,,,Next Mode,
+decrement_mode,normal,,,,,,,,,,
+dpad_N,delayed_latch,mp_left_sip_soft,,,,,,,,Toggle  Map,Toggle Map
+dpad_E,normal,,,,,,,,,,
+dpad_S,delayed_latch,mp_triple_puff,,,,,,,,Emote,
+dpad_W,normal,,,,,,,,,,
+left_joy_left,normal,,,,,,,,,,
+left_joy_right,normal,,,,,,,,,,
+left_joy_up,normal,,,,,,,,,,
+left_joy_down,normal,,,,,,,,,,
+right_joy_left,normal,left,,,,,,,,Look Left,
+right_joy_right,normal,right,,,,,,,,Look Right,
+right_joy_up,normal,up,,,,,,,,Look Up,
+right_joy_down,normal,down,,,,,,,,Look Down,
+left_bumper,normal,mp_left_sip,,,,,,,,Crouch,Change Material
+A,normal,mp_center_sip,,,,,,,,Jump,
+left_stick,greater_than 98,any_direction,,,,,,,,Sprint,Sprint
+right_bumper,normal,mp_right_sip,,,,,,,,,Rotate Piece
+right_trigger,normal,mp_center_puff,,,,,,,,Attack,Confirm
+right_stick,normal,mp_right_puff,,,,,,,,Repair,Reset Edit
+A,normal,mp_right_center_puff,,,,,,,,Jump,Jump
+B,normal,mp_right_center_sip,,,,,,,,Toggle Build Mode,Toggle Build Mode
+X,normal,mp_left_center_puff,,,,,,,,Reload,Trap
+Y,normal,mp_left_center_sip,,,,,,,,Next Weapon,Next Piece
+left_joy_up,normal,usb_1_up,,,,,,,,,
+left_joy_down,normal,usb_1_down,,,,,,,,,
+left_joy_left,normal,usb_1_left,,,,,,,,,
+left_joy_right,normal,usb_1_right,,,,,,,,,
+left_stick,toggle,mp_left_puff,,,,,,,,Run,
+left_trigger,toggle,lip,,,,,,,,ADS,

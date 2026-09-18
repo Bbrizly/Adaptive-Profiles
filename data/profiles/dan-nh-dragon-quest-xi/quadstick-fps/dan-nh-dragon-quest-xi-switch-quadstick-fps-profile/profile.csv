@@ -1,0 +1,29 @@
+Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,
+dragonquestxi.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+kb_l,force_off,right_puff,,,,,,,,,,,,,,,,
+kb_up_arrow,force_off,right_puff,,,,,,,,,,,,,,,,
+kb_home,normal,mp_left_center_puff,,,,,,,,,,,,,,,,autorun
+kb_space,greater_than 99,up,,,,,,,,,,,,,,,,jump(B)
+kb_w,greater_than 15,up,,,,,,,,,,,,,,,,up
+kb_a,greater_than 15,left,,,,,,,,,,,,,,,,Left
+kb_d,greater_than 15,right,,,,,,,,,,,,,,,,right
+kb_s,greater_than 15,down,,,,,,,,,,,,,,,,down
+kb_q,greater_than 99,left,,,,,,,,,,,,,,,,turn left
+kb_e,greater_than 99,right,,,,,,,,,,,,,,,,turn right
+kb_up_arrow,normal,mp_left_sip,,,,,,,,,,,,,,,,up
+kb_left_arrow,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Left
+kb_right_arrow,normal,mp_right_center_puff,,,,,,,,,,,,,,,,right
+kb_down_arrow,normal,mp_left_puff,,,,,,,,,,,,,,,,down
+kb_z,normal,mp_triple_puff,,,,,,,,,,,,,,,,(Y)
+kb_z,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,main menu(Y)
+kb_backspace,normal,mp_center_sip,,,,,,,,,,,,,,,,cancel/return(B)
+kb_space,normal,lip,,,,,,,,,,,,,,,,jump(B)
+kb_x,normal,mp_right_puff,,,,,,,,,,,,,,,,map(X)
+kb_l,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,dash(RT)
+kb_escape,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,quit menu
+kb_v,delayed_latch 1000,mp_center_puff_soft,,,,,,,,,,,,,,,,"confirm, examine(LT)"
+kb_right_alt,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,Switch screens
+kb_tab,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+kb_p,normal,mp_triple_sip,,,,,,,,,,,,,,,,first-person mode(L*Stick)
+kb_enter,normal,mp_center_puff,,,,,,,,,,,,,,,,"confirm, examine(A)"

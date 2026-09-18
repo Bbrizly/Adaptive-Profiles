@@ -1,0 +1,34 @@
+Profile Name,,Mouse Mode,,,,,,,,
+wizard101.csv,,Normal,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,
+mouse_left,normal,left,,,,,,,,
+mouse_right,normal,right,,,,,,,,
+mouse_up,normal,up,,,,,,,,
+mouse_down,normal,down,,,,,,,,
+mouse_wheel_up,normal,,,,,,,,,
+mouse_wheel_down,normal,,,,,,,,,
+mouse_pan_left,normal,,,,,,,,,
+mouse_pan_right,normal,,,,,,,,,
+mouse_left_button,normal,mp_center_puff,,,,,,,,
+mouse_right_button,normal,mp_center_sip,,,,,,,,
+mouse_middle_button,normal,,,,,,,,,
+kb_space,normal,lip,,,,,,,,Jump
+kb_enter,normal,mp_right_sip,,,,,,,,Chat
+kb_escape,normal,mp_left_sip,,,,,,,,Menu
+kb_f,normal,mp_left_puff,,,,,,,,Friend panel
+kb_x,normal,mp_right_puff,,,,,,,,Interact
+kb_page_down,normal,mp_right_puff_soft,,,,,,,,Set Marker
+kb_page_up,normal,mp_right_sip_soft,,,,,,,,Recall to Marker
+mouse_left_button,toggle,mp_right_center_puff,,,,,,,,Move forward
+mouse_left_button,force_off,mp_center_puff,,,,,,,,
+mouse_left_button,force_off,mp_center_sip,,,,,,,,
+mouse_left_button,force_off,mp_right_center_sip,,,,,,,,
+mouse_right_button,toggle,mp_right_center_puff,,,,,,,,
+mouse_right_button,force_off,mp_center_puff,,,,,,,,
+mouse_right_button,force_off,mp_center_sip,,,,,,,,
+mouse_right_button,force_off,mp_right_center_sip,,,,,,,,
+kb_left_control,normal,mp_center_sip_soft,,,,,,,,Open OSK
+kb_left_alt,normal,mp_center_sip_soft,,,,,,,,
+kb_k,normal,mp_center_sip_soft,,,,,,,,

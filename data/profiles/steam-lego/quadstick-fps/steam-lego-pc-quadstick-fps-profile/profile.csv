@@ -1,0 +1,23 @@
+Profile Name,,Left joy,,,,,,,,Mixed joy,,,,,,,,comment
+stmlego.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,right_puff,,,,,,,,
+kb_f,greater_than 20,,,,,,,,,,,,,,,,,divert beam
+kb_a,greater_than 20,left,,,,,,,,,,,,,,,,move left
+kb_d,greater_than 20,right,,,,,,,,,,,,,,,,move right
+kb_w,greater_than 20,up,,,,,,,,,,,,,,,,move up
+kb_s,greater_than 20,down,,,,,,,,,,,,,,,,move down
+kb_l,greater_than 20,,,,,,,,,,,,,,,,,look left
+kb_apostrophe,greater_than 20,,,,,,,,,,,,,,,,,look right
+kb_p,greater_than 20,,,,,,,,,,,,,,,,,look up
+kb_semicolon,greater_than 20,,,,,,,,,,,,,,,,,look down
+kb_left_control,normal,mp_left_sip,,,,,,,,,,,,,,,,character toggle down
+kb_space,normal,mp_right_sip,,,,,,,,,,,,,,,,character toggle up
+kb_j,normal,lip,,,,,,,,,,,,,,,,jump
+kb_k,normal,mp_center_puff,,,,,,,,,,,,,,,,special
+kb_h,normal,mp_center_sip,,,,,,,,,,,,,,,,action
+kb_u,normal,mp_right_center_puff,,,,,,,,,,,,,,,,tag
+kb_m,normal,right_sip_soft,,,,,,,,,,,,,,,,show map
+kb_enter,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,start/pause
+,,,,,,,,,,,,,,,,,,rotate map

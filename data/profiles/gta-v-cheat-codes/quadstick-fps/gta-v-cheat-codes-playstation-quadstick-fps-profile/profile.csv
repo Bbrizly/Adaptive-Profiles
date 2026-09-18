@@ -1,0 +1,27 @@
+Profile Name,,Left joy,,,,,,,,https://www.usgamer.net/articles/26-04-2019-gta-san-andreas-cheat-codes-and-cheats-pc-cheats-xbox-one-cheats-ps4-cheats-xbox-360-cheats-ps3-cheats-mobile-ios-android#section-3
+GTA cheat.csv,,Normal,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,
+right_1,pulse 100,mp_center_sip,,,,,,,,"$250,000, Full Health And Armor Cheat code: R1, R2, L1 , X, Left , Down, Right, Up, Left, Down, Right, Up "
+right_2,delay_on 200 100,mp_center_sip,,,,,,,,
+left_1,delay_on 400 100,mp_center_sip,,,,,,,,
+x,delay_on 600 100,mp_center_sip,,,,,,,,
+dpad_W,delay_on 700 100,mp_center_sip,,,,,,,,
+dpad_S,delay_on 800 100,mp_center_sip,,,,,,,,
+dpad_E,delay_on 1000 100,mp_center_sip,,,,,,,,
+dpad_N,delay_on 1200 100,mp_center_sip,,,,,,,,
+dpad_W,pulse 100,mp_center_puff,,,,,,,,
+dpad_S,delay_on 200 100,mp_center_puff,,,,,,,,
+dpad_E,delay_on 400 100,mp_center_puff,,,,,,,,
+dpad_N,delay_on 600 100,mp_center_puff,,,,,,,,
+dpad_S,pulse 100,mp_left_sip,,,,,,,,"Infinite Health Cheat code: Down, X, Right, Left, Right, R1, Right, Down, Up, Triangle "
+x,delay_on 200 100,mp_left_sip,,,,,,,,
+dpad_E,delay_on 400 100,mp_left_sip,,,,,,,,
+dpad_W,delay_on 600 100,mp_left_sip,,,,,,,,
+dpad_E,pulse 100 2,mp_left_puff,,,,,,,,
+right_1,delay_on 100 100,mp_left_puff,,,,,,,,
+dpad_E,normal,,,,,,,,,<-- Leave blank
+dpad_S,delay_on 400 100,mp_left_puff,,,,,,,,
+dpad_N,delay_on 600 100,mp_left_puff,,,,,,,,
+triangle,delay_on 800 100,mp_left_puff,,,,,,,,

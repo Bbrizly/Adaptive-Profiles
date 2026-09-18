@@ -1,0 +1,18 @@
+Profile Name,,Mouse Mode,,,,,,,,,,,,,,,,
+batmanarkhamknightv2.csv,,Normal,,,,,,,,,,,,,,,,
+PlayStation Outputs,Function,usb,,,,,,,,,,,,,,,,
+kb_comma,force_off,right_puff,,,,,,,,,,,,,,,,Force off
+kb_right_control,force_off,right_puff,,,,,,,,,,,,,,,,Force off
+kb_backslash,force_off,right_puff,,,,,,,,,,,,,,,,Force off
+kb_grave_accent_and_tilde,force_off,right_puff,,,,,,,,,,,,,,,,
+kb_grave_accent_and_tilde,delayed_latch 50,right_sip,,,,,,,,,,,,,,,,Voice chat
+kb_escape,tap 300 50,right_sip_soft,,,,,,,,,,,,,,,,Escape
+kb_enter,tap 300 50,right_puff_soft,,,,,,,,,,,,,,,,Enter/Continue
+increment_mode,delay_on 300 50,right_sip_soft,,,,,,,,Basic mouse only configuration for PC users,,,,,,,,
+decrement_mode,delay_on 300 50,right_puff_soft,,,,,,,,,,,,,,,,
+kb_up_arrow,normal,up,,,,,,,,,,,,,,,,Forward
+kb_down_arrow,normal,down,,,,,,,,,,,,,,,,Backwards
+kb_page_up,greater_than 10,left,,,,,,,,,,,,,,,,Left
+kb_page_down,greater_than 10,right,,,,,,,,,,,,,,,,Right
+mouse_left,greater_than 99,left,,,,,,,,,,,,,,,,
+mouse_right,greater_than 99,right,,,,,,,,,,,,,,,,

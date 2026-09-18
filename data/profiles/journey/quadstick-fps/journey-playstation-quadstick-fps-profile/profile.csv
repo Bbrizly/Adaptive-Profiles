@@ -1,0 +1,46 @@
+Profile Name,,Left joy,,,,,,,,
+journey.csv,,Normal,,,,,,,,
+PlayStation Outputs,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,"A lot of time is spent moving forward in this game and it can be tiring to hold the joystick up for long periods of time. 
+
+To make it easier to play, in mode 1, Left Analog, holding the joystick up for two seconds will latch the up movement until either up or down is applied.
+
+A beep will sound when the latch actives and the joystick can be centered up and down and the character will move forward.  Move the joystick left and right to steer.
+
+Move the joystick slightly up or down to cancel the movement.
+
+In mode 2, the forward movement is not latched.  Mode 2 works better for maneuvering in tight situations where forward movement is not sustained."
+decrement_mode,normal,right_puff,,,,,,,,
+dpad_N,normal,,,,,,,,,
+dpad_NE,normal,,,,,,,,,
+dpad_E,normal,,,,,,,,,
+dpad_SE,normal,,,,,,,,,
+dpad_S,normal,,,,,,,,,
+dpad_SW,normal,,,,,,,,,
+dpad_W,normal,,,,,,,,,
+dpad_NW,normal,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,
+left_joy_right,normal,right,,,,,,,,
+left_joy_up,delayed_latch 2000,up,,,,,,,,
+left_joy_up,force_off,down,,,,,,,,
+left_joy_down,normal,down,,,,,,,,
+right_joy_left,normal,,,,,,,,,
+right_joy_right,normal,,,,,,,,,
+right_joy_up,normal,,,,,,,,,
+right_joy_down,normal,,,,,,,,,
+left_1,normal,mp_left_sip,,,,,,,,
+left_2,normal,mp_left_puff,,,,,,,,
+left_3,normal,mp_left_center_sip,,,,,,,,
+right_1,normal,mp_right_sip,,,,,,,,
+right_2,normal,mp_right_puff,,,,,,,,
+right_3,normal,mp_right_center_sip,,,,,,,,
+x,normal,lip,,,,,,,,
+circle,normal,mp_center_puff,,,,,,,,
+x,normal,mp_center_sip,,,,,,,,
+triangle,normal,mp_right_center_puff,,,,,,,,
+select,normal,mp_left_sip_soft,,,,,,,,
+ps3,normal,mp_center_sip_soft,,,,,,,,
+start,normal,mp_right_sip_soft,,,,,,,,
+select,normal,mp_left_center_puff,,,,,,,,
+circle,delay_on 100,mp_left_center_puff,,,,,,,,
+acceleration_z_down,normal,constant,,,,,,,,

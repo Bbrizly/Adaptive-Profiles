@@ -1,0 +1,33 @@
+Profile Name,,Left joy,,,,,,,,comment
+nba2k.csv,,Normal,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,
+left_joy_left,normal,left,,,,,,,,
+left_joy_right,normal,right,,,,,,,,
+left_joy_up,normal,up,,,,,,,,
+left_joy_down,normal,down,,,,,,,,
+right_trigger,normal,lip,,,,,,,,Sprint
+left_trigger,normal,mp_left_sip,,,,,,,,LT / Post Up
+left_trigger,pulse 6000,mp_left_sip_soft,,,,,,,,
+left_bumper,normal,mp_right_sip,,,,,,,,LB / Call Pick
+left_bumper,pulse 4000,mp_right_sip_soft,,,,,,,,
+right_bumper,normal,mp_right_puff,,,,,,,,RB / Icon Pass
+A,normal,mp_center_sip,,,,,,,,Pass / Steal
+A,pulse 6000,mp_center_sip_soft,,,,,,,,
+B,normal,mp_right_center_sip,,,,,,,,Bounce Pass / Take Charge / Control Receiver
+X,normal,mp_center_puff,,,,,,,,Shoot / Steal
+X,pulse 2000,mp_center_puff_soft,,,,,,,,
+Y,normal,mp_left_puff,,,,,,,,Lob Pass / Rebound / Cut to Basket
+Y,pulse 2000,mp_left_puff_soft,,,,,,,,
+right_trigger,normal,mp_triple_puff,,,,,,,,Dunk
+X,normal,mp_triple_puff,,,,,,,,
+right_joy_down,normal,mp_right_center_puff,,,,,,,,RS Down
+right_joy_up,normal,mp_left_center_puff,,,,,,,,RS Up
+dpad_W,normal,mp_left_center_sip_soft,,,,,,,,Call Play
+dpad_E,normal,mp_right_center_sip_soft,,,,,,,,On-the-fly Coaching 
+dpad_N,normal,mp_left_center_puff_soft,,,,,,,,Feedback Meter
+dpad_S,normal,mp_right_center_puff_soft,,,,,,,,Edit Line Up
+start,normal,mp_triple_sip,,,,,,,,Pause Game
+back,normal,mp_right_puff_soft,,,,,,,,Time Out / Intentional Foul
+decrement_mode,normal,mp_left_center_sip,,,,,,,,RS Control

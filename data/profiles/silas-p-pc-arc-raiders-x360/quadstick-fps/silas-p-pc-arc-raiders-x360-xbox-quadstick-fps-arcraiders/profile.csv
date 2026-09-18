@@ -1,0 +1,89 @@
+Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,
+ARCRaiders.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+dpad_SW,normal,,,,,,,,,,,,,,,,,
+dpad_S,normal,,,,,,,,,,,,,,,,,Color-Legend :
+right_joy_left,normal,left,,,,,,,,,,,,,,,,Moving
+right_joy_right,normal,right,,,,,,,,,,,,,,,,"Weapon(Aim,Fire, Mode,etc)"
+right_joy_up,normal,up,,,,,,,,,,,,,,,,Grenade & Gadget
+right_joy_down,normal,down,,,,,,,,,,,,,,,,"interact (Enter Vehicle, Spotting, etc...)"
+dpad_N,normal,,,,,,,,,,,,,,,,,Escape/Enter/Stats/Tab to Windows
+dpad_E,normal,,,,,,,,,,,,,,,,,Function Testing
+,delay_on 500,mp_center_sip,,,,,,,,,,,,,,,,
+left_joy_right,normal,usb_1_right,,,,,,,,,,,,,,,,
+left_joy_left,normal,usb_1_left,,,,,,,,,,,,,,,,
+left_joy_up,normal,usb_1_up,,,,,,,,,,,,,,,,
+left_joy_up,force_off,usb_1_down,,,,,,,,,,,,,,,,
+left_joy_down,normal,usb_1_down,,,,,,,,,,,,,,,,
+left_stick,force_off,usb_1_down,,,,,,,,,,,,,,,,
+left_joy_right,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Strafe right
+left_joy_left,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Strafe left
+left_joy_up,delayed_latch 250,mp_triple_puff,,,,,,,,,,,,,,,,walk
+left_joy_down,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,walking back
+left_stick,delay_on 500 16000,mp_triple_puff,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+left_stick,delay_on 5 16000,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+left_joy_up,delay_on 5 16000,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+B,normal,mp_triple_sip,,,,,,,,,,,,,,,,Crouch 
+A,normal,lip,,,,,,,,,,,,,,,,Jump
+left_trigger,toggle,mp_center_sip,,,,,,,,,,,,,,,,Aim (Hold to Crouch) 
+right_trigger,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire
+X,delay_off 250,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload 
+Y,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,Change weapons
+dpad_W,tap 200,mp_right_center_sip,,,,,,,,,,,,,,,,Melee
+right_bumper,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Ping
+left_bumper,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,gadget 
+X,tap 250,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+X,delay_on 200 100,mp_right_center_sip,,,,,,,,,,,,,,,,interact/enter
+back,delay_on 100,mp_triple_puff_soft,,,,,,,,,,,,,,,,Backpack
+dpad_N,normal,mp_left_puff,,,,,,,,,,,,,,,,Emote 
+dpad_S,toggle,mp_center_puff_soft,,,,,,,,,,,,,,,,Proximity Chat
+dpad_E,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,Flashlight
+right_stick,normal,mp_left_sip,,,,,,,,,,,,,,,,Shoulder Swap
+kb_escape,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu/Pause
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
+kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+back,delay_on 250,mp_right_puff_soft,,,,,,,,,,,,,,,,map
+start,delay_on 250,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu/Pause
+decrement_mode,tap 200,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Switch to menu
+increment_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+left_joy_up,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_joy_up,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
+left_joy_up,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_joy_up,force_off 900,mp_center_puff,,,,,,,,,,,,,,,,
+left_joy_up,force_off 260,mp_right_sip_soft,,,,,,,,,,,,,,,,
+left_joy_up,force_off 300,mp_triple_sip,,,,,,,,,,,,,,,,walk
+left_joy_down,force_off,right_puff,,,,,,,,,,,,,,,,
+left_joy_down,force_off,right_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
+left_joy_down,force_off 900,mp_center_puff,,,,,,,,,,,,,,,,
+left_joy_down,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+left_joy_down,force_off 300,mp_triple_sip,,,,,,,,,,,,,,,,walking back
+left_stick,force_off,right_puff,,,,,,,,,,,,,,,,
+left_stick,force_off,right_sip,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
+left_stick,force_off 900,mp_center_puff,,,,,,,,,,,,,,,,
+left_stick,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
+left_stick,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,
+left_stick,force_off,,,,,,,,,,,,,,,,,
+left_stick,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+left_trigger,force_off 75,mp_left_sip,,,,,,,,,,,,,,,,
+left_trigger,force_off 500 ,mp_triple_puff,,,,,,,,,,,,,,,,
+left_trigger,force_off 100,mp_left_puff,,,,,,,,,,,,,,,,
+left_trigger,force_off 75,mp_right_sip,,,,,,,,,,,,,,,,
+left_trigger,force_off 100,mp_right_puff,,,,,,,,,,,,,,,,
+left_trigger,force_off 150,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_trigger,force_off 300,mp_left_puff_soft,,,,,,,,,,,,,,,,
+left_trigger,force_off,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+left_trigger,force_off 100,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+left_trigger,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,
+left_trigger,force_off 100,mp_triple_puff_soft,,,,,,,,,,,,,,,,

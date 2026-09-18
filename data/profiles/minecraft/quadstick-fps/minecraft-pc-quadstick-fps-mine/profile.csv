@@ -1,0 +1,37 @@
+Profile Name,,Mouse Mode,,,,,,,,Comment
+mine.csv,,Normal,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,http://www.minecraft101.net/g/controls-and-keyboard.html#other-controls
+decrement_mode,normal,right_puff,,,,,,,,
+mouse_left,normal,left,,,,,,,,
+mouse_right,normal,right,,,,,,,,
+mouse_up,normal,up,,,,,,,,
+mouse_down,normal,down,,,,,,,,
+kb_tab,toggle,mp_triple_sip,,,,,,,,List Players
+mouse_right_button,normal,mp_right_center_sip,,,,,,,,Off Hand
+kb_left_shift,toggle,mp_left_sip,,,,,,,,Sneak
+kb_e,normal,mp_right_puff,,,,,,,,Open Inventory
+kb_q,normal,mp_right_sip,,,,,,,,Drop Item
+kb_w,toggle,mp_center_sip,,,,,,,,Forward
+kb_s,force_off,mp_center_sip,,,,,,,,
+kb_a,normal,mp_left_center_puff,,,,,,,,Left
+kb_d,normal,mp_right_center_puff,,,,,,,,Right
+kb_s,toggle,mp_center_puff,,,,,,,,Backward
+kb_w,force_off,mp_center_puff,,,,,,,,
+kb_f5,normal,right_puff_soft,,,,,,,,Change View
+kb_space,normal,mp_left_center_sip,,,,,,,,Jump
+mouse_left_button,toggle,mp_triple_puff,,,,,,,,Main Hand toggle
+mouse_left_button,normal,lip,,,,,,,,Main Hand
+kb_1,normal,mp_left_sip_soft,,,,,,,,Select Item 1
+kb_2,normal,mp_center_sip_soft,,,,,,,,Select Item 2
+kb_3,normal,mp_right_sip_soft,,,,,,,,Select Item 3
+kb_4,normal,mp_left_puff_soft,,,,,,,,Select Item 4
+kb_5,normal,mp_center_puff_soft,,,,,,,,Select Item 5
+kb_6,normal,mp_right_puff_soft,,,,,,,,Select Item 6
+kb_7,normal,mp_left_center_sip_soft,,,,,,,,Select Item 7
+kb_8,normal,mp_right_center_sip_soft,,,,,,,,Select Item 8
+kb_9,normal,mp_left_right_sip_soft,,,,,,,,Select Item 9
+kb_left_control,normal,mp_left_puff,,,,,,,,
+kb_printscreen,normal,right_sip_soft,,,,,,,,
+kb_n,normal,mp_left_right_sip,,,,,,,,
+kb_b,normal,mp_left_right_puff,,,,,,,,

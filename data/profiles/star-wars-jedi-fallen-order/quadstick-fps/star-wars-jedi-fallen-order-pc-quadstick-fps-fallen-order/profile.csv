@@ -1,0 +1,34 @@
+Profile Name,,Normal Mode,,,,,,,,,,,,,,,,
+FallenOrder.csv,,Normal,,,,,,,,,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,,,,,,,,,
+increment_mode,normal,right_puff,,,,,,,,,,,,,,,,
+decrement_mode,normal,right_sip,,,,,,,,,,,,,,,,
+increment_mode,normal,mp_left_center_sip,,,,,,,,,,,,,,,,
+left_joy_up,normal,up,,,,,,,,,,,,,,,,Walk forward
+left_joy_left,normal,left,,,,,,,,,,,,,,,,Walk Left
+left_joy_down,normal,down,,,,,,,,,,,,,,,,Walk Backwards 
+left_joy_right,normal,right,,,,,,,,,,,,,,,,Walk Right
+left_stick,greater_than 20,any_direction,,,,,,,,,,,,,,,,Sprint/Swim Boost
+right_joy_left,normal,digital_in_2,,,,,,,,,,,,,,,,Look Left
+right_joy_right,normal,digital_in_1,,,,,,,,,,,,,,,,Look Right
+X,repeat 15,mp_center_puff,,,,,,,,,,,,,,,,Attack/Swim Downward/Map Zoom In
+left_bumper,delayed_latch 600,mp_right_center_sip,,,,,,,,,,,,,,,,Parry/Block/Swim Upwards/Map Zoom Out
+A,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Jump
+A,normal,mp_left_center_puff,,,,,,,,,,,,,,,,
+left_trigger,delay_on 600,mp_left_center_puff,,,,,,,,,,,,,,,,Pull/Climb
+left_trigger,delay_on 600,mp_right_center_puff,,,,,,,,,,,,,,,,
+B,tap 299,mp_center_sip,,,,,,,,,,,,,,,,Evade/Drop
+right_stick,delay_on 300,mp_center_sip,,,,,,,,,,,,,,,,Target/Snap to Current Location (Map)
+Y,normal,lip,,,,,,,,,,,,,,,,Force Attack
+B,normal,mp_left_puff,,,,,,,,,,,,,,,,Evasive Kick
+X,normal,mp_left_puff,,,,,,,,,,,,,,,,
+B,repeat 15,mp_right_sip,,,,,,,,,,,,,,,,Repeat B
+dpad_W,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,Single Blade
+dpad_E,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Double Blade
+dpad_N,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,Heal/Map Level Up
+dpad_S,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,Map Level Down
+right_bumper,delayed_latch 600,mp_right_puff,,,,,,,,,,,,,,,,Slow
+right_trigger,normal,mp_triple_puff,,,,,,,,,,,,,,,,Push
+left_trigger,delayed_latch 600,mp_triple_sip,,,,,,,,,,,,,,,,Pull/Climb
+back,tap 299,mp_triple_sip_soft,,,,,,,,,,,,,,,,Map
+start,delay_on 300,mp_triple_sip_soft,,,,,,,,,,,,,,,,Open Menu

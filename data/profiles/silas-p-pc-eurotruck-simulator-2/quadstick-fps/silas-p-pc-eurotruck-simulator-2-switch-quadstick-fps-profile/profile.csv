@@ -1,0 +1,65 @@
+Profile Name,,Left joy,,,,,,,,,,,,,,,,comment
+Ets2.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,,,,,,,,,Steer left
+left_joy_right,normal,right,,,,,,,,,,,,,,,,Steer right
+kb_w,greater_than 40,up,,,,,,,,,,,,,,,,Accelerate
+left_joy_down,greater_than 20,down,,,,,,,,,,,,,,,,Brake
+kb_q,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Left-Turn Indicator
+kb_e,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Right-Turn Indicator
+mouse_wheel_up,normal,mp_right_center_puff,,,,,,,,,,,,,,,,cruise control + (up) reassigned
+mouse_wheel_down,normal,mp_right_center_sip,,,,,,,,,,,,,,,,cruise control - (down) reassigned
+kb_c,delay_on 250 ,mp_center_puff,,,,,,,,,,,,,,,,Cruise Control on/off
+kb_c,normal,lip,,,,,,,,,,,,,,,,Cruise Control on/off
+kb_c,tap 250 100,mp_center_puff_soft,,,,,,,,,,,,,,,,
+kb_keypad_6,delay_on 250 ,mp_center_puff_soft,,,,,,,,,,,,,,,,
+kb_p,tap 250 100,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Windshield Wiper
+kb_t,delay_on 250 ,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Link up Trailer
+kb_l,tap 250 100,mp_left_center_sip_soft,,,,,,,,,,,,,,,,light mode
+kb_k,delay_on 250 ,mp_left_center_sip_soft,,,,,,,,,,,,,,,,High Beam Headlights
+kb_keypad_0,tap 250 100,mp_right_puff,,,,,,,,,,,,,,,,Change GPS-mode (Map/Load/Damage)
+kb_f5,delay_on 250 ,mp_right_puff,,,,,,,,,,,,,,,,Change Map-Mode
+kb_keypad_5,tap 250 100,mp_center_puff,,,,,,,,,,,,,,,,Watch forward
+kb_keypad_4,tap 250 100,mp_center_sip,,,,,,,,,,,,,,,,Watch right
+kb_keypad_7,delay_on 250 ,mp_center_sip,,,,,,,,,,,,,,,,Watch left
+kb_1,delay_on 250 ,mp_triple_sip,,,,,,,,,,,,,,,,ego pers
+kb_9,tap 250 100,mp_triple_sip,,,,,,,,,,,,,,,,next Camera
+kb_space,tap 250 100,mp_right_sip_soft,,,,,,,,,,,,,,,,Hand-brake
+kb_v,delay_on 250 ,mp_right_sip_soft,,,,,,,,,,,,,,,,Differential
+kb_o,tap 250 100,mp_triple_sip_soft,,,,,,,,,,,,,,,,Attention indicator
+kb_u,delay_on 250 ,mp_triple_sip_soft,,,,,,,,,,,,,,,,additional axle
+kb_b,normal,mp_triple_puff,,,,,,,,,,,,,,,,Fanfare
+kb_b,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Fanfare
+kb_m,delay_on 250 ,mp_right_puff_soft,,,,,,,,,,,,,,,,Open Map
+kb_i,tap 250 100,mp_right_puff_soft,,,,,,,,,,,,,,,,Switch information Panel
+kb_x,delay_on 250 16000,mp_triple_puff_soft,,,,,,,,,,,,,,,,Voice Chat (mp-mod needed)
+kb_x,force_off 150,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+kb_tab,tap 250 100,mp_triple_puff_soft,,,,,,,,,,,,,,,,Player Overview (Mp-mod needed)
+kb_page_up,normal,mp_left_sip,,,,,,,,,,,,,,,,Next Song
+kb_page_down,normal,mp_left_puff,,,,,,,,,,,,,,,,previous Song
+kb_enter,delay_on 250 16000,mp_right_sip,,,,,,,,,,,,,,,,Activate Facility
+mouse_middle_button,tap 250 100,mp_right_sip,,,,,,,,,,,,,,,,
+kb_enter,force_off ,left,,,,,,,,,,,,,,,,
+kb_enter,force_off ,right,,,,,,,,,,,,,,,,
+kb_enter,force_off ,up,,,,,,,,,,,,,,,,
+kb_enter,force_off ,down,,,,,,,,,,,,,,,,
+kb_enter,force_off ,mp_right_sip,,,,,,,,,,,,,,,,
+kb_escape,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu
+decrement_mode,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+increment_mode,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
+kb_0,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_shift,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
+kb_8,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_gui,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,
+kb_f1,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,
+deflection_multiplier_down,normal,200,,,,,,,,,,,,,,,,
+,,mp_right_puff_soft,,,,,,,,,,,,,,,,

@@ -1,0 +1,44 @@
+Profile Name,,Mouse Mode,,,,,,,,Comments
+elite.csv,,,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,
+mouse_left,normal,left,,,,,,,,
+mouse_right,normal,right,,,,,,,,
+mouse_up,normal,up,,,,,,,,
+mouse_down,normal,down,,,,,,,,
+mouse_left_button,normal,lip,,,,,,,,
+mouse_left_button,normal,mp_center_puff,,,,,,,,
+mouse_right_button,normal,mp_center_sip,,,,,,,,
+kb_space,normal,mp_left_puff,,,,,,,,Select
+mouse_middle_button,normal,mp_right_center_puff,,,,,,,,Toggle Head Look
+kb_escape,normal,mp_center_sip_soft,,,,,,,,
+kb_left_control,normal,mp_right_sip_soft,,,,,,,,Exit game
+kb_left_alt,normal,mp_right_sip_soft,,,,,,,,
+kb_delete,normal,mp_right_sip_soft,,,,,,,,
+kb_enter,normal,mp_right_puff,,,,,,,,Quick Comms Panel
+kb_y,normal,mp_left_center_sip,,,,,,,,Cycle Next Subsystem
+kb_n,normal,mp_left_center_puff,,,,,,,,Cycle Fire Group Next
+kb_delete,normal,mp_right_sip,,,,,,,,Toggle Button Up Input
+kb_l,normal,mp_right_center_sip,,,,,,,,Ship Spot Light Toggle
+kb_p,normal,mp_center_puff_soft,,,,,,,,Pause
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,

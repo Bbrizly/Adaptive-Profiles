@@ -1,0 +1,29 @@
+Profile Name,,Left joy,,,,,,,,,,,,,,,,comment
+PS2_NFSC.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+left_joy_left,normal,left,,,,,,,,,,,,,,,,
+left_joy_right,normal,right,,,,,,,,,,,,,,,,
+right_joy_up,normal,up,,,,,,,,,,,,,,,,
+right_joy_down,normal,down,,,,,,,,,,,,,,,,
+left_bumper,normal,mp_center_puff,,,,,,,,,,,,,,,,
+right_bumper,normal,mp_center_sip,,,,,,,,,,,,,,,,
+Y,normal,mp_left_center_sip,,,,,,,,,,,,,,,,
+X,normal,mp_left_center_puff,,,,,,,,,,,,,,,,
+right_stick,normal,mp_right_center_sip,,,,,,,,,,,,,,,,
+increment_mode,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+decrement_mode,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
+kb_0,tap 250 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 250 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_shift,tap 250 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,
+kb_8,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_delete,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,
+kb_left_alt,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,
+kb_f1,tap 250 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 250 100,right_sip_soft,,,,,,,,,,,,,,,,
+start,delay_on 100,mp_left_puff_soft,,,,,,,,,,,,,,,,
+back,delay_on 100,mp_right_puff_soft,,,,,,,,,,,,,,,,

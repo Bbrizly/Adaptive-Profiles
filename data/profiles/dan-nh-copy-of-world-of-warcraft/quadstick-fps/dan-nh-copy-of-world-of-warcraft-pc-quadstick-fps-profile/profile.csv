@@ -1,0 +1,64 @@
+Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,
+awow.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+kb_keypad_asterisk,force_off,right_puff,,,,,,,,,,,,,,,,Force off
+kb_grave_accent_and_tilde,force_off,right_puff,,,,,,,,,,,,,,,,
+increment_mode,normal,mp_center_sip,,,,,,,,,,,,,,,,Next profile
+kb_a,greater_than 5 90,left,,,,,,,,,,,,,,,,Left
+kb_q,greater_than 90,left,,,,,,,,,,,,,,,,Strafe left
+kb_d,greater_than 5 90,right,,,,,,,,,,,,,,,,Down
+kb_e,greater_than 90,right,,,,,,,,,,,,,,,,Strafe right
+kb_insert,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,Auto run
+kb_w,greater_than 5,up,,,,,,,,,,,,,,,,Up
+kb_space,greater_than 70,up,,,,,,,,,,,,,,,,Jump forwards
+kb_s,greater_than 5,down,,,,,,,,,,,,,,,,Down
+kb_space,greater_than 70,down,,,,,,,,,,,,,,,,Jump backwards
+kb_1,normal,mp_left_sip,,,,,,,,,,,,,,,,Skills
+kb_2,normal,lip,,,,,,,,,,,,,,,,
+kb_3,tap 300 50,mp_right_sip,,,,,,,,,,,,,,,,
+kb_4,normal,mp_left_puff,,,,,,,,,,,,,,,,
+kb_5,normal,mp_center_puff,,,,,,,,,,,,,,,,
+kb_6,tap 300 50,mp_right_puff,,,,,,,,,,,,,,,,
+kb_7,normal,mp_left_center_sip,,,,,,,,,,,,,,,,
+kb_8,normal,mp_right_center_sip,,,,,,,,,,,,,,,,
+kb_9,normal,mp_left_center_puff,,,,,,,,,,,,,,,,
+kb_0,normal,mp_right_center_puff,,,,,,,,,,,,,,,,
+kb_dot,normal,mp_left_right_sip,,,,,,,,,,,,,,,,
+kb_slash,normal,mp_left_right_puff,,,,,,,,,,,,,,,,
+kb_space,delay_on 300,mp_right_sip,,,,,,,,,,,,,,,,ascending
+kb_x,delay_on 300,mp_right_puff,,,,,,,,,,,,,,,,descending
+kb_right_shift,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,
+kb_1,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,Skills (Second bar)
+kb_right_shift,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,
+kb_2,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,
+kb_3,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,
+kb_4,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,
+kb_5,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,
+kb_6,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+kb_7,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
+kb_8,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+kb_9,normal,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+kb_0,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_left_right_sip_soft,,,,,,,,,,,,,,,,
+kb_dot,normal,mp_left_right_sip_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_left_right_puff_soft,,,,,,,,,,,,,,,,
+kb_slash,normal,mp_left_right_puff_soft,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_triple_puff,,,,,,,,,,,,,,,,next action bar
+kb_down_arrow,normal,mp_triple_puff,,,,,,,,,,,,,,,,
+kb_right_shift,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,Previous action bar
+kb_up_arrow,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+kb_backslash,normal,mp_triple_sip,,,,,,,,,,,,,,,,Next target
+kb_left_control,normal,mp_triple_sip,,,,,,,,,,,,,,,,previous target
+kb_tab,normal,mp_triple_sip,,,,,,,,,,,,,,,,
+kb_right_alt,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,Switch screens
+kb_tab,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+kb_keypad_asterisk,toggle,mp_right_mode_sip,,,,,,,,,,,,,,,,Voice chat
+mouse_left_button,normal,mp_left_right_sip,,,,,,,,,,,,,,,,Click and loot

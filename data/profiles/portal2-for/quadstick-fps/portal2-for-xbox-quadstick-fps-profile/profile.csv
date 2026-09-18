@@ -1,0 +1,27 @@
+Profile Name,,Left joy,,,,,,,,
+portal2x.csv,,Normal,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,
+left_joy_left,normal,left,,,,,,,,
+left_joy_right,normal,right,,,,,,,,
+left_joy_up,normal,up,,,,,,,,
+left_joy_down,normal,down,,,,,,,,
+right_joy_left,normal,,,,,,,,,
+right_joy_right,normal,,,,,,,,,
+right_joy_up,normal,,,,,,,,,
+right_joy_down,normal,,,,,,,,,
+right_trigger,tap 300,mp_center_puff,,,,,,,,Blue portal
+left_trigger,delay_on 300,mp_center_puff,,,,,,,,Orange portal
+A,normal,lip,,,,,,,,Jump
+B,delayed_latch 300,mp_right_puff,,,,,,,,Crouch
+increment_mode,tap 300,mp_center_sip,,,,,,,,Next mode
+X,delay_on 300,mp_center_sip,,,,,,,,Use
+Y,normal,mp_right_center_puff,,,,,,,,partner view
+right_bumper,normal,mp_right_sip,,,,,,,,zoom
+left_bumper,normal,mp_left_sip,,,,,,,,Quick Ping
+dpad_W,normal,mp_left_puff,,,,,,,,Ping Menu
+dpad_N,normal,mp_left_center_puff,,,,,,,,Gesture
+guide,normal,mp_center_sip_soft,,,,,,,,Guide
+back,normal,mp_left_sip_soft,,,,,,,,Back
+start,normal,mp_right_sip_soft,,,,,,,,Start

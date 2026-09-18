@@ -1,0 +1,40 @@
+Profile Name,,Mouse Mode,,,,,,,,Comments
+sleeping.csv,,,,,,,,,,
+PlayStation Outputs,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,
+mouse_left,normal,left,,,,,,,,
+mouse_right,normal,right,,,,,,,,
+mouse_up,normal,up,,,,,,,,
+mouse_down,normal,down,,,,,,,,
+mouse_wheel_up,normal,,,,,,,,,
+mouse_wheel_down,normal,,,,,,,,,
+mouse_pan_left,normal,,,,,,,,,
+mouse_pan_right,normal,,,,,,,,,
+mouse_left_button,normal,lip,,,,,,,,
+mouse_left_button,normal,mp_left_puff,,,,,,,,
+mouse_right_button,normal,mp_right_puff,,,,,,,,
+mouse_middle_button,normal,mp_center_puff,,,,,,,,
+kb_enter,normal,mp_right_sip,,,,,,,,
+kb_escape,normal,mp_left_puff_soft,,,,,,,,
+kb_tab,normal,mp_left_sip,,,,,,,,
+kb_left_control,normal,right_puff_soft,,,,,,,,Open OSK
+kb_left_alt,normal,right_puff_soft,,,,,,,,
+kb_k,delay_on 30,right_puff_soft,,,,,,,,
+kb_left_shift,normal,mp_left_center_puff,,,,,,,,
+kb_left_control,normal,mp_left_center_sip,,,,,,,,
+kb_backspace,normal,mp_right_puff_soft,,,,,,,,
+kb_delete,normal,mp_right_sip_soft,,,,,,,,
+kb_left_control,normal,mp_center_sip_soft,,,,,,,,Cut
+kb_x,delay_on 30,mp_center_sip_soft,,,,,,,,
+kb_left_control,normal,mp_center_sip,,,,,,,,Copy
+kb_c,delay_on 30,mp_center_sip,,,,,,,,
+kb_left_control,normal,mp_center_puff_soft,,,,,,,,Paste
+kb_v,delay_on 30,mp_center_puff_soft,,,,,,,,
+kb_left_gui,normal,mp_left_sip_soft,,,,,,,,
+kb_left_control,normal,right_sip_soft,,,,,,,,Toggle DNS microphone
+kb_keypad_plus,delay_on 30,right_sip_soft,,,,,,,,
+kb_left_gui,normal,mp_right_center_puff_soft,,,,,,,,Start Windows dictation
+kb_h,delay_on 30,mp_right_center_puff_soft,,,,,,,,
+joystick_dead_zone_shape,normal,1,,,,,,,,
+reset_quadstick,delay_on 2000,mp_center_sip,,,,,,,,Reboot the Quadstick

@@ -1,0 +1,28 @@
+Profile Name,,Mouse Mode,,,,,,,,Comments,
+dvalheim.csv,,Normal,,,,,,,,,
+Output or Function,Function,usb,,,,,,,,,
+increment_mode,normal,mp_center_sip,,,,,,,,Basic mouse only configuration for PC users,
+decrement_mode,normal,,,,,,,,,,
+mouse_left,normal,left,,,,,,,,,
+mouse_right,normal,right,,,,,,,,,
+mouse_up,normal,up,,,,,,,,,
+mouse_down,normal,down,,,,,,,,,
+mouse_wheel_down,normal,,,,,,,,,,
+mouse_pan_left,normal,,,,,,,,,,
+mouse_pan_right,normal,,,,,,,,,,
+mouse_left_button,normal,mp_center_puff,,,,,,,,,
+mouse_right_button,normal,,,,,,,,,,
+mouse_middle_button,normal,lip,,,,,,,,character,formerly K
+kb_r,normal,mp_right_sip,,,,,,,,toggle wep,
+kb_f,normal,mp_right_puff,,,,,,,,power,
+kb_equal,normal,right_puff,,,,,,,,,
+kb_w,toggle,mp_left_puff,,,,,,,,inv,
+kb_left_shift,toggle,mp_left_center_sip,,,,,,,,sprint,
+kb_space,normal,mp_left_center_puff,,,,,,,,walk,L C - P
+kb_e,normal,mp_left_sip,,,,,,,,pickup,L C - S
+mouse_right_button,normal,mp_right_center_sip,,,,,,,,aim no toggle,right centre sip
+kb_end,normal,mp_triple_puff,,,,,,,,discord mute,
+kb_escape,normal,mp_triple_sip,,,,,,,,,
+mouse_right_button,normal,mp_right_center_puff,,,,,,,,dodge,
+kb_space,normal,mp_right_center_puff,,,,,,,,,
+kb_left_control,normal,mp_left_sip_soft,,,,,,,,crouch,

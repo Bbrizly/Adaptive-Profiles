@@ -1,0 +1,53 @@
+Profile Name,,,,,,,,,,Combat Controls,Build Controls
+fortnite ps4.csv,,,,,,,,,,,
+PlayStation Outputs,Function,usb,,,,,,,,,
+dpad_N,normal,mp_center_puff_soft,,,,,,,,Toggle Map,Toggle Map
+dpad_E,normal,,,,,,,,,,
+dpad_S,normal,mp_right_puff_soft,,,,,,,,Emote,Emote
+dpad_W,normal,mp_left_puff_soft,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,,
+left_joy_right,normal,right,,,,,,,,,
+left_joy_up,normal,up,,,,,,,,,
+left_joy_down,normal,down,,,,,,,,,
+right_joy_left,normal,,,,,,,,,,
+right_joy_right,normal,,,,,,,,,,
+right_joy_up,normal,,,,,,,,,,
+right_joy_down,normal,,,,,,,,,,
+left_1,delayed_latch 300,mp_left_sip,,,,,,,,Crouch,Change Material
+left_2,normal,lip,,,,,,,,ADS,
+left_3,greater_than 99,any_direction,,,,,,,,Sprint,Sprint
+right_1,normal,mp_right_sip,,,,,,,,,Rotate Piece
+right_2,normal,mp_center_puff,,,,,,,,Attack,Confirm
+right_3,normal,mp_right_puff,,,,,,,,Repair,Reset Edit
+x,normal,mp_right_center_puff,,,,,,,,Jump,Jump
+circle,normal,mp_right_center_sip,,,,,,,,Toggle Build Mode,Toggle Build Mode
+square,normal,mp_left_center_puff,,,,,,,,Reload,Trap
+triangle,normal,mp_left_center_sip,,,,,,,,Next Weapon,Next Piece
+select,normal,mp_left_sip_soft,,,,,,,,Share,Share
+ps3,normal,mp_center_sip_soft,,,,,,,,Home,Home
+start,normal,mp_right_sip_soft,,,,,,,,Game Menu,Game Menu
+touch,normal,mp_left_puff,,,,,,,,Management Menu,Management Menu
+increment_mode,normal,mp_center_sip,,,,,,,,Next Mode,Next Mode
+left_joy_up,toggle,right_puff,,,,,,,,,
+left_joy_up,force_off,right_sip,,,,,,,,,
+left_joy_up,force_off,down,,,,,,,,,
+digital_out_1,toggle,right_puff,,,,,,,,status led,
+digital_out_1,force_off,right_sip,,,,,,,,,
+digital_out_1,force_off,down,,,,,,,,,
+digital_out_1,force_off,up,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,
+,normal,,,,,,,,,,

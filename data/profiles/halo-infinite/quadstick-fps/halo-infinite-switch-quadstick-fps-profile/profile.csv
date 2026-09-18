@@ -1,0 +1,37 @@
+Profile Name,,Left joy,,,,,,,,
+Halo Infinite WASD.csv,,Normal,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,mp_center_sip,,,,,,,,
+decrement_mode,normal,,,,,,,,,
+kb_w,delayed_latch 750,up,,,,,,,,
+kb_a,normal,,,,,,,,,
+kb_s,normal,down,,,,,,,,
+kb_d,normal,,,,,,,,,
+kb_w,force_off,down,,,,,,,,
+mouse_right,normal,right,,,,,,,,
+mouse_left,normal,left,,,,,,,,
+mouse_up,normal,,,,,,,,,
+mouse_down,normal,,,,,,,,,
+mouse_left_button,normal,mp_center_puff,,,,,,,,Fire Weapon
+mouse_right_button,toggle,lip,,,,,,,,Zoom
+mouse_wheel_up,normal,mp_left_puff,,,,,,,,Switch Weapon
+mouse_wheel_down,normal,mp_left_sip,,,,,,,,Switch Weapon
+kb_space,normal,mp_left_center_sip,,,,,,,,Jump
+kb_left_control,normal,mp_right_center_sip,,,,,,,,Descend / Tricks (in vehicle)
+kb_left_shift,normal,right_puff,,,,,,,,Sprint
+kb_1,normal,mp_left_puff_soft,,,,,,,,Equipment slots 1
+kb_2,normal,mp_left_sip_soft,,,,,,,,Equipment slots 2
+kb_3,normal,mp_right_puff_soft,,,,,,,,Equipment slots 3
+kb_4,normal,mp_right_sip_soft,,,,,,,,Equipment slots 4
+kb_b,normal,mp_center_sip_soft,,,,,,,,Switch to previous Grenade
+kb_e,normal,mp_right_center_puff,,,,,,,,Interact
+kb_f,normal,mp_triple_puff,,,,,,,,Melee
+kb_g,normal,mp_triple_sip,,,,,,,,Throw Grenade
+kb_tab,normal,right_sip,,,,,,,,Menu
+kb_n,normal,mp_center_puff_soft,,,,,,,,Switch to next Grenade
+kb_q,normal,mp_right_puff,,,,,,,,Use Equipment
+kb_r,normal,mp_left_center_puff,,,,,,,,Reload / Vent
+kb_t,normal,mp_left_center_sip_soft,,,,,,,,Helmet light
+kb_x,normal,mp_right_sip,,,,,,,,Mark
+kb_z,normal,mp_left_puff_soft,,,,,,,,AI Scan
+joystick_dead_zone_shape,normal,0,,,,,,,,decouple WS from left-right

@@ -1,0 +1,36 @@
+Profile Name,,Left joy
+Bordls.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+increment_mode,normal,mp_right_center_puff_soft
+dpad_N,delay_on 400,mp_triple_puff
+dpad_E,normal,mp_left_center_sip
+dpad_E,tap 399,mp_triple_puff
+dpad_E,normal,mp_left_puff_soft
+dpad_E,normal,mp_center_puff_soft
+dpad_S,delay_on 400,mp_triple_sip
+dpad_W,normal,
+dpad_W,tap 399,mp_triple_sip
+dpad_W,normal,mp_right_puff_soft
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,
+right_joy_right,normal,
+right_joy_up,normal,
+right_joy_down,normal,
+A,normal,mp_left_center_puff
+left_bumper,normal,mp_left_puff
+left_trigger,normal,lip
+left_stick,normal ,mp_center_puff
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_center_sip
+right_stick,normal,mp_left_sip
+X,normal,mp_right_center_puff
+B,normal,mp_right_center_sip
+Y,normal,mp_right_puff
+back,normal,mp_left_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
