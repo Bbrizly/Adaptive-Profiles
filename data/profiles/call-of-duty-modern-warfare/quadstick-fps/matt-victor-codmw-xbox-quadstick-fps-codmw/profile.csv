@@ -1,0 +1,39 @@
+Profile Name,,Right joy,,,,,,,,
+codmw.csv,,Normal,,,,,,,,https://www.youtube.com/watch?v=ON0lcmxjIf4&t=6s
+XBox Outputs,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,
+increment_mode,normal,mp_right_center_puff_soft,,,,,,,,2nd mode
+dpad_N,normal,mp_triple_puff,,,,,,,,Scorestreak select 
+dpad_N,normal,,,,,,,,,I use this mode for menu navigation 
+dpad_E,normal,mp_left_center_sip,,,,,,,,
+dpad_E,normal,mp_left_center_puff_soft,,,,,,,,tactical butt layout 
+dpad_E,normal,mp_center_puff_soft,,,,,,,,
+dpad_E,normal,mp_left_puff_soft,,,,,,,,
+dpad_E,normal,mp_right_puff_soft,,,,,,,,
+dpad_S,normal,mp_triple_sip,,,,,,,,Scorestreak select 
+dpad_SW,normal,,,,,,,,,
+dpad_W,normal,mp_left_center_sip_soft,,,,,,,,
+dpad_NW,normal,,,,,,,,,
+left_joy_left,normal,,,,,,,,,
+left_joy_right,normal,,,,,,,,,
+left_stick,normal,mp_center_puff,,,,,,,,Sprint
+left_joy_down,normal,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,Right Stick = Turn Direction
+left_joy_right,normal,right,,,,,,,,
+left_joy_up,normal,up,,,,,,,,
+left_joy_down,normal,down,,,,,,,,
+left_bumper,normal,mp_left_puff,,,,,,,,Heal
+left_trigger,normal,lip,,,,,,,,Aim
+left_stick,normal,,,,,,,,,Sprint
+right_bumper,normal,mp_right_sip,,,,,,,,Use equipment 
+right_trigger,normal,mp_center_sip,,,,,,,,Right Trigger = Fire Weapon
+right_stick,normal,mp_left_sip,,,,,,,,"Crouch, hold for prone"
+A,normal,mp_left_center_puff,,,,,,,,Jump
+B,normal,mp_right_center_sip,,,,,,,,Melee
+X,normal,mp_right_center_puff,,,,,,,,Reload
+Y,normal,mp_right_puff,,,,,,,,Change weapon
+back,normal,mp_left_sip_soft,,,,,,,,
+guide,normal,mp_center_sip_soft,,,,,,,,
+start,normal,mp_right_sip_soft,,,,,,,,
+left_joy_up,force_off,mp_right_center_puff_soft,,,,,,,,

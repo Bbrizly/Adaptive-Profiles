@@ -1,0 +1,23 @@
+Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,
+counterstrike.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,,,,,,,,,
+kb_enter,greater_than 20,left,,,,,,,,,,,,,,,,strafe right
+kb_right_control,greater_than 20,right,,,,,,,,,,,,,,,,strafe right
+kb_up_arrow,greater_than 20,up,,,,,,,,,,,,,,,,Up
+kb_down_arrow,greater_than 20,down,,,,,,,,,,,,,,,,Down
+kb_right_shift,toggle,mp_center_sip,,,,,,,,,,,,,,,,crouch
+kb_apostrophe,normal,lip,,,,,,,,,,,,,,,,secondary
+kb_closing_bracket,normal,mp_right_puff,,,,,,,,,,,,,,,,next weapon
+kb_delete,normal,mp_right_sip,,,,,,,,,,,,,,,,use
+kb_insert,normal,mp_left_sip,,,,,,,,,,,,,,,,buy
+kb_dot,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,rebuy
+kb_backspace,normal,mp_left_puff,,,,,,,,,,,,,,,,reload
+mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,fire
+kb_equal_sign,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,scores
+kb_m,normal,mp_left_center_puff,,,,,,,,,,,,,,,,teams
+kb_g,normal,mp_right_center_puff,,,,,,,,,,,,,,,,drop
+kb_semicolon,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,walk
+kb_opening_bracket,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,previous weapon
+kb_grave_accent_and_tilde,normal,mp_triple_sip,,,,,,,,,,,,,,,,Console

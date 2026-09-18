@@ -1,0 +1,32 @@
+Profile Name,,Left joy,,,,,,,,,,,,,,,,comment
+Hawkskate.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,Questions? pasi2708@gmx.de
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,
+kb_escape,delay_on 500,mp_left_puff_soft,,,,,,,,,,,,,,,,
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+decrement_mode,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+left_joy_up,normal,up,,,,,,,,,,,,,,,,
+left_joy_right,normal,right,,,,,,,,,,,,,,,,
+left_joy_down,normal,down,,,,,,,,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,,,,,,,,,
+A,normal,mp_center_puff,,,,,,,,,,,,,,,,jump
+Y,normal,mp_center_sip,,,,,,,,,,,,,,,,grind
+B,normal,mp_left_center_sip,,,,,,,,,,,,,,,,grab
+X,normal,mp_right_center_sip,,,,,,,,,,,,,,,,flip
+B,pulse 50 2,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+X,pulse 50 2,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+Y,pulse 50 2,mp_triple_sip,,,,,,,,,,,,,,,,
+right_trigger,normal,mp_right_center_puff,,,,,,,,,,,,,,,,revert
+left_trigger,normal,mp_left_center_puff,,,,,,,,,,,,,,,,nollie
+kb_0,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_shift,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
+kb_8,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_gui,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,
+kb_f1,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,

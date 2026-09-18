@@ -1,0 +1,32 @@
+Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,
+DeliverAtAllCosts.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
+decrement_mode,tap,right_puff,,,,,,,,,,,,,,,,
+joystick_deflection_maximum,normal,24,,,,,,,,,,,,,,,,
+dpad_S,normal,,,,,,,,,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,,,,,,,,,Steer Left
+left_joy_right,normal,right,,,,,,,,,,,,,,,,Steer Right
+right_trigger,normal,up,,,,,,,,,,,,,,,,Throttle
+left_trigger,normal,down,,,,,,,,,,,,,,,,Reverse
+X,normal,mp_center_puff,,,,,,,,,,,,,,,,Jump
+B,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,
+A,normal,mp_center_sip,,,,,,,,,,,,,,,,Handbrake
+right_joy_right,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Camera Angle 2
+right_joy_left,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Camera Angle 1
+dpad_N,normal,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Radio
+dpad_S,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Journal
+dpad_E,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,Headlights
+dpad_W,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,Horn
+left_stick,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,Unjam
+left_bumper,normal,mp_left_puff,,,,,,,,,,,,,,,,Reel Winch Out
+right_bumper,normal,mp_left_sip,,,,,,,,,,,,,,,,Reel Winch In
+right_joy_up,normal,mp_triple_puff,,,,,,,,,,,,,,,,Pitch Bike Forward
+right_joy_down,normal,mp_triple_sip,,,,,,,,,,,,,,,,Pitch Bike Backward
+right_stick,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Delivery Gadget
+B,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Utility Gadget
+decrement_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+decrement_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+increment_mode,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,

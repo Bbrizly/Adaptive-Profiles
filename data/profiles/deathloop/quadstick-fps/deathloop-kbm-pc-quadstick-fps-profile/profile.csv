@@ -1,0 +1,64 @@
+Profile Name,,,,,,,,,,Comments
+deathloop.csv,,,,,,,,,,Deathloop PC Controls
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,mp_center_sip,,,,,,,,
+decrement_mode,normal,,,,,,,,,
+kb_w,greater_than 20,up,,,,,,,,
+kb_a,greater_than 20,left,,,,,,,,
+kb_s,greater_than 20,down,,,,,,,,
+kb_d,greater_than 20,right,,,,,,,,
+mouse_right,normal,,,,,,,,,
+mouse_left,normal,,,,,,,,,
+mouse_up,normal,,,,,,,,,
+mouse_down,normal,,,,,,,,,
+mouse_left_button,normal,mp_center_puff,,,,,,,,Right hand
+mouse_right_button,toggle,lip,,,,,,,,Left hand
+mouse_middle_button,normal,mp_center_puff_soft,,,,,,,,Use ability/weapon
+mouse_wheel_up,normal,mp_triple_puff,,,,,,,,Next shortcut item
+mouse_wheel_down,normal,mp_triple_sip,,,,,,,,Previous shortcut item
+kb_space,normal,mp_left_center_sip,,,,,,,,Jump
+kb_left_control,normal,mp_right_center_sip,,,,,,,,Sneak/Slide
+kb_left_shift,toggle,right_puff,,,,,,,,Sprint
+kb_t,normal,mp_center_sip_soft,,,,,,,,Tag/Focus/Alert (hold)
+kb_r,normal,mp_left_center_puff,,,,,,,,Reload
+kb_f,normal,mp_right_center_puff,,,,,,,,"Use, reload, sheathe weapons"
+kb_q,normal,mp_left_puff,,,,,,,,Lean left
+kb_e,normal,mp_right_puff,,,,,,,,Lean right
+kb_v,normal,mp_left_sip,,,,,,,,Kick
+kb_h,normal,mp_right_sip,,,,,,,,Hackamajig
+kb_g,normal,right_sip,,,,,,,,Strelak Sapper Charge
+kb_tab,normal,right_sip_soft,,,,,,,,Abilities
+kb_escape,normal,right_puff_soft,,,,,,,,Exit game
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,
+,normal,,,,,,,,,

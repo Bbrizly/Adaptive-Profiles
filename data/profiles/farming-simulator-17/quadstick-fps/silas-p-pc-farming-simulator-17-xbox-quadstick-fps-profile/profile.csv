@@ -1,0 +1,32 @@
+Profile Name,,Left joy,,,,,,,,,,,,,,,,comment
+FS17.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,"I play in German, so it might be that I retranslate something wrong"
+decrement_mode,normal,right_puff,,,,,,,,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,,,,,,,,,
+left_joy_right,normal,right,,,,,,,,,,,,,,,,
+left_joy_up,normal,up,,,,,,,,,,,,,,,,
+left_joy_down,normal,down,,,,,,,,,,,,,,,,
+kb_e,normal,mp_left_sip,,,,,,,,,,,,,,,,Enter Vehicle
+kb_q,normal,mp_left_center_puff,,,,,,,,,,,,,,,,couple
+kb_tab,normal,mp_triple_puff,,,,,,,,,,,,,,,,change vehicle
+kb_b,normal,mp_right_center_puff,,,,,,,,,,,,,,,,device function 1
+kb_x,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Activate tool
+kb_h,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,helper
+kb_v,normal,mp_left_center_sip,,,,,,,,,,,,,,,,lower
+kb_3,delay_on 500,mp_center_puff,,,,,,,,,,,,,,,,cruise control on / off
+kb_i,normal,mp_left_puff,,,,,,,,,,,,,,,,abkippen
+kb_2,tap,mp_center_puff,,,,,,,,,,,,,,,,cruise control +
+kb_1,normal,mp_center_sip,,,,,,,,,,,,,,,,cruise control -
+kb_n,normal,mp_right_sip,,,,,,,,,,,,,,,,tarpaulin open/close
+kb_y,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,device function 3
+kb_9,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,map +/-
+kb_r,normal,mp_right_puff,,,,,,,,,,,,,,,,activate object
+kb_c,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,kamera
+kb_p,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,dealer
+kb_f,normal,mp_left_center_puff_soft,,,,,,,,,,,,,,,,light
+kb_o,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,tupe fold in / out
+kb_g,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,device-election
+decrement_mode,tap,mp_triple_sip,,,,,,,,,,,,,,,,
+decrement_mode,delay_on 500,mp_triple_sip,,,,,,,,,,,,,,,,
+decrement_mode,delay_on 500,mp_triple_sip,,,,,,,,,,,,,,,,

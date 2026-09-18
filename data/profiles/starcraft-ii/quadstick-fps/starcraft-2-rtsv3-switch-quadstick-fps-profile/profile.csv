@@ -1,0 +1,58 @@
+Profile Name,,Normal Mode,,,,,,,,
+starcraft2v3.csv,,Normal,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+kb_escape,normal,right_puff,,,,,,,,
+kb_right_control,force_off,right_puff,,,,,,,,
+kb_right_shift,force_off,right_puff,,,,,,,,
+kb_keypad_asterisk,force_off,right_puff,,,,,,,,Discord chat
+kb_b,normal,right_sip,,,,,,,,
+increment_mode,normal,mp_triple_sip,,,,,,,,
+kb_up_arrow,greater_than 8,up,,,,,,,,
+kb_down_arrow,greater_than 8,down,,,,,,,,
+kb_left_arrow,greater_than 8,left,,,,,,,,
+kb_right_arrow,greater_than 8,right,,,,,,,,
+kb_right_alt,normal,mp_triple_puff_soft,,,,,,,,Switch screens
+kb_tab,normal,mp_triple_puff_soft,,,,,,,,Switch screens
+kb_q,pulse 15,mp_left_center_sip_soft,,,,,,,,Move
+kb_w,pulse 15,mp_left_center_sip,,,,,,,,Stop
+kb_e,pulse 15,mp_left_center_puff_soft,,,,,,,,Hold
+kb_r,tap 200 50,mp_left_center_puff,,,,,,,,Patrol
+kb_t,delay_on 200,mp_left_center_puff,,,,,,,,
+kb_t,normal,mp_center_puff,,,,,,,,Attack followed by a left click
+mouse_left_button,delay_on 30,mp_center_puff,,,,,,,,
+mouse_right_button,repeat 7,mp_center_sip,,,,,,,,Move
+kb_a,pulse 15,mp_left_sip_soft,,,,,,,,
+kb_s,pulse 15,mp_left_sip,,,,,,,,
+kb_d,pulse 15,mp_left_puff_soft,,,,,,,,
+kb_f,tap 200 50,mp_left_puff,,,,,,,,
+kb_g,delay_on 200,mp_left_puff,,,,,,,,Rally points
+kb_z,pulse 15,mp_right_sip_soft,,,,,,,,Bottom row of skills
+kb_x,pulse 15,mp_right_sip,,,,,,,,
+kb_c,pulse 15,mp_right_puff_soft,,,,,,,,
+kb_v,tap 200 50,mp_right_puff,,,,,,,,
+kb_b,delay_on 200,mp_right_puff,,,,,,,,
+kb_right_control,delay_on 200,mp_right_center_sip_soft,,,,,,,,Control
+kb_right_shift,delay_on 200,mp_right_center_puff_soft,,,,,,,,Shift
+kb_right_control,tap 200 50,mp_right_center_sip_soft,,,,,,,,Control
+kb_right_shift,tap 200 50,mp_right_center_puff_soft,,,,,,,,Shift
+mouse_left_button,tap 200 50,mp_right_center_sip_soft,,,,,,,,
+mouse_left_button,tap 200 50,mp_right_center_puff_soft,,,,,,,,
+kb_tab,pulse 15,mp_triple_puff,,,,,,,,change selection
+kb_f1,normal,mp_left_right_sip,,,,,,,,F1
+kb_f2,normal,mp_left_right_puff,,,,,,,,F2
+kb_f3,normal,mp_left_right_sip_soft,,,,,,,,F3
+kb_f4,normal,mp_left_right_puff_soft,,,,,,,,F4
+kb_space,tap 200 50,lip,,,,,,,,Focus
+mouse_left_button,delay_on 200,lip,,,,,,,,Left click
+kb_escape,pulse 15,mp_left_center_puff,,,,,,,,
+kb_left_control,normal,mp_triple_sip_soft,,,,,,,,Eye gaze
+kb_left_shift,normal,mp_triple_sip_soft,,,,,,,,
+kb_f4,normal,mp_triple_sip_soft,,,,,,,,
+kb_left_control,delay_on 1000,right_sip_soft,,,,,,,,Disable interactors
+kb_left_shift,delay_on 1000,right_sip_soft,,,,,,,,
+kb_f8,delay_on 1000,right_sip_soft,,,,,,,,
+kb_left_control,normal,mp_center_puff_soft,,,,,,,,Click at gaze point
+kb_left_shift,normal,mp_center_puff_soft,,,,,,,,
+kb_f7,normal,mp_center_puff_soft,,,,,,,,
+mouse_left_button,normal,mp_center_puff_soft,,,,,,,,
+kb_semicolon,normal,mp_right_center_puff,,,,,,,,Activate Interactor

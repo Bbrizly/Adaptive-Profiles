@@ -1,0 +1,30 @@
+Profile Name,,Left joy,,,,,,,,,,,,,,,,comment,,,
+Spindle.csv,,Normal,,,,,,,,Alternate,,,,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!,,,
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de,,,
+dpad_SW,normal,,,,,,,,,,,,,,,,,,,,mp_left_sip
+dpad_S,normal,,,,,,,,,,,,,,,,,,,,mp_left_puff
+kb_a,greater_than 15,left,,,,,,,,,,,,,,,,,,,mp_center_sip
+kb_d,greater_than 15,right,,,,,,,,,,,,,,,,,,,mp_center_puff
+kb_w,greater_than 15,up,,,,,,,,,,,,,,,,,,,mp_right_sip
+kb_s,greater_than 15,down,,,,,,,,,,,,,,,,,,,mp_right_puff
+kb_space,normal,mp_center_sip,,,,,,,,,,,,,,,,,,,mp_right_puff_soft
+mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,,,,mp_left_center_sip_soft
+mouse_right_button,normal,mp_right_center_puff,,,,,,,,,,,,,,,,,,,
+kb_e,normal,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
+kb_escape,delay_on 100,mp_left_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_m,delay_on 100,mp_right_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,,,,
+kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,,,,
+decrement_mode,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_0,tap 250,right_puff_soft,,,,,,,,,,,,,,,,Mute,,,
+kb_left_control,tap 250,right_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_left_shift,tap 250,right_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow,,,
+kb_left_shift,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_8,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_left_gui,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar,,,
+kb_g,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,,,,
+kb_f1,tap 250,right_sip_soft,,,,,,,,,,,,,,,,Screenshot,,,
+kb_left_alt,tap 250,right_sip_soft,,,,,,,,,,,,,,,,,,,

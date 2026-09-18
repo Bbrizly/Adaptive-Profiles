@@ -1,0 +1,29 @@
+Profile Name,,Left joy,,,,,,,,,,,,,,,,comment
+fsx.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,O
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,,,,,,,,,,
+left_joy_left,normal,left,,,,,,,,,,,,,,,,Movement
+left_joy_right,normal,right,,,,,,,,,,,,,,,,
+left_joy_up,normal,up,,,,,,,,,,,,,,,,
+left_joy_down,normal,down,,,,,,,,,,,,,,,,
+kb_f4,normal,mp_triple_puff,,,,,,,,,,,,,,,,Full Accelerate
+kb_f3,normal,mp_center_puff,,,,,,,,,,,,,,,,Throttle (Increase)
+kb_f1,normal,mp_triple_sip,,,,,,,,,,,,,,,,Full Decelerate
+kb_f2,normal,mp_center_sip,,,,,,,,,,,,,,,,Throttle (decrease)
+kb_f5,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,Full flaps down
+kb_f6,normal,mp_left_sip,,,,,,,,,,,,,,,,flaps down (step by step)
+kb_f8,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,Full flaps Up
+kb_f7,normal,mp_left_puff,,,,,,,,,,,,,,,,flaps Up (step by step)
+kb_g,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Gear up/down
+kb_dot,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Brake
+kb_left_control,normal,right_sip_soft,,,,,,,,,,,,,,,,Park Brake
+kb_dot,normal,right_sip_soft,,,,,,,,,,,,,,,,
+kb_left_shift,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Open GPS
+kb_3,normal,mp_right_center_sip,,,,,,,,,,,,,,,,
+kb_p,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Pause
+Y,normal,mp_right_puff,,,,,,,,,,,,,,,,Elevator trim
+B,normal,mp_right_sip,,,,,,,,,,,,,,,,Elevator trim
+start,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,
+kb_escape,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Menu
+kb_y,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,Autopilot

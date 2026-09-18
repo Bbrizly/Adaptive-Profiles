@@ -1,0 +1,109 @@
+Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,,,,
+zzCoDWZMP3.csv,,Normal,,,,,,,,Alternate,,,,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!,,,
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de,,,
+dpad_SW,normal,,,,,,,,,,,,,,,,,,,,
+dpad_W,normal,,,,,,,,,,,,,,,,,Color-Legend :,,,mp_left_sip
+right_joy_left,normal,left,,,,,,,,,,,,,,,,Moving,----------,left,mp_left_puff
+right_joy_right,normal,right,,,,,,,,,,,,,,,,"Weapon(Aim,Fire, Mode,etc)",----------,right,mp_center_sip
+right_joy_up,normal,up,,,,,,,,,,,,,,,,Grenade & Gadget,----------,up,mp_center_puff
+right_joy_down,normal,down,,,,,,,,,,,,,,,,"interact (Enter Vehicle, Spotting, etc...)",----------,down,mp_right_sip
+dpad_N,normal,,,,,,,,,,,,,,,,,Escape/Enter/Stats/Tab to Windows,,,mp_right_puff
+dpad_E,normal,,,,,,,,,,,,,,,,,Function Testing,,,mp_left_center_sip
+,delay_on 500,mp_center_sip,,,,,,,,,,,,,,,,,,,mp_left_center_puff
+left_joy_right,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Strafe right,----------,mp_right_center_puff,mp_right_center_sip
+left_joy_left,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Strafe left,----------,mp_left_center_puff,mp_right_center_puff
+left_joy_up,delayed_latch 250,mp_triple_puff,,,,,,,,,,,,,,,,walk,1',mp_triple_puff,mp_triple_sip
+left_joy_down,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,walking back,----------,mp_left_center_sip,mp_triple_puff
+left_joy_left,normal,usb_1_left,,,,,,,,,,,,,,,,,,,
+left_joy_right,normal,usb_1_right,,,,,,,,,,,,,,,,,,,
+left_joy_down,normal,,,,,,,,,,,,,,,,,,,,
+left_joy_up,force_off,,,,,,,,,,,,,,,,,,,,
+left_joy_up,normal,usb_1_up,,,,,,,,,,,,,,,,,,,
+B,normal,usb_1_down,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off,usb_1_down,,,,,,,,,,,,,,,,,,,
+left_joy_up,force_off,usb_1_down,,,,,,,,,,,,,,,,,,,
+left_joy_up,delay_on 5 16000,mp_left_center_puff_soft,,,,,,,,,,,,,,,,,,,
+left_joy_up,force_off,mp_center_puff_soft,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_center_puff_soft,,,,,,,,,,,,,,,,,,,
+right_trigger,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,,,,
+left_stick,delay_on 500 16000,mp_triple_puff,,,,,,,,,,,,,,,,Sprint (Stay's Activated),"1""",mp_triple_puff,mp_left_sip_soft
+B,normal,mp_triple_sip,,,,,,,,,,,,,,,,Crouch ,----------,mp_triple_sip,mp_left_puff_soft
+A,normal,lip,,,,,,,,,,,,,,,,Jump,(2),lip,mp_center_puff_soft
+left_stick,pulse 50 2,mp_left_center_puff_soft,,,,,,,,,,,,,,,,,,,
+left_trigger,toggle,mp_center_sip,,,,,,,,,,,,,,,,Aim ,----------,mp_center_sip,mp_right_sip_soft
+right_trigger,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire,----------,mp_center_puff,mp_right_puff_soft
+right_trigger,normal,digital_in_2,,,,,,,,,,,,,,,,Fire,,,
+left_joy_up,force_off 230,mp_center_sip,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off 230,mp_center_sip,,,,,,,,,,,,,,,,,,,
+X,delay_off 250,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload ,(3),mp_right_sip_soft,mp_left_center_sip_soft
+dpad_W,delay_on 100,mp_left_puff,,,,,,,,,,,,,,,,Firemode / Inspect,----------,mp_left_puff,mp_right_center_sip_soft
+dpad_S,delay_on 250,right_puff_soft,,,,,,,,,,,,,,,,,,,
+right_stick,tap 200,mp_right_center_sip,,,,,,,,,,,,,,,,Melee,(5),mp_right_center_sip,mp_right_center_puff_soft
+right_stick,delay_on 200 500,mp_center_sip_soft,,,,,,,,,,,,,,,,Finishing,,,
+left_stick,tap 250 5000,mp_center_sip_soft,,,,,,,,,,,,,,,,Steady Aim,(9),mp_center_sip_soft,mp_triple_sip_soft
+X,repeat 17,mp_left_sip,,,,,,,,,,,,,,,,Fast c4,,mp_left_sip_soft,mp_triple_puff_soft
+right_bumper,delay_on 75,mp_right_sip,,,,,,,,,,,,,,,,Throw Grenade,----------,mp_right_sip,lip
+left_bumper,delay_on 100,mp_right_puff,,,,,,,,,,,,,,,,Tactical weapon,----------,mp_right_puff,lip_soft
+dpad_E,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,kill-streak,(4),mp_left_sip,
+Y,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,use shield /drop item,----------,mp_left_center_puff_soft,
+Y,delay_on 250 500,mp_left_center_puff_soft,,,,,,,,,,,,,,,,,,,
+X,tap 250,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Drop item,(7),mp_left_center_sip_soft,
+right_bumper,delay_on 250,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Activate special,"7""",mp_left_center_sip_soft,
+left_bumper,delay_on 250,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Activate special,"7""",mp_left_center_sip_soft,
+X,delay_on 200 100,mp_right_center_sip,,,,,,,,,,,,,,,,interact/enter,"5""",mp_right_center_sip,
+dpad_S,delay_on 100,mp_triple_puff_soft,,,,,,,,,,,,,,,,open inventory/Night Vision,----------,mp_triple_puff_soft,
+dpad_N,tap 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,ping normal,(8),mp_right_center_sip_soft,
+dpad_N,pulse 50 2,mp_center_sip_soft,,,,,,,,,,,,,,,,ping enemy,,,
+dpad_N,normal,lip_soft,,,,,,,,,,,,,,,,Spray/gesture,"9""",mp_center_sip_soft,
+start,pulse 1000 2,right_sip_soft,,,,,,,,,,,,,,,,Stats,----------,right_puff_soft,
+kb_z,tap 250 1,right_puff_soft,,,,,,,,,,,,,,,,voicechat,,,
+increment_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Switch to menu,----------,mp_right_center_puff_soft,
+increment_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Switch to menu,----------,mp_right_center_puff_soft,
+decrement_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Switch to Drive,,,
+increment_mode,delay_on 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Switch to Gameplay,"8""",mp_right_center_sip_soft,
+left_joy_up,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
+left_joy_up,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,,,,
+left_joy_up,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
+left_joy_up,force_off 260,mp_right_sip_soft,,,,,,,,,,,,,,,,,,,
+left_joy_up,force_off 300,mp_triple_sip,,,,,,,,,,,,,,,,walk,,,
+left_joy_down,force_off,right_puff,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off,right_sip,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_triple_puff,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_left_center_sip_soft,,,,,,,,,,,,,,,,,,,
+left_joy_down,force_off 300,mp_triple_sip,,,,,,,,,,,,,,,,walking back,,,
+left_joy_down,force_off,mp_left_center_puff_soft,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,right_puff,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,right_sip,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,,,,
+left_stick,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,,,,
+left_stick,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_triple_puff,,,,,,,,,,,,,,,,,,,
+left_stick,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,,,,,,,,,,,,,,,,,,,,
+left_stick,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_left_center_sip_soft,,,,,,,,,,,,,,,,,,,
+left_stick,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,,,,
+dpad_S,force_off,mp_triple_puff,,,,,,,,,,,,,,,,,,,
+dpad_S,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,,,,
+dpad_S,force_off,mp_left_center_puff,,,,,,,,,,,,,,,,,,,
+dpad_S,force_off,mp_right_center_puff,,,,,,,,,,,,,,,,,,,
+dpad_S,force_off,mp_triple_sip,,,,,,,,,,,,,,,,,,,
+dpad_S,force_off,lip,,,,,,,,,,,,,,,,,,,
+left_trigger,force_off 75,mp_left_sip,,,,,,,,,,,,,,,,Aim kill-streak,,,
+left_trigger,force_off 500 ,mp_triple_puff,,,,,,,,,,,,,,,,Aim Sprint ,,,
+left_trigger,force_off 100,mp_left_puff,,,,,,,,,,,,,,,,Aim Change weapons,,,
+left_trigger,force_off 75,,,,,,,,,,,,,,,,,Aim Throw Gernade,,,
+left_trigger,force_off 100,,,,,,,,,,,,,,,,,Aim Tactical weapon,,,
+left_trigger,force_off 150,mp_right_center_sip,,,,,,,,,,,,,,,,Aim Melee,,,
+left_trigger,force_off 300,mp_left_puff_soft,,,,,,,,,,,,,,,,Aim Menu/Pause,,,
+left_trigger,force_off,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Aim use shield /drop item,,,
+left_trigger,force_off 100,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Aim Switch to menu,,,
+left_trigger,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,Aim Tactical Sprint ,,,
+left_trigger,force_off 100,,,,,,,,,,,,,,,,,Aim open inventory/Night Vision,,,

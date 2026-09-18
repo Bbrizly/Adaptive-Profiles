@@ -1,0 +1,90 @@
+Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,Comments
+BaldursGate3.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,tap 250 100,right_sip,,,,,,,,right_sip,,,,,,,,
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,
+kb_l,delay_on 500,right_puff,,,,,,,,,,,,,,,,Lock Screen
+kb_left_gui,delay_on 500,right_puff,,,,,,,,,,,,,,,,Lock Screen
+kb_left_alt,delay_on 400,mp_right_sip,,,,,,,,,,,,,,,,tab out of program
+kb_tab,delay_on 400,mp_right_sip,,,,,,,,,,,,,,,,tab out of program
+kb_left_control,delay_on 250 ,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Context (Coding)
+kb_space,delay_on 250 ,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Context (Coding)
+decrement_mode,tap 200,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+decrement_mode,tap 200,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+decrement_mode,tap 200,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+kb_h,tap 250 100,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Voice Dictate
+kb_left_gui,tap 250 100,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Voice Dictate
+kb_f5,delay_on 200,mp_right_center_sip_soft,,,,,,,,,,,,,,,,reload website
+decrement_mode,delay_on 200,mp_triple_sip,,,,,,,,,,,,,,,,
+decrement_mode,delay_on 200,mp_triple_sip,,,,,,,,,,,,,,,,
+increment_mode,tap 200,mp_triple_sip,,,,,,,,,,,,,,,,
+increment_mode,tap 200,mp_triple_sip,,,,,,,,,,,,,,,,
+increment_mode,tap 200,mp_triple_sip,,,,,,,,,,,,,,,,
+increment_mode,delay_on 115,mp_center_puff_soft,,,,,,,,,,,,,,,,
+mouse_left,normal,left,,,,,,,,,,,,,,,,
+mouse_right,normal,right,,,,,,,,,,,,,,,,
+mouse_up,normal,up,,,,,,,,,,,,,,,,
+mouse_down,normal,down,,,,,,,,,,,,,,,,
+mouse_wheel_up,normal,mp_left_center_puff,,,,,,,,up,,,,,,,,
+mouse_wheel_down,normal,mp_left_center_sip,,,,,,,,down,,,,,,,,
+kb_t,normal,lip_soft,,,,,,,,,,,,,,,,
+mouse_left_button,normal,lip,,,,,,,,right,,,,,,,,
+mouse_left_button,delayed_latch 1000,mp_center_puff,,,,,,,,lip,,,,,,,,
+mouse_left_button,repeat 14,mp_left_center_puff_soft,,,,,,,,,,,,,,,,rapid left mouse button
+kb_space,normal,mp_right_puff,,,,,,,,mp_right_puff,,,,,,,,
+mouse_middle_button,normal,mp_triple_puff,,,,,,,,mp_center_puff,,,,,,,,
+kb_enter,tap 400 100,mp_right_sip,,,,,,,,mp_right_sip,,,,,,,,enter
+kb_escape,normal,mp_left_puff_soft,,,,,,,,mp_left_puff_soft,,,,,,,,escape
+kb_tab,normal,circle,,,,,,,,mp_left_sip,,,,,,,,
+kb_left_control,tap 250 ,mp_right_center_puff,,,,,,,,mp_left_center_puff,,,,,,,,mark all
+kb_a,tap 250 ,mp_right_center_puff,,,,,,,,mp_left_center_sip,,,,,,,,mark all
+kb_left_control,tap 250 ,mp_left_sip,,,,,,,,mp_center_sip_soft,,,,,,,,copy
+kb_c,tap 250,mp_left_sip,,,,,,,,mp_center_sip_soft,,,,,,,,copy
+mouse_right_button,normal,mp_center_sip,,,,,,,,mp_center_sip,,,,,,,,
+kb_left_control,normal,mp_left_puff,,,,,,,,mp_center_puff_soft,,,,,,,,insert
+kb_v,normal,mp_left_puff,,,,,,,,mp_center_puff_soft,,,,,,,,insert
+kb_v,delay_on 250 ,mp_left_sip,,,,,,,,,,,,,,,,
+kb_left_gui,delay_on 250 ,mp_left_sip,,,,,,,,,,,,,,,,
+kb_left_gui,delay_on 250 ,mp_left_sip_soft,,,,,,,,mp_left_sip_soft,,,,,,,,
+kb_left_gui,tap 250 100,mp_left_sip_soft,,,,,,,,,,,,,,,,Snip & Sketch
+kb_left_shift,tap 250 100,mp_left_sip_soft,,,,,,,,,,,,,,,,Snip & Sketch
+kb_s,tap 250 100,mp_left_sip_soft,,,,,,,,,,,,,,,,Snip & Sketch
+kb_x,tap 250 100,mp_right_center_sip,,,,,,,,,,,,,,,,cut out
+kb_left_control,tap 250 100,mp_right_center_sip,,,,,,,,,,,,,,,,cut out
+kb_0,tap 250 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 250 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_shift,tap 250 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,
+kb_8,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,Taskmngr
+kb_delete,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,
+kb_left_alt,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,
+kb_f1,tap 250 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 250 100,right_sip_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 100 16000,mp_triple_sip_soft,,,,,,,,mp_center_sip,,,,,,,,hold shift
+kb_left_shift,delay_on 100 16000,mp_triple_puff_soft,,,,,,,,mp_center_sip,,,,,,,,hold control
+kb_left_alt,delay_on 250 16000,mp_right_center_sip,,,,,,,,,,,,,,,,
+kb_left_control,tap 250 100,mp_left_center_sip_soft,,,,,,,,,,,,,,,,onscreenkeyboard
+kb_left_gui,tap 250 100,mp_left_center_sip_soft,,,,,,,,,,,,,,,,onscreenkeyboard
+kb_o,tap 250 100,mp_left_center_sip_soft,,,,,,,,,,,,,,,,onscreenkeyboard
+kb_left_gui,delay_on 250 ,mp_left_center_sip_soft,,,,,,,,,,,,,,,,emoji keyboard
+kb_dot,delay_on 250 ,mp_left_center_sip_soft,,,,,,,,,,,,,,,,emoji keyboard
+kb_left_control,delay_on 250 ,mp_right_center_puff,,,,,,,,,,,,,,,,
+kb_v,delay_on 250 ,mp_right_center_puff,,,,,,,,,,,,,,,,
+kb_left_gui,delay_on 250 ,mp_right_center_puff,,,,,,,,,,,,,,,,
+kb_left_alt,delay_on 250 ,mp_right_center_puff,,,,,,,,,,,,,,,,
+kb_delete,delay_on 100,mp_right_puff_soft,,,,,,,,,,,,,,,,
+kb_backspace,delay_on 100,mp_right_sip_soft,,,,,,,,mp_right_puff_soft,,,,,,,,
+kb_left_shift,force_off 115,mp_center_sip_soft,,,,,,,,,,,,,,,,deactivate shift + control
+kb_left_control,force_off 115,mp_center_sip_soft,,,,,,,,,,,,,,,,deactivate shift + control
+kb_left_alt,force_off 115,mp_center_sip_soft,,,,,,,,,,,,,,,,
+kb_left_shift,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,deactivate shift
+kb_left_control,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,deactivate control
+joystick_deflection_maximum,normal,50,,,,,,,,,,,,,,,,
+joystick_deflection_minimum,normal,0,,,,,,,,,,,,,,,,
+mouse_speed,normal,550,,,,,,,,,,,,,,,,
+deflection_multiplier_down,normal,115,,,,,,,,,,,,,,,,
+deflection_multiplier_left,normal,100,,,,,,,,,,,,,,,,
+deflection_multiplier_right,normal,100,,,,,,,,,,,,,,,,
+deflection_multiplier_up,normal,126,,,,,,,,,,,,,,,,

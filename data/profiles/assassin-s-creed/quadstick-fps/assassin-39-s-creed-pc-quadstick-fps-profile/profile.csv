@@ -1,0 +1,25 @@
+Profile Name,,Left joy,,,,,,,,Controller
+ac1.csv,,Normal,,,,,,,,mapping:
+Output or Function,Function,usb,,,,,,,,http://guides.gamepressure.com/assassinscreedpc/guide.asp?ID=4504
+increment_mode,normal,right_sip,,,,,,,,Default Keyboard with 2 button mouse controller setting
+decrement_mode,normal,right_puff,,,,,,,,
+kb_w,greater_than 20,up,,,,,,,,
+kb_a,greater_than 20,left,,,,,,,,
+kb_s,greater_than 20,down,,,,,,,,
+kb_d,greater_than 20,right,,,,,,,,
+mouse_right,normal,,,,,,,,,
+mouse_left,normal,,,,,,,,,
+mouse_up,normal,,,,,,,,,
+mouse_down,normal,,,,,,,,,
+kb_q,normal,mp_left_sip,,,,,,,,
+kb_f,normal,mp_left_puff,,,,,,,,
+kb_c,normal,mp_left_center_sip,,,,,,,,
+mouse_right_button,toggle,mp_right_puff,,,,,,,,
+kb_space,normal,lip,,,,,,,,
+kb_left_shift,normal,mp_center_puff,,,,,,,,
+mouse_left_button,normal,mp_center_sip,,,,,,,,
+kb_e,normal,mp_right_center_puff,,,,,,,,
+kb_escape,normal,mp_right_sip_soft,,,,,,,,
+kb_left_alt,normal,mp_center_sip_soft,,,,,,,,
+kb_f4,normal,mp_center_sip_soft,,,,,,,,
+kb_tab,normal,mp_left_sip_soft,,,,,,,,

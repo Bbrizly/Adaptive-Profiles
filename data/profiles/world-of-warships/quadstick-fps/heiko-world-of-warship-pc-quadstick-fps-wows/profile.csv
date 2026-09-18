@@ -1,0 +1,32 @@
+Profile Name,,Combat,,,,,,,,Comments
+wows.csv,,,,,,,,,,
+Output or Function,Function,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,
+decrement_mode,normal,right_puff,,,,,,,, 
+kb_w,normal,up,,,,,,,,W
+kb_a,normal,usb_1_left,,,,,,,,A
+kb_s,normal,usb_1_down,,,,,,,,S
+kb_d,normal,usb_1_right,,,,,,,,D
+mouse_right,normal,right,,,,,,,,Aim
+mouse_left,normal,left,,,,,,,,Aim
+mouse_up,normal,up,,,,,,,,Aim
+mouse_down,normal,down,,,,,,,,Aim
+mouse_left_button,normal,mp_center_puff,,,,,,,,Shoot
+kb_left_shift,toggle,mp_center_sip,,,,,,,,Binoculars & 3rd person view
+kb_z,normal,mp_right_puff,,,,,,,,Follow Recent Shot
+kb_c,normal,mp_right_sip,,,,,,,,Follow next Shell / Torpedo
+kb_q,normal,mp_right_center_puff,,,,,,,,Steer Full Left
+kb_e,normal,mp_right_center_sip,,,,,,,,Steer Full Right
+kb_1,normal,mp_left_center_sip,,,,,,,,HE/SAP Shells
+kb_2,normal,mp_left_center_puff,,,,,,,,AP Shells
+kb_3,normal,mp_left_puff,,,,,,,,Torpedos
+kb_left_control,normal,lip,,,,,,,,Armament locked on bearing
+kb_x,normal,lip,,,,,,,,
+kb_left_shift,normal,,,,,,,,,Armament locked on sector
+kb_x,normal,,,,,,,,,
+kb_x,normal,,,,,,,,,Unlock
+kb_m,normal,mp_triple_puff,,,,,,,,Map
+kb_p,normal,mp_triple_sip,,,,,,,,Secondary & AA guns on/off
+kb_left_control,normal,mp_left_sip,,,,,,,,Secondary & AA guns priority target
+,,,,,,,,,,
+,,,,,,,,,,ccccczzz

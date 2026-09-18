@@ -1,0 +1,70 @@
+Profile Name,,Left joy,,,,,,,,,,,,,,,,comment
+fs2024.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,O
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+left_joy_left,normal,left,,,,,,,,,,,,,,,,Movement
+left_joy_right,normal,right,,,,,,,,,,,,,,,,
+left_joy_up,normal,up,,,,,,,,,,,,,,,,
+left_joy_down,normal,down,,,,,,,,,,,,,,,,
+right_joy_left,normal,usb_1_left,,,,,,,,,,,,,,,,
+right_joy_right,normal,usb_1_right,,,,,,,,,,,,,,,,
+kb_f4,normal,mp_triple_puff,,,,,,,,,,,,,,,,Full Accelerate
+kb_f3,normal,mp_center_puff,,,,,,,,,,,,,,,,Throttle (Increase)
+kb_f1,tap 200,mp_triple_sip,,,,,,,,,,,,,,,,Full Decelerate
+kb_f2,normal,mp_center_sip,,,,,,,,,,,,,,,,Throttle (decrease)
+kb_f1,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Throttle idle
+kb_left_shift,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Throttle idle
+kb_left_control,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Throttle idle
+kb_f12,delay_on 200,mp_triple_sip,,,,,,,,,,,,,,,,
+kb_f5,delay_on 200,mp_left_puff,,,,,,,,,,,,,,,,Full flaps down
+kb_f6,tap 200,mp_left_puff,,,,,,,,,,,,,,,,flaps down (step by step)
+kb_f8,delay_on 200,mp_left_sip,,,,,,,,,,,,,,,,Full flaps Up
+kb_f7,tap 200,mp_left_sip,,,,,,,,,,,,,,,,flaps Up (step by step)
+kb_left_control,delay_on 200,mp_right_puff,,,,,,,,,,,,,,,,Extend Spoilers
+kb_m,delay_on 200,mp_right_puff,,,,,,,,,,,,,,,,Extend Spoilers
+kb_m,tap 200,mp_right_puff,,,,,,,,,,,,,,,,increment spoilers
+kb_n,tap 200,mp_right_sip,,,,,,,,,,,,,,,,decrement spoilers
+kb_n,delay_on 200,mp_right_sip,,,,,,,,,,,,,,,,Retract Spoilers
+kb_left_control,delay_on 200,mp_right_sip,,,,,,,,,,,,,,,,Retract Spoilers
+kb_space,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Brake
+kb_left_control,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Park Brake
+kb_space,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+kb_i,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Elevator trim
+kb_k,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Elevator trim
+kb_slash,tap 250,mp_right_sip_soft,,,,,,,,,,,,,,,,Gear up/down
+kb_left_control,tap 250,mp_right_puff_soft,,,,,,,,,,,,,,,,Autopilot
+kb_1,tap 250,mp_right_puff_soft,,,,,,,,,,,,,,,,Autopilot
+kb_x,tap 250,mp_left_sip_soft,,,,,,,,,,,,,,,,
+kb_z,tap 250,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+kb_enter,normal,lip,,,,,,,,,,,,,,,,
+kb_pause,delay_on 250,mp_left_puff_soft,,,,,,,,,,,,,,,,Pause
+kb_escape,tap 250,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu
+increment_mode,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,
+increment_mode,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,
+increment_mode,normal,mp_left_center_puff,,,,,,,,,,,,,,,,views
+decrement_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Mouse
+increment_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Drone
+increment_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Drone
+increment_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Drone
+increment_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Drone
+increment_mode,tap 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Strafe
+increment_mode,tap 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Strafe
+increment_mode,tap 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Strafe
+decrement_mode,delay_on 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,ego
+decrement_mode,delay_on 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,ego
+kb_0,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_shift,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
+kb_8,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_gui,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,
+kb_f1,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
+kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+joystick_deflection_maximum,normal,60,,,,,,,,,,,,,,,,
+deflection_multiplier_down,normal,120,,,,,,,,,,,,,,,,
+deflection_multiplier_left,normal,108,,,,,,,,,,,,,,,,

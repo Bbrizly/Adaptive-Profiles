@@ -1,0 +1,44 @@
+Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,Comments
+aLOL.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,tap 500 50,right_sip_soft,,,,,,,,,,,,,,,,
+decrement_mode,delay_on 500,right_sip_soft,,,,,,,,,,,,,,,,
+kb_grave_accent_and_tilde,force_off,right_puff,,,,,,,,,,,,,,,,
+kb_keypad_0,delay_on 200,right_puff,,,,,,,,,,,,,,,,
+kb_left_arrow,greater_than 5,W,,,,,,,,,,,,,,,,Ability 1
+kb_up_arrow,greater_than 5,N,,,,,,,,up,,,,,,,,Ability 2
+kb_right_arrow,greater_than 5,E,,,,,,,,down,,,,,,,,Ability 3
+kb_down_arrow,greater_than 5,S,,,,,,,,left,,,,,,,,Ability 4
+kb_right_alt,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,Switch screens
+kb_tab,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+mouse_right_button,normal,mp_center_sip,,,,,,,,,,,,,,,,Attack
+kb_left_shift,pulse 50 2,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Attack-move
+mouse_right_button,pulse 50 2,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Attack-move
+kb_opening_bracket,normal,mp_right_sip,,,,,,,,right,,,,,,,,Left skill
+kb_closing_bracket,normal,mp_right_puff,,,,,,,,lip,,,,,,,,Right skill
+kb_apostrophe,normal,mp_left_sip,,,,,,,,mp_right_puff,,,,,,,,Ability 1
+kb_semicolon,normal,mp_left_puff,,,,,,,,mp_right_sip,,,,,,,,Ability 2
+kb_slash,normal,mp_center_sip,,,,,,,,mp_left_puff_soft,,,,,,,,Ability 3
+kb_dot,normal,mp_center_puff,,,,,,,,mp_left_sip,,,,,,,,Ability 4
+kb_semicolon,tap 300 50,mp_left_puff_soft,,,,,,,,,,,,,,,,
+kb_slash,tap 300 50,mp_center_sip_soft,,,,,,,,,,,,,,,,
+kb_b,delay_on 300 50,mp_center_sip_soft,,,,,,,,,,,,,,,,on my way
+kb_0,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Teleport
+kb_1,normal,mp_right_center_sip,,,,,,,,,,,,,,,,
+kb_2,normal,mp_left_right_sip,,,,,,,,,,,,,,,,
+kb_6,delay_on 200 50,mp_left_right_sip,,,,,,,,,,,,,,,,
+kb_9,tap 400 50,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Laugh
+kb_k,delay_on 400 50,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Dancing
+kb_t,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,emote wheel
+kb_minus,tap 300 50,mp_right_center_sip_soft,,,,,,,,,,,,,,,,open item shop
+kb_left_control,delay_on 300 50,mp_right_center_sip_soft,,,,,,,,,,,,,,,,Mastery emote
+kb_5,delay_on 300 50,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
+kb_p,normal,mp_triple_puff,,,,,,,,,,,,,,,,Place a ward
+kb_delete,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,Scoreboard
+mouse_left_button,normal,mp_triple_sip,,,,,,,,,,,,,,,,Left mouse button
+,normal,lip,,,,,,,,,,,,,,,,Ability 1+3
+kb_slash,normal,lip,,,,,,,,,,,,,,,,
+kb_f1,normal,mp_left_right_puff,,,,,,,,,,,,,,,,select self
+kb_grave_accent_and_tilde,delayed_latch 50,right_sip,,,,,,,,,,,,,,,,Voice chat
+kb_left_control,normal,mp_right_sip_soft,,,,,,,,Click at gaze point,,,,,,,,Click at gaze point
+kb_f7,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,

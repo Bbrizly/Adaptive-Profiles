@@ -1,0 +1,78 @@
+Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,
+wildlands.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+dpad_SW,normal,,,,,,,,,,,,,,,,,
+dpad_S,normal,,,,,,,,,,,,,,,,,Color-Legend :
+mouse_left,normal,left,,,,,,,,,,,,,,,,Moving
+mouse_right,normal,right,,,,,,,,,,,,,,,,"Weapon(Aim,Fire, Mode,etc)"
+mouse_up,normal,up,,,,,,,,,,,,,,,,Grenade & Gadget
+mouse_down,normal,down,,,,,,,,,,,,,,,,"interact (Enter Vehicle, Spotting, etc...)"
+dpad_N,normal,,,,,,,,,,,,,,,,,Escape/Enter/Stats/Tab to Windows
+dpad_E,normal,,,,,,,,,,,,,,,,,Function Testing
+,delay_on 500,mp_center_sip,,,,,,,,,,,,,,,,
+kb_d,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Strafe right
+kb_a,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Strafe left
+kb_w,delayed_latch 250,mp_triple_puff,,,,,,,,,,,,,,,,walk
+kb_s,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,walking back
+kb_left_shift,delay_on 600 16000,mp_triple_puff,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_control,tap 250,mp_triple_sip,,,,,,,,,,,,,,,,Crouc/h 
+kb_c,delay_on 250,mp_triple_sip,,,,,,,,,,,,,,,,prone
+kb_space,normal,lip,,,,,,,,,,,,,,,,Jump
+mouse_right_button,normal,mp_center_sip,,,,,,,,,,,,,,,,Aim
+kb_w,force_off 215,mp_center_sip,,,,,,,,,,,,,,,,
+kb_s,force_off 215,mp_center_sip,,,,,,,,,,,,,,,,
+mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire
+kb_r,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload 
+kb_1,tap 250,mp_left_puff,,,,,,,,,,,,,,,,Change weapons 1
+kb_2,tap 250,mp_left_sip,,,,,,,,,,,,,,,,Change weapons 2
+kb_i,delay_on 250,mp_left_puff,,,,,,,,,,,,,,,,loadout
+kb_q,tap 250,mp_center_sip_soft,,,,,,,,,,,,,,,,sync shot
+right_stick,tap 250,mp_right_center_sip,,,,,,,,,,,,,,,,Melee
+kb_g,normal,mp_right_sip,,,,,,,,,,,,,,,,Throw Gernade
+mouse_middle_button,normal,mp_right_puff,,,,,,,,,,,,,,,,Swap shoulder
+kb_left_alt,delay_on 250,mp_left_sip,,,,,,,,,,,,,,,,aimmode
+dpad_N,tap 250,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Drone/switch muzzle
+dpad_S,delay_on 250,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Binocolar/swap underbarrel
+dpad_E,tap 250,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Select item/switch trigger
+dpad_W,delay_on 250,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Nightvision/Switch Scope
+kb_e,delay_on 250,mp_right_center_sip,,,,,,,,,,,,,,,,interact/enter
+decrement_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,mouse
+increment_mode,tap 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,drive
+increment_mode,delay_on 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,plane
+increment_mode,delay_on 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,plane
+decrement_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Heli
+decrement_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Heli
+kb_m,delay_on 100,mp_right_puff_soft,,,,,,,,,,,,,,,,Map
+decrement_mode,delay_on 100,mp_right_puff_soft,,,,,,,,,,,,,,,,mouse
+kb_escape,delay_on 100,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu/Pause
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
+kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+kb_w,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,walk
+kb_w,force_off,right_puff,,,,,,,,,,,,,,,,walk
+kb_w,force_off,right_sip,,,,,,,,,,,,,,,,walk
+kb_w,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,walk
+kb_w,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,walk
+kb_s,force_off,mp_triple_puff,,,,,,,,,,,,,,,,walking back
+kb_s,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,walking back
+kb_s,force_off,right_puff,,,,,,,,,,,,,,,,walking back
+kb_s,force_off,right_sip,,,,,,,,,,,,,,,,walking back
+kb_left_shift,force_off,right_puff,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,right_sip,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,mp_triple_puff,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,mp_triple_sip,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+kb_left_shift,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,Sprint (Stay's Activated)
+mouse_right_button,force_off,right_puff,,,,,,,,,,,,,,,,Aim
+mouse_right_button,force_off,right_sip,,,,,,,,,,,,,,,,Aim
+mouse_right_button,force_off,mp_left_sip_soft,,,,,,,,,,,,,,,,Aim
+mouse_right_button,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,Aim
+mouse_right_button,force_off,mp_left_puff,,,,,,,,,,,,,,,,Aim
+mouse_right_button,force_off,mp_right_puff,,,,,,,,,,,,,,,,Aim
+mouse_right_button,force_off,mp_right_sip,,,,,,,,,,,,,,,,Aim
+mouse_right_button,force_off,,,,,,,,,,,,,,,,,Aim

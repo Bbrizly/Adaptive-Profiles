@@ -1,0 +1,66 @@
+Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,
+ZeldaBotW.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+dpad_SW,normal,,,,,,,,,,,,,,,,,
+dpad_S,normal,,,,,,,,,,,,,,,,,Color-Legend :
+right_joy_left,normal,left,,,,,,,,,,,,,,,,Moving
+right_joy_right,normal,right,,,,,,,,,,,,,,,,"Weapon(Aim,Fire, Mode,etc)"
+right_joy_up,normal,up,,,,,,,,,,,,,,,,Grenade & Gadget
+right_joy_down,normal,down,,,,,,,,,,,,,,,,"interact (Enter Vehicle, Spotting, etc...)"
+dpad_N,normal,,,,,,,,,,,,,,,,,Escape/Enter/Stats/Tab to Windows
+dpad_E,normal,,,,,,,,,,,,,,,,,Function Testing
+,delay_on 500,mp_center_sip,,,,,,,,,,,,,,,,
+left_joy_right,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Strafe right
+left_joy_left,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Strafe left
+left_joy_up,delayed_latch 250,mp_triple_puff,,,,,,,,,,,,,,,,walk
+B,delay_on 500 16000,mp_triple_puff,,,,,,,,,,,,,,,,Sprint
+left_joy_down,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,walking back
+B,tap 250,mp_triple_sip,,,,,,,,,,,,,,,,Crouch 
+left_stick,delay_on 250,mp_triple_sip,,,,,,,,,,,,,,,,Lay down
+X,normal,lip,,,,,,,,,,,,,,,,Jump
+left_bumper,normal,mp_center_sip,,,,,,,,,,,,,,,,Aim (Hold to Crouch) 
+A,normal,mp_center_sip,,,,,,,,,,,,,,,,
+Y,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire
+right_stick,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload 
+dpad_E,normal,mp_left_puff,,,,,,,,,,,,,,,,Change weapons
+dpad_W,normal,mp_left_sip,,,,,,,,,,,,,,,,Change weapons
+right_trigger,toggle,mp_left_center_puff_soft,,,,,,,,,,,,,,,,
+left_bumper,tap 250,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+dpad_S,normal,mp_left_sip_soft,,,,,,,,,,,,,,,,Horse
+right_bumper,normal,mp_right_sip,,,,,,,,,,,,,,,,
+A,normal,mp_right_center_sip,,,,,,,,,,,,,,,,interact/enter
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
+kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,
+back,delay_on 250,mp_right_puff_soft,,,,,,,,,,,,,,,,map
+start,delay_on 250,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu/Pause
+decrement_mode,tap 200,mp_right_center_puff_soft,,,,,,,,,,,,,,,,Switch to menu
+increment_mode,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+left_joy_up,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_joy_up,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
+left_joy_up,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_joy_up,force_off 900,mp_center_puff,,,,,,,,,,,,,,,,
+left_joy_up,force_off 260,mp_right_sip_soft,,,,,,,,,,,,,,,,
+left_joy_up,force_off 300,mp_triple_sip,,,,,,,,,,,,,,,,walk
+left_joy_down,force_off,right_puff,,,,,,,,,,,,,,,,
+left_joy_down,force_off,right_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
+left_joy_down,force_off 900,mp_center_puff,,,,,,,,,,,,,,,,
+left_joy_down,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
+left_joy_down,force_off,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+left_joy_down,force_off 300,mp_triple_sip,,,,,,,,,,,,,,,,walking back
+B,force_off,right_puff,,,,,,,,,,,,,,,,
+B,force_off,right_sip,,,,,,,,,,,,,,,,
+B,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,
+B,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
+B,force_off 900,mp_center_puff,,,,,,,,,,,,,,,,
+B,force_off 210,mp_right_center_sip,,,,,,,,,,,,,,,,
+B,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
+B,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,
+B,force_off,,,,,,,,,,,,,,,,,
+B,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
+B,force_off,mp_left_center_sip_soft,,,,,,,,,,,,,,,,
+B,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,
