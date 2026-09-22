@@ -1,5 +1,16 @@
 # Adaptive Profiles
 
+## Compatibility repository
+
+The active application is moving to `Bbrizly/Adaptive-Profiles-App`, and the canonical public registry is `Bbrizly/Adaptive-Profiles-Registry`. This repository remains public and is retained for compatibility with already-shipped QuadStick Config Manager releases.
+
+Older clients depend on these exact raw paths, which must remain available:
+
+- `generated/index.json`
+- `data/profiles/**`
+
+New registry changes are mirrored here as derived compatibility artifacts. Do not add private application source or remove these paths.
+
 Adaptive Profiles is a public, Git-backed registry for adaptive gaming control profiles.
 
 It turns scattered spreadsheets and forum links into three clean, reusable layers:
