@@ -1,29 +1,226 @@
-Profile Name,,Left joy,,,,,,,,
-halflife.csv,,Normal,,,,,,,,
-Output or Function,Function,usb,,,,,,,,
+Profile Name,,MoveStrafe
+halflife.csv,,Normal
+Output or Function,Function,usb
 increment_mode,normal,right_sip,,,,,,,,"Set Half Life options for ""Fast Weapon Selection"""
-decrement_mode,normal,right_puff,,,,,,,,
-kb_w,greater_than 20,up,,,,,,,,
-kb_a,greater_than 20,left,,,,,,,,
-kb_s,greater_than 20,down,,,,,,,,
-kb_d,greater_than 20,right,,,,,,,,
-mouse_right,normal,,,,,,,,,
-mouse_left,normal,,,,,,,,,
-mouse_up,normal,,,,,,,,,
-mouse_down,normal,,,,,,,,,
-mouse_left_button,normal,mp_center_puff,,,,,,,,
-mouse_right_button,normal,mp_center_sip,,,,,,,,
-kb_space,normal,lip,,,,,,,,
-kb_e,normal,mp_right_puff,,,,,,,,
-kb_left_control,toggle,mp_left_puff,,,,,,,,
-kb_f6,normal,mp_center_sip_soft,,,,,,,,
-kb_f7,normal,mp_right_sip_soft,,,,,,,,
-kb_f12,normal,mp_right_puff_soft,,,,,,,,
-kb_pause,normal,mp_left_sip_soft,,,,,,,,
-kb_f,normal,mp_right_sip,,,,,,,,
-kb_z,toggle,mp_left_center_puff,,,,,,,,
-kb_g,normal,mp_right_center_puff,,,,,,,,
-kb_left_shift,greater_than 60,up,,,,,,,,
-kb_q,normal,mp_left_center_sip,,,,,,,,
-kb_left_shift,normal,,,,,,,,,
-kb_tab,normal,,,,,,,,,
+decrement_mode,normal,right_puff
+kb_w,greater_than 20,up
+kb_a,greater_than 20,left
+kb_s,greater_than 20,down
+kb_d,greater_than 20,right
+mouse_right,normal
+mouse_left,normal
+mouse_up,normal
+mouse_down,normal
+mouse_left_button,normal,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+kb_space,normal,lip
+kb_e,normal,mp_right_puff
+kb_left_control,toggle,mp_left_puff
+kb_f6,normal,mp_center_sip_soft
+kb_f7,normal,mp_right_sip_soft
+kb_f12,normal,mp_right_puff_soft
+kb_pause,normal,mp_left_sip_soft
+kb_f,normal,mp_right_sip
+kb_z,toggle,mp_left_center_puff
+kb_g,normal,mp_right_center_puff
+kb_left_shift,greater_than 60,up
+kb_q,normal,mp_left_center_sip
+kb_left_shift,normal
+kb_tab,normal
+
+Profile Name,,MoveSteer,,,,,,,,Mixed joy
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+kb_w,greater_than 20,up
+kb_a,greater_than 20
+kb_s,greater_than 20,down
+kb_d,greater_than 20
+mouse_right,normal,right
+mouse_left,normal,left
+mouse_up,normal
+mouse_down,normal
+mouse_left_button,normal,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+kb_space,normal,lip
+kb_e,normal,mp_right_puff
+kb_left_control,toggle,mp_left_puff
+kb_f6,normal,mp_center_sip_soft
+kb_f7,normal,mp_right_sip_soft
+kb_f12,normal,mp_right_puff_soft
+kb_pause,normal,mp_left_sip_soft
+kb_f,normal,mp_right_sip
+kb_z,toggle,mp_left_center_puff
+kb_g,normal,mp_right_center_puff
+kb_left_shift,greater_than 60,up
+kb_q,normal,mp_left_center_sip
+kb_left_shift,normal
+kb_tab,normal
+
+Profile Name,,View,,,,,,,,Mixed joy
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_w,normal,mp_triple_puff
+kb_a,normal,mp_triple_sip
+kb_s,normal
+kb_d,normal
+mouse_right,normal,right
+mouse_left,normal,left
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_left_button,normal,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+kb_space,normal,lip
+kb_e,normal,mp_right_puff
+kb_left_control,toggle,mp_left_puff
+kb_f6,normal,mp_center_sip_soft
+kb_f7,normal,mp_right_sip_soft
+kb_f12,normal,mp_right_puff_soft
+kb_pause,normal,mp_left_sip_soft
+kb_f,normal,mp_right_sip
+kb_z,toggle,mp_left_center_puff
+kb_g,normal,mp_right_center_puff
+kb_left_shift,normal,mp_left_sip
+kb_q,normal,mp_left_center_sip
+kb_left_shift,normal
+kb_tab,normal
+joystick_dead_zone_shape,1,1
+
+Profile Name,,Weapon,,,,,,,,Mixed joy
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_1,normal,W
+kb_2,normal,NW
+kb_3,normal,N
+kb_4,normal,NE
+kb_5,normal,E
+kb_6,normal,SE
+mouse_left_button,normal,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+kb_space,normal,lip
+kb_e,normal,mp_right_puff
+kb_left_control,toggle,mp_left_puff
+kb_f6,normal,mp_center_sip_soft
+kb_f7,normal,mp_right_sip_soft
+kb_f12,normal,mp_right_puff_soft
+kb_pause,normal,mp_left_sip_soft
+kb_f,normal,mp_right_sip
+kb_z,toggle,mp_left_center_puff
+kb_g,normal,mp_right_center_puff
+kb_left_shift,normal,mp_left_sip
+kb_q,normal,mp_left_center_sip
+decrement_mode,normal,mp_center_sip
+decrement_mode,normal,mp_center_puff
+
+Profile Name,,Mouse,,,,,,,,Pan Mode
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+joystick_dead_zone_shape,normal,1
+
+Profile Name,,Mouse Scroll,,,,,,,,Pan Mode
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+mouse_wheel_up,normal,up
+mouse_wheel_down,normal,down
+mouse_pan_left,normal,left
+mouse_pan_right,normal,right
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+
+Profile Name,,Drive,,,,,,,,Mixed joy
+halflife.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,"Set Half Life options for ""Fast Weapon Selection"""
+decrement_mode,normal,right_puff
+kb_w,duty 60,up
+kb_a,duty 60,left
+kb_s,duty 60,down
+kb_d,duty 60,right
+mouse_right,normal
+mouse_left,normal
+mouse_up,normal
+mouse_down,normal
+mouse_left_button,normal,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+kb_space,normal,lip
+kb_e,normal,mp_right_puff
+kb_left_control,toggle,mp_left_puff
+kb_f6,normal,mp_center_sip_soft
+kb_f7,normal,mp_right_sip_soft
+kb_f12,normal,mp_right_puff_soft
+kb_pause,normal,mp_left_sip_soft
+kb_f,normal,mp_right_sip
+kb_z,toggle,mp_left_center_puff
+kb_g,normal,mp_right_center_puff
+kb_left_shift,normal,mp_left_sip
+kb_q,normal,mp_left_center_sip
+kb_left_shift,normal
+kb_tab,normal
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,1,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2
+joystick_dead_zone_shape,0

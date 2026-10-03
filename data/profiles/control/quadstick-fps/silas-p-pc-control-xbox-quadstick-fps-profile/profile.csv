@@ -1,8 +1,8 @@
-Profile Name,,Left joy,,,,,,,,,,,,,,,,comment,,,
-Control.csv,,Normal,,,,,,,,Alternate,,,,,,,,,,,
-XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!,,,
-decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de,,,
+Profile Name,,Gameplay,,,,,,,,,,,,,,,,comment
+Control.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
 dpad_SW,normal,,,,,,,,,,,,,,,,,,,,mp_left_sip
 dpad_S,normal,,,,,,,,,,,,,,,,,Color-Legend :,,,mp_left_puff
 mouse_left,normal,left,,,,,,,,,,,,,,,,Moving,,,mp_center_sip
@@ -20,68 +20,166 @@ kb_left_shift,delay_on 500 16000,mp_triple_puff,,,,,,,,,,,,,,,,Sprint (Stay's Ac
 kb_c,tap 250 100,mp_triple_sip,,,,,,,,,,,,,,,,Crouch ,,,mp_center_sip_soft
 ,delay_on 250 ,mp_triple_sip,,,,,,,,,,,,,,,,Lay down,,,mp_center_puff_soft
 kb_space,tab 200,lip,,,,,,,,,,,,,,,,Jump,,,mp_right_sip_soft
-kb_left_control,delay_on 200 ,lip,,,,,,,,,,,,,,,,,,,
-kb_space,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,, ,,,
+kb_left_control,delay_on 200 ,lip
+kb_space,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,, 
 mouse_right_button,normal,mp_center_sip,,,,,,,,,,,,,,,,Aim (Hold to Crouch) ,,,mp_right_puff_soft
 mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire,,,mp_left_center_sip_soft
 kb_left_control,normal,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Fire mode,,,mp_left_center_puff_soft
 kb_r,tap 250,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload ,,,mp_right_center_sip_soft
 kb_f,tap 250,mp_left_puff,,,,,,,,,,,,,,,,Change weapons,,,mp_right_center_puff_soft
 kb_v,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,Melee,,,mp_triple_sip_soft
-kb_q,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,,,,
+kb_q,normal,mp_center_sip_soft
 kb_e,tap 250,mp_right_center_sip,,,,,,,,,,,,,,,,Throw Gernade,,,mp_triple_puff_soft
 ,normal,mp_left_sip,,,,,,,,,,,,,,,,throw,,,lip
 kb_g,tap 250,mp_left_sip_soft,,,,,,,,,,,,,,,,,,,lip_soft
-kb_f,delay_on 250 500,mp_right_center_sip,,,,,,,,,,,,,,,,interact/enter,,,
-kb_f,delay_off 4000,mp_right_center_sip_soft,,,,,,,,,,,,,,,,,,,
-kb_escape,delay_on 250 ,mp_left_sip_soft,,,,,,,,,,,,,,,,Menu/Pause,,,
-kb_tab,delay_on 250 ,mp_right_sip_soft,,,,,,,,,,,,,,,,,,,
-kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows,,,
-kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,,,,
-decrement_mode,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,,,,
-kb_0,tap 250,right_puff_soft,,,,,,,,,,,,,,,,Mute,,,
-kb_left_control,tap 250,right_puff_soft,,,,,,,,,,,,,,,,,,,
-kb_left_shift,tap 250,right_puff_soft,,,,,,,,,,,,,,,,,,,
-kb_left_control,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow,,,
-kb_left_shift,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,,,,
-kb_8,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,,,,
-kb_left_gui,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar,,,
-kb_g,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,,,,
-kb_f1,tap 250,right_sip_soft,,,,,,,,,,,,,,,,Screenshot,,,
-kb_left_alt,tap 250,right_sip_soft,,,,,,,,,,,,,,,,,,,
-kb_w,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
-kb_w,force_off,right_puff,,,,,,,,,,,,,,,,,,,
-kb_w,force_off,right_sip,,,,,,,,,,,,,,,,,,,
-kb_w,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,,,,
-kb_w,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,,,,
-kb_w,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
-kb_w,force_off 260,mp_triple_sip,,,,,,,,,,,,,,,,,,,
-kb_w,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,,,,
-kb_s,force_off,right_puff,,,,,,,,,,,,,,,,,,,
-kb_s,force_off,right_sip,,,,,,,,,,,,,,,,,,,
-kb_s,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,,,,
-kb_s,force_off,mp_triple_puff,,,,,,,,,,,,,,,,,,,
-kb_s,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,,,,
-kb_s,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,right_puff,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,right_sip,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_left_sip_soft,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_left_puff,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_left_center_puff,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_puff,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_sip,,,,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,right_puff,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,right_sip,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_triple_puff,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_triple_puff,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_right_center_puff_soft,,,,,,,,,,,,,,,,,,,
+kb_f,delay_on 250 500,mp_right_center_sip,,,,,,,,,,,,,,,,interact/enter
+kb_f,delay_off 4000,mp_right_center_sip_soft
+kb_escape,delay_on 250 ,mp_left_sip_soft,,,,,,,,,,,,,,,,Menu/Pause
+kb_tab,delay_on 250 ,mp_right_sip_soft
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
+kb_tab,delay_on 500,right_puff
+decrement_mode,normal,mp_right_center_puff_soft
+kb_0,tap 250,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 250,right_puff_soft
+kb_left_shift,tap 250,right_puff_soft
+kb_left_control,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 250 ,right_puff_soft
+kb_8,delay_on 250 ,right_puff_soft
+kb_left_gui,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 250 ,right_sip_soft
+kb_f1,tap 250,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 250,right_sip_soft
+kb_w,force_off 260,mp_right_center_sip
+kb_w,force_off,right_puff
+kb_w,force_off,right_sip
+kb_w,force_off,mp_left_center_sip
+kb_w,force_off 700,mp_center_puff
+kb_w,force_off 260,mp_right_center_sip
+kb_w,force_off 260,mp_triple_sip
+kb_w,force_off,mp_triple_sip_soft
+kb_s,force_off,right_puff
+kb_s,force_off,right_sip
+kb_s,force_off,mp_right_sip_soft
+kb_s,force_off,mp_triple_puff
+kb_s,force_off 700,mp_center_puff
+kb_s,force_off 260,mp_right_center_sip
+mouse_right_button,force_off,right_puff
+mouse_right_button,force_off,right_sip
+mouse_right_button,force_off,mp_left_sip_soft
+mouse_right_button,force_off,mp_right_sip_soft
+mouse_right_button,force_off,mp_left_puff
+mouse_right_button,force_off,mp_left_center_puff
+mouse_right_button,force_off,mp_right_center_sip
+mouse_right_button,force_off,mp_right_puff
+mouse_right_button,force_off,mp_right_sip
+mouse_right_button,force_off
+kb_left_shift,force_off,right_puff
+kb_left_shift,force_off,right_sip
+kb_left_shift,force_off,mp_right_sip_soft
+kb_left_shift,force_off,mp_triple_puff_soft
+kb_left_shift,force_off,mp_left_center_sip
+kb_left_shift,force_off 700,mp_center_puff
+kb_left_shift,force_off 260,mp_right_center_sip
+kb_left_shift,force_off,mp_triple_puff
+kb_left_shift,force_off 900,mp_left_sip
+kb_left_shift,force_off,mp_triple_puff
+kb_left_shift,force_off 260,mp_right_sip
+kb_left_shift,force_off,mp_right_center_puff_soft
+
+Profile Name,,Copy of Copy of Copy of Arrows,,,,,,,,Pan Mode,,,,,,,,Comments
+2prog.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip,,,,,,,,Basic mouse only configuration for PC users
+decrement_mode,tap,right_puff,,,,,,,,right_puff
+kb_left_alt,delay_on 500,right_puff
+kb_tab,delay_on 500,right_puff
+kb_up_arrow,greater_than 20,up
+kb_left_arrow,greater_than 20,left
+kb_down_arrow,greater_than 20,down
+kb_right_arrow,greater_than 20,right
+kb_left_shift,greater_than 99,up
+kb_left_shift,greater_than 99,left
+kb_left_shift,greater_than 99,down
+kb_left_shift,greater_than 99,right
+kb_space,normal,mp_center_puff
+kb_y,normal,mp_center_sip
+kb_escape,normal,mp_left_puff_soft
+mouse_left_button,repeat,mp_right_center_puff,,,,,,,,lip
+kb_0,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 300 100,right_puff_soft
+kb_left_shift,tap 300 100,right_puff_soft
+kb_left_control,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 300,right_puff_soft
+kb_8,delay_on 300,right_puff_soft
+kb_left_gui,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 300,right_sip_soft
+kb_f1,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 300 100,right_sip_soft
+
+Profile Name,,Mouse,,,,,,,,Pan Mode,,,,,,,,Comments
+default.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,tap 250,right_sip,,,,,,,,right_sip
+decrement_mode,tap,right_puff,,,,,,,,right_puff
+kb_left_alt,delay_on 500,right_puff
+kb_tab,delay_on 500,right_puff
+kb_left_alt,delay_on 400,mp_right_sip
+kb_tab,delay_on 400,mp_right_sip
+decrement_mode,tap 250,mp_triple_sip
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal,mp_left_center_puff,,,,,,,,up
+mouse_wheel_down,normal,mp_left_center_sip,,,,,,,,down
+mouse_pan_left,normal,,,,,,,,,left
+mouse_left_button,normal,lip,,,,,,,,right
+mouse_left_button,delayed_latch 1000,mp_center_puff,,,,,,,,lip
+mouse_left_button,repeat 14,mp_left_center_puff_soft
+kb_space,normal,mp_right_puff,,,,,,,,mp_right_puff
+mouse_middle_button,normal,mp_triple_puff,,,,,,,,mp_center_puff
+kb_enter,tap 400,mp_right_sip,,,,,,,,mp_right_sip
+kb_escape,normal,mp_left_puff_soft,,,,,,,,mp_left_puff_soft
+kb_tab,normal,circle,,,,,,,,mp_left_sip
+kb_left_control,normal,mp_right_center_puff,,,,,,,,mp_left_center_puff
+kb_a,normal,mp_right_center_puff,,,,,,,,mp_left_center_sip
+kb_backspace,delay_on 100,mp_right_sip_soft,,,,,,,,mp_right_puff_soft
+kb_delete,delay_on 100,mp_right_puff_soft,,,,,,,,mp_right_sip_soft
+kb_left_control,normal,mp_left_sip,,,,,,,,mp_center_sip_soft
+kb_c,normal,mp_left_sip,,,,,,,,mp_center_sip_soft
+mouse_right_button,normal,mp_center_sip,,,,,,,,mp_center_sip
+kb_left_control,normal,mp_left_puff,,,,,,,,mp_center_puff_soft
+kb_v,normal,mp_left_puff,,,,,,,,mp_center_puff_soft
+kb_left_gui,delay_on 250 ,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+kb_left_gui,tap 250,mp_left_sip_soft
+kb_left_shift,tap 250,mp_left_sip_soft
+kb_s,tap 250,mp_left_sip_soft
+increment_mode,normal,mp_right_center_puff_soft
+kb_x,normal,mp_right_center_sip
+kb_left_control,normal,mp_right_center_sip
+kb_0,tap 250,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 250,right_puff_soft
+kb_left_shift,tap 250,right_puff_soft
+kb_left_control,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 250 ,right_puff_soft
+kb_8,delay_on 250 ,right_puff_soft
+kb_left_gui,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 250 ,right_sip_soft
+kb_f1,tap 250,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 250,right_sip_soft
+kb_left_control,delay_on 150 16000,mp_triple_sip_soft,,,,,,,,mp_center_sip
+kb_left_shift,delay_on 150 16000,mp_triple_puff_soft,,,,,,,,mp_center_sip
+kb_left_shift,force_off,mp_triple_puff_soft
+kb_left_control,force_off,mp_triple_sip_soft
+kb_left_control,normal,mp_left_center_sip_soft
+kb_left_gui,normal,mp_left_center_sip_soft
+kb_o,normal,mp_left_center_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2
+sip_puff_delay_soft,150,ms
+lip_position_minimum,3,percent,Percent of full scale of lip movement to initiate output
+lip_position_maximum,20,percent,Percent of full scale of lip movement for 100% output

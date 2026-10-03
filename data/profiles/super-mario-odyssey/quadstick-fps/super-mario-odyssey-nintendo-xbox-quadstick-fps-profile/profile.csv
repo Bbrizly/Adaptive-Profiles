@@ -1,24 +1,24 @@
-Profile Name,,Left joy
+Profile Name,,Left Analog
 super mario odyssey.csv,,Normal
 XBox Outputs,Function,usb
 increment_mode,normal,right_sip
 decrement_mode,normal,right_puff
-dpad_N,normal,
-dpad_NE,normal,
-dpad_E,normal,
-dpad_SE,normal,
-dpad_S,normal,
-dpad_SW,normal,
-dpad_W,normal,
-dpad_NW,normal,
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
 left_joy_left,normal,left
 left_joy_right,normal,right
 left_joy_up,normal,up
 left_joy_down,normal,down
-right_joy_left,normal,
-right_joy_right,normal,
-right_joy_up,normal,
-right_joy_down,normal,
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
 left_bumper,normal,mp_left_sip
 left_trigger,normal,mp_left_puff
 left_stick,normal,mp_left_center_sip
@@ -36,3 +36,126 @@ back,normal,mp_left_puff_soft
 capture,normal,mp_left_center_puff
 left_bumper,normal,mp_center_puff_soft
 right_bumper,normal,mp_center_puff_soft
+
+Profile Name,,Mixed Joystick
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+back,normal,mp_left_puff_soft
+capture,normal,mp_left_center_puff
+left_bumper,normal,mp_center_puff_soft
+right_bumper,normal,mp_center_puff_soft
+
+Profile Name,,Right Analog
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+back,normal,mp_left_puff_soft
+capture,normal,mp_left_center_puff
+left_bumper,normal,mp_center_puff_soft
+right_bumper,normal,mp_center_puff_soft
+
+Profile Name,,D-Pad
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_NE,normal,NE
+dpad_E,normal,E
+dpad_SE,normal,SE
+dpad_S,normal,S
+dpad_SW,normal,SW
+dpad_W,normal,W
+dpad_NW,normal,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+back,normal,mp_left_puff_soft
+capture,normal,mp_left_center_puff
+left_bumper,normal,mp_center_puff_soft
+right_bumper,normal,mp_center_puff_soft
+
+Preferences,,,Must be set in prefs.csv 
+,,,"Can be changed with voice command, or game configuration file"
+Preference,Value,Units,"Can be changed on Mode sheet, Command or file"
+digital_out_1,1,on/off,Initial output state for relay
+enable_DS3_emulation,5,Nintendo Switch,"0=Normal PS3 mode, 1=DS3 emulation, 2=X360CE mode, 3=XB360 emulation, 4=PS4, 5=NS"

@@ -1,7 +1,7 @@
 Profile Name,,Combat,,,,,,,,Comments
-wows.csv,,,,,,,,,,
-Output or Function,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
+wows.csv
+Output or Function,Function,usb
+increment_mode,normal,right_sip
 decrement_mode,normal,right_puff,,,,,,,, 
 kb_w,normal,up,,,,,,,,W
 kb_a,normal,usb_1_left,,,,,,,,A
@@ -21,12 +21,130 @@ kb_1,normal,mp_left_center_sip,,,,,,,,HE/SAP Shells
 kb_2,normal,mp_left_center_puff,,,,,,,,AP Shells
 kb_3,normal,mp_left_puff,,,,,,,,Torpedos
 kb_left_control,normal,lip,,,,,,,,Armament locked on bearing
-kb_x,normal,lip,,,,,,,,
+kb_x,normal,lip
 kb_left_shift,normal,,,,,,,,,Armament locked on sector
-kb_x,normal,,,,,,,,,
+kb_x,normal
 kb_x,normal,,,,,,,,,Unlock
 kb_m,normal,mp_triple_puff,,,,,,,,Map
 kb_p,normal,mp_triple_sip,,,,,,,,Secondary & AA guns on/off
 kb_left_control,normal,mp_left_sip,,,,,,,,Secondary & AA guns priority target
-,,,,,,,,,,
+
 ,,,,,,,,,,ccccczzz
+
+Profile Name,,Chat,,,,,,,,Comments
+misc.csv
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_w,greater_than 50,usb_1_up,,,,,,,,W
+kb_a,greater_than 50,usb_1_left,,,,,,,,A
+kb_s,greater_than 50,usb_1_down,,,,,,,,S
+kb_d,greater_than 50,usb_1_right,,,,,,,,D
+mouse_right,normal,right,,,,,,,,Aim
+mouse_left,normal,left,,,,,,,,Aim
+mouse_up,normal,up,,,,,,,,Aim
+mouse_down,normal,down,,,,,,,,Aim
+kb_r,normal,mp_center_puff,,,,,,,,Consumable 1
+kb_t,normal,mp_center_sip,,,,,,,,Consumable 2
+kb_y,normal,lip,,,,,,,,Consumable 3
+kb_4,normal,mp_right_center_puff
+kb_tab,normal,mp_center_puff_soft
+kb_f1,normal,mp_center_sip_soft
+
+Profile Name,,Shortcuts,,,,,,,,Comments
+shtcts.csv
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+decrement_mode,normal,right_puff,,,,,,,, 
+kb_w,greater_than 50,usb_1_up,,,,,,,,W
+kb_a,greater_than 50,usb_1_left,,,,,,,,A
+kb_s,greater_than 50,usb_1_down,,,,,,,,S
+kb_d,greater_than 50,usb_1_right,,,,,,,,D
+mouse_right,normal,right,,,,,,,,Aim
+mouse_left,normal,left,,,,,,,,Aim
+mouse_up,normal,up,,,,,,,,Aim
+mouse_down,normal,down,,,,,,,,Aim
+mouse_left_button,normal,mp_center_puff,,,,,,,,Shoot
+kb_left_shift,toggle,mp_center_sip,,,,,,,,Binoculars & 3rd person view
+kb_z,normal,mp_right_puff,,,,,,,,Follow Recent Shot
+kb_c,normal,mp_right_sip,,,,,,,,Follow next Shell / Torpedo
+kb_1,normal,mp_left_center_sip,,,,,,,,Sonar Ping
+kb_2,normal,mp_left_center_puff,,,,,,,,Torpedos
+kb_f,normal,mp_left_sip,,,,,,,,Ascend
+kb_c,normal,mp_left_puff,,,,,,,,Dive
+kb_m,normal,mp_triple_puff,,,,,,,,Map
+kb_r,normal,mp_center_puff,,,,,,,,Consumable 1
+kb_t,normal,mp_center_sip,,,,,,,,Consumable 2
+kb_y,normal,lip,,,,,,,,Consumable 3
+kb_4,normal,mp_right_center_puff,,,,,,,,Consumable 4
+
+Profile Name,,Misc,,,,,,,,Comments
+misc.csv
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+decrement_mode,normal,right_puff,,,,,,,, 
+kb_w,greater_than 50,usb_1_up,,,,,,,,W
+kb_a,greater_than 50,usb_1_left,,,,,,,,A
+kb_s,greater_than 50,usb_1_down,,,,,,,,S
+kb_d,greater_than 50,usb_1_right,,,,,,,,D
+mouse_right,normal,right,,,,,,,,Aim
+mouse_left,normal,left,,,,,,,,Aim
+mouse_up,normal,up,,,,,,,,Aim
+mouse_down,normal,down,,,,,,,,Aim
+mouse_left_button,normal,mp_center_puff,,,,,,,,Shoot
+kb_1,normal,mp_left_center_sip,,,,,,,,Attack Aircrafts
+kb_2,normal,mp_left_center_puff,,,,,,,,Torpedo Aircrafts
+kb_3,normal,mp_left_puff,,,,,,,,Dive Bomber Aircrafts
+kb_f,normal,mp_right_center_sip,,,,,,,,Return Squadron
+kb_m,normal,mp_triple_puff,,,,,,,,Map
+kb_left_shift,normal,mp_center_puff_soft,,,,,,,,Set Way Points
+mouse_left_button,normal,mp_center_puff_soft
+
+Profile Name,,Mouse,,,,,,,,Comments
+mouse.csv,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,delayed_latch 1000,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+mouse_middle_button,normal,mp_center_puff_soft
+kb_enter,normal,mp_right_sip,,,,,,,,Enter
+kb_escape,normal,mp_left_sip,,,,,,,,Escape
+kb_tab,normal,mp_left_puff,,,,,,,,Tab
+kb_left_control,normal,right_puff_soft,,,,,,,,Open onscreen keyboard
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,lip,,,,,,,,Shift
+kb_backspace,normal,mp_right_puff,,,,,,,,Backspace
+kb_delete,normal,mp_right_puff_soft,,,,,,,,Delete
+kb_left_control,normal,mp_left_sip_soft,,,,,,,,Cut
+kb_x,normal,mp_left_sip_soft
+kb_left_control,normal,mp_center_sip_soft,,,,,,,,Copy
+kb_c,normal,mp_center_sip_soft
+kb_left_control,normal,mp_right_sip_soft,,,,,,,,Paste
+kb_v,normal,mp_right_sip_soft
+kb_left_gui,normal,mp_left_center_sip,,,,,,,,Windows Key
+kb_left_control,normal,right_sip_soft,,,,,,,,Dragon Naturally Speaking Microphone
+kb_keypad_plus,normal,right_sip_soft
+kb_left_control,normal,mp_right_center_sip_soft,,,,,,,,Control Alt Delete
+kb_left_alt,normal,mp_right_center_sip_soft
+kb_delete,normal,mp_right_center_sip_soft
+kb_left_alt,normal,,,,,,,,,Toggle Full Screen & Window mode
+kb_enter,normal
+,normal,,,,,,,,,Exit Game in Battle & Port
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,0,on/off,Initial output state for relay 2

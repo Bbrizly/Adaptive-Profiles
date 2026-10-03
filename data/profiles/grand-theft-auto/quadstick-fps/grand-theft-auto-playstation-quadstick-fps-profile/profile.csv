@@ -1,24 +1,24 @@
-Profile Name,,Left joy
+Profile Name,,PS3 Left
 gta.csv,,Normal
 Output or Function,Function,usb
 increment_mode,normal,right_sip
 decrement_mode,normal,right_puff
-dpad_N,normal,
-dpad_NE,normal,
-dpad_E,normal,
-dpad_SE,normal,
-dpad_S,normal,
-dpad_SW,normal,
-dpad_W,normal,
-dpad_NW,normal,
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
 left_joy_left,normal,left
 left_joy_right,normal,right
 left_joy_up,normal,up
 left_joy_down,normal,down
-right_joy_left,normal,
-right_joy_right,normal,
-right_joy_up,normal,
-right_joy_down,normal,
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
 left_1,normal,mp_left_sip
 left_2,normal,mp_left_puff
 left_3,normal,mp_left_center_sip
@@ -33,3 +33,286 @@ select,normal,mp_left_sip_soft
 select,normal,right_sip_soft
 ps3,normal,mp_center_sip_soft
 start,normal,mp_right_sip_soft
+
+Profile Name,,PS3 Mixed
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal,mp_center_puff_soft
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal
+right_joy_down,normal
+left_1,toggle,mp_left_sip
+left_2,normal,mp_left_puff
+left_3,normal,mp_left_center_sip
+right_1,normal,lip
+right_2,normal,mp_right_puff
+right_3,normal,mp_right_center_sip
+x,repeat,mp_right_sip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+joystick_dead_zone_shape,normal,0
+
+Profile Name,,PS3 Right,,,,,,,,Comments
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"To choose the character to play, latch on
+the South (D-Pad Down) button by a soft puff
+on the center tube and move the stick to 
+pick the character.
+
+To clear South, change mode or activate 
+the button again.
+
+To choose weapon, toggle on L2
+"
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,toggle,mp_center_puff_soft
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,mp_left_center_puff
+left_joy_down,normal,mp_left_center_sip
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,toggle,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,normal,mp_left_center_sip
+right_1,normal,lip
+right_2,normal,mp_right_puff
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_sip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+
+Profile Name,,D-Pad
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_NE,normal,NE
+dpad_E,normal,E
+dpad_SE,normal,SE
+dpad_S,normal,S
+dpad_SW,normal,SW
+dpad_W,normal,W
+dpad_NW,normal,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,mp_left_puff
+left_3,normal,mp_left_center_sip
+right_1,normal,lip
+right_2,normal,mp_right_puff
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_sip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+
+Profile Name,,Driving,,,,,,,,Comments
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"Use this mode while driving.
+
+Stick Left & Right steers.
+Stick Up & Down controls gas/brake.
+
+"
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,down
+left_3,normal,mp_left_center_sip
+right_1,normal,lip
+right_2,normal,up
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_sip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+joystick_dead_zone_shape,normal,0
+
+Profile Name,,Taxi Takeoff and Landing,,,,,,,,Comments
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"Use this mode with aircraft while on the ground or during takeoff and landing.
+
+Stick controls rudder and elevator.
+
+Center Hole Puff increases throttle
+Center Hole Sip decreases throttle"
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,left
+left_2,normal,mp_center_sip
+left_3,normal,mp_left_center_sip
+right_1,normal,right
+right_2,normal,mp_center_puff
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+joystick_dead_zone_shape,normal,0
+
+Profile Name,,Flying,,,,,,,,Comments
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"Use this mode with aircraft while flying.
+
+Stick controls aileron and elevator.
+
+Center Hole Puff increases throttle
+Center Hole Sip decreases throttle"
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,mp_center_sip
+left_3,normal,mp_left_center_sip
+right_1,normal,mp_right_sip
+right_2,normal,mp_center_puff
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+
+Profile Name,,Foot Race
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal,mp_center_puff_soft
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal
+right_joy_down,normal
+left_1,toggle,mp_left_sip
+left_2,normal,mp_left_puff
+left_3,normal,mp_left_center_sip
+right_1,normal,lip
+right_2,normal,mp_right_puff
+right_3,normal,mp_right_center_sip
+x,repeat,mp_right_sip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+joystick_dead_zone_shape,normal,0
+
+Preferences
+
+Preference,Value,Units,Description
+joystick_deflection_maximum,35,percent,Defines physical deflection scaled to 100% Signal
+digital_out_1,1,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2

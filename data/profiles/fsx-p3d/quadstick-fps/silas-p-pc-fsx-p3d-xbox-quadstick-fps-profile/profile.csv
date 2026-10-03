@@ -1,12 +1,12 @@
-Profile Name,,Left joy,,,,,,,,,,,,,,,,comment
-fsx.csv,,Normal,,,,,,,,Alternate,,,,,,,,
+Profile Name,,StartFlug,,,,,,,,,,,,,,,,comment
+fsx.csv,,Normal,,,,,,,,Alternate
 XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,O
-increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,,,,,,,,,
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
 left_joy_left,normal,left,,,,,,,,,,,,,,,,Movement
-left_joy_right,normal,right,,,,,,,,,,,,,,,,
-left_joy_up,normal,up,,,,,,,,,,,,,,,,
-left_joy_down,normal,down,,,,,,,,,,,,,,,,
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
 kb_f4,normal,mp_triple_puff,,,,,,,,,,,,,,,,Full Accelerate
 kb_f3,normal,mp_center_puff,,,,,,,,,,,,,,,,Throttle (Increase)
 kb_f1,normal,mp_triple_sip,,,,,,,,,,,,,,,,Full Decelerate
@@ -18,12 +18,211 @@ kb_f7,normal,mp_left_puff,,,,,,,,,,,,,,,,flaps Up (step by step)
 kb_g,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Gear up/down
 kb_dot,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Brake
 kb_left_control,normal,right_sip_soft,,,,,,,,,,,,,,,,Park Brake
-kb_dot,normal,right_sip_soft,,,,,,,,,,,,,,,,
+kb_dot,normal,right_sip_soft
 kb_left_shift,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Open GPS
-kb_3,normal,mp_right_center_sip,,,,,,,,,,,,,,,,
+kb_3,normal,mp_right_center_sip
 kb_p,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Pause
 Y,normal,mp_right_puff,,,,,,,,,,,,,,,,Elevator trim
 B,normal,mp_right_sip,,,,,,,,,,,,,,,,Elevator trim
-start,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,
+start,normal,mp_right_sip_soft
 kb_escape,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Menu
 kb_y,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,Autopilot
+
+Profile Name,,Strafe,,,,,,,,,,,,,,,,comment
+fsx.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,O
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+right_joy_left,normal,left,,,,,,,,,,,,,,,,Strafe left
+right_joy_right,normal,right,,,,,,,,,,,,,,,,Strafe right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+kb_f5,normal,mp_left_sip_soft
+kb_f6,normal,mp_left_sip
+kb_f7,normal,mp_left_puff
+kb_dot,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+kb_left_shift,normal,mp_right_center_sip
+kb_3,normal,mp_right_center_sip
+kb_f3,normal,mp_center_puff
+kb_f2,normal,mp_center_sip
+kb_f4,normal,mp_triple_puff
+kb_f8,normal,mp_left_puff_soft
+kb_left_control,normal,right_sip_soft
+kb_dot,normal,right_sip_soft
+kb_g,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+kb_y,normal,mp_center_puff_soft
+kb_f1,normal,mp_triple_sip
+
+Profile Name,,Mixed Joystick
+,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,Right Analog
+,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,D-Pad
+,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_NE,normal,NE
+dpad_E,normal,E
+dpad_SE,normal,SE
+dpad_S,normal,S
+dpad_SW,normal,SW
+dpad_W,normal,W
+dpad_NW,normal,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,Copy of Copy of Mouse,,,,,,,,Pan Mode,,,,,,,,Comments
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip,,,,,,,,Basic mouse only configuration for PC users
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal,mp_left_center_puff,,,,,,,,up
+mouse_wheel_down,normal,mp_left_center_sip,,,,,,,,down
+kb_a,normal,mp_right_center_sip,,,,,,,,left
+kb_s,normal,mp_right_center_puff,,,,,,,,right
+mouse_left_button,delayed_latch 1000,mp_center_puff,,,,,,,,lip
+mouse_right_button,normal,mp_right_puff,,,,,,,,mp_right_puff
+mouse_middle_button,normal,lip,,,,,,,,mp_center_puff
+kb_enter,normal,mp_right_sip,,,,,,,,mp_right_sip
+kb_escape,normal,mp_left_puff_soft,,,,,,,,mp_left_puff_soft
+kb_tab,normal,circle,,,,,,,,mp_left_sip
+kb_left_control,normal,right_puff_soft,,,,,,,,right_puff_soft
+kb_left_alt,normal,right_puff_soft,,,,,,,,right_puff_soft
+kb_k,normal,right_puff_soft,,,,,,,,right_puff_soft
+none,normal,mp_left_center_puff,,,,,,,,mp_left_center_puff
+none,normal,mp_left_center_sip,,,,,,,,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft,,,,,,,,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft,,,,,,,,mp_right_sip_soft
+kb_keypad_tab,normal,mp_center_sip_soft,,,,,,,,mp_center_sip_soft
+kb_keypad_tab,normal,mp_center_sip_soft,,,,,,,,mp_center_sip_soft
+kb_left_shift,normal,mp_center_sip,,,,,,,,mp_center_sip
+kb_o,normal,mp_center_sip,,,,,,,,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft,,,,,,,,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft,,,,,,,,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+none,normal,right_sip_soft
+kb_left_shift,normal,mp_triple_puff_soft
+kb_t,normal,mp_triple_puff_soft
+kb_keypad_plus,normal,mp_right_center_sip_soft
+kb_keypad_plus,normal,mp_right_center_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2

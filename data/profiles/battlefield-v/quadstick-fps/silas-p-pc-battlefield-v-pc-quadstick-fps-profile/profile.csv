@@ -1,9 +1,9 @@
-Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,
-BFV.csv,,Normal,,,,,,,,Alternate,,,,,,,,
-Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
+Profile Name,,Walkmode,,,,,,,,Mixed joy
+BFV.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
 increment_mode,tap,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
 decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
-dpad_NE,normal,,,,,,,,,,,,,,,,,
+dpad_NE,normal
 dpad_E,normal,,,,,,,,,,,,,,,,,Color-Legend :
 dpad_N,normal,,,,,,,,,,,,,,,,,Moving
 mouse_left,normal,left,,,,,,,,,,,,,,,,"Weapon(Aim,Fire, Mode,etc)"
@@ -11,7 +11,7 @@ mouse_right,normal,right,,,,,,,,,,,,,,,,Grenade & Gadget
 mouse_up,normal,up,,,,,,,,,,,,,,,,"interact (Enter Vehicle, Spotting, etc...)"
 mouse_down,normal,down,,,,,,,,,,,,,,,,Escape/Enter/Stats/Tab to Windows
 dpad_W,,,,,,,,,,,,,,,,,,Function Testing
-kb_left_control,delay_on 500,mp_center_sip,,,,,,,,,,,,,,,,
+kb_left_control,delay_on 500,mp_center_sip
 kb_d,delayed_latch 750,mp_right_center_puff,,,,,,,,,,,,,,,,Strafe right
 kb_a,delayed_latch 750,mp_left_center_puff,,,,,,,,,,,,,,,,Strafe left
 kb_w,delayed_latch 500,mp_triple_puff,,,,,,,,,,,,,,,,walk
@@ -25,109 +25,411 @@ mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire
 kb_t,delay_on 300,mp_left_sip,,,,,,,,,,,,,,,,Tactical
 kb_r,tap 300 100,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload 
 kb_7,tap 250 100,mp_left_puff,,,,,,,,,,,,,,,,change weapon 1/2 (reassign) / Primary weapon (if you've equipped Gadget f. ex)
-kb_1,delay_on 300,mp_right_puff,,,,,,,,,,,,,,,,
+kb_1,delay_on 300,mp_right_puff
 kb_f,tap 300 100,mp_right_center_sip,,,,,,,,,,,,,,,,Melee
 mouse_middle_button,normal,mp_right_sip,,,,,,,,,,,,,,,,Throw Gernade
 kb_3,normal,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Gadget 2
 kb_4,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Gadget 1
-kb_5,tap 300 100,mp_left_sip,,,,,,,,,,,,,,,,
-kb_c,delay_on 250,mp_left_puff,,,,,,,,,,,,,,,,
+kb_5,tap 300 100,mp_left_sip
+kb_c,delay_on 250,mp_left_puff
 kb_q,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Spotting
 kb_e,tap 300 100,mp_right_puff,,,,,,,,,,,,,,,,interact/enter
 kb_e,delay_on 300,mp_right_center_sip,,,,,,,,,,,,,,,,interact/enter
 kb_escape,delay_on 250,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu/Pause
 kb_tab,delay_on 250 2000,mp_left_sip_soft,,,,,,,,,,,,,,,,Show Stats
 kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
-kb_tab,delay_on 500,right_puff,,,,,,,,,,,,,,,,
-kb_enter,normal,,,,,,,,,,,,,,,,,
-increment_mode,delay_on 100,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
-increment_mode,delay_on 100,mp_right_puff_soft,,,,,,,,,,,,,,,,
-increment_mode,delay_on 100,mp_right_puff_soft,,,,,,,,,,,,,,,,
-decrement_mode,delay_on 100,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
+kb_tab,delay_on 500,right_puff
+kb_enter,normal
+increment_mode,delay_on 100,mp_right_center_sip_soft
+increment_mode,delay_on 100,mp_right_puff_soft
+increment_mode,delay_on 100,mp_right_puff_soft
+decrement_mode,delay_on 100,mp_right_center_puff_soft
 kb_0,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
-kb_left_control,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
-kb_left_shift,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_control,tap 300 100,right_puff_soft
+kb_left_shift,tap 300 100,right_puff_soft
 kb_left_control,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
-kb_left_shift,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
-kb_8,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,
+kb_left_shift,delay_on 300,right_puff_soft
+kb_8,delay_on 300,right_puff_soft
 kb_left_gui,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
-kb_g,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,
+kb_g,delay_on 300,right_sip_soft
 kb_f1,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
-kb_left_alt,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,
-kb_w,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_w,force_off,right_puff,,,,,,,,,,,,,,,,
-kb_w,force_off,right_sip,,,,,,,,,,,,,,,,
-kb_w,force_off,,,,,,,,,,,,,,,,,
-kb_w,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
-kb_w,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,
-kb_w,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_w,force_off 260,,,,,,,,,,,,,,,,,
-kb_w,force_off 260,mp_triple_sip,,,,,,,,,,,,,,,,
-kb_w,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
-kb_w,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 255,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 260,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 260,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 260,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,,,,,,,,,,,,,,,,,
-kb_s,force_off,right_puff,,,,,,,,,,,,,,,,
-kb_s,force_off,right_sip,,,,,,,,,,,,,,,,
-kb_s,force_off,,,,,,,,,,,,,,,,,
-kb_s,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
-kb_s,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,
-kb_s,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_s,force_off 260,,,,,,,,,,,,,,,,,
-kb_s,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,
-kb_s,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,right_puff,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,right_sip,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_left_sip_soft,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_sip_soft,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_left_puff,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_left_center_puff,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_puff,,,,,,,,,,,,,,,,
-mouse_right_button,force_off,mp_right_sip,,,,,,,,,,,,,,,,
-mouse_right_button,force_off 800,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,right_puff,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,right_sip,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 900,mp_left_sip,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_triple_sip,,,,,,,,,,,,,,,,
-kb_left_shift,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
-kb_left_shift,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,
-kb_d,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_d,force_off,right_puff,,,,,,,,,,,,,,,,
-kb_d,force_off,right_sip,,,,,,,,,,,,,,,,
-kb_d,force_off,,,,,,,,,,,,,,,,,
-kb_d,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
-kb_d,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,
-kb_d,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_d,force_off 260,,,,,,,,,,,,,,,,,
-kb_d,force_off 260,mp_triple_sip,,,,,,,,,,,,,,,,
-kb_d,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
-kb_d,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,
-kb_d,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
-kb_d,force_off,mp_left_center_puff,,,,,,,,,,,,,,,,
-kb_a,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_a,force_off,right_puff,,,,,,,,,,,,,,,,
-kb_a,force_off,right_sip,,,,,,,,,,,,,,,,
-kb_a,force_off,,,,,,,,,,,,,,,,,
-kb_a,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
-kb_a,force_off 700,mp_center_puff,,,,,,,,,,,,,,,,
-kb_a,force_off 260,mp_right_center_sip,,,,,,,,,,,,,,,,
-kb_a,force_off 260,,,,,,,,,,,,,,,,,
-kb_a,force_off 260,mp_triple_sip,,,,,,,,,,,,,,,,
-kb_a,force_off 260,mp_right_sip,,,,,,,,,,,,,,,,
-kb_a,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,
-kb_a,force_off,mp_triple_puff,,,,,,,,,,,,,,,,
-kb_a,force_off,mp_right_center_puff,,,,,,,,,,,,,,,,
+kb_left_alt,tap 300 100,right_sip_soft
+kb_w,force_off,mp_right_center_sip
+kb_w,force_off,right_puff
+kb_w,force_off,right_sip
+kb_w,force_off
+kb_w,force_off,mp_left_center_sip
+kb_w,force_off 700,mp_center_puff
+kb_w,force_off 260,mp_right_center_sip
+kb_w,force_off 260
+kb_w,force_off 260,mp_triple_sip
+kb_w,force_off 260,mp_right_sip
+kb_w,force_off,mp_triple_sip_soft
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off 255
+kb_left_shift,force_off 260
+kb_left_shift,force_off 260
+kb_left_shift,force_off 260
+kb_left_shift,force_off
+kb_s,force_off,right_puff
+kb_s,force_off,right_sip
+kb_s,force_off
+kb_s,force_off,mp_triple_puff
+kb_s,force_off 700,mp_center_puff
+kb_s,force_off 260,mp_right_center_sip
+kb_s,force_off 260
+kb_s,force_off 900,mp_left_sip
+kb_s,force_off 260,mp_right_sip
+mouse_right_button,force_off,right_puff
+mouse_right_button,force_off,right_sip
+mouse_right_button,force_off,mp_left_sip_soft
+mouse_right_button,force_off,mp_right_sip_soft
+mouse_right_button,force_off,mp_left_puff
+mouse_right_button,force_off,mp_left_center_puff
+mouse_right_button,force_off,mp_right_center_sip
+mouse_right_button,force_off,mp_right_puff
+mouse_right_button,force_off,mp_right_sip
+mouse_right_button,force_off 800
+kb_left_shift,force_off,right_puff
+kb_left_shift,force_off,right_sip
+kb_left_shift,force_off
+kb_left_shift,force_off,mp_left_center_sip
+kb_left_shift,force_off 700,mp_center_puff
+kb_left_shift,force_off 260,mp_right_center_sip
+kb_left_shift,force_off,mp_triple_puff
+kb_left_shift,force_off 900,mp_left_sip
+kb_left_shift,force_off,mp_triple_sip
+kb_left_shift,force_off 260,mp_right_sip
+kb_left_shift,force_off,mp_triple_puff_soft
+kb_d,force_off,mp_right_center_sip
+kb_d,force_off,right_puff
+kb_d,force_off,right_sip
+kb_d,force_off
+kb_d,force_off,mp_left_center_sip
+kb_d,force_off 700,mp_center_puff
+kb_d,force_off 260,mp_right_center_sip
+kb_d,force_off 260
+kb_d,force_off 260,mp_triple_sip
+kb_d,force_off 260,mp_right_sip
+kb_d,force_off,mp_triple_sip_soft
+kb_d,force_off,mp_triple_puff
+kb_d,force_off,mp_left_center_puff
+kb_a,force_off,mp_right_center_sip
+kb_a,force_off,right_puff
+kb_a,force_off,right_sip
+kb_a,force_off
+kb_a,force_off,mp_left_center_sip
+kb_a,force_off 700,mp_center_puff
+kb_a,force_off 260,mp_right_center_sip
+kb_a,force_off 260
+kb_a,force_off 260,mp_triple_sip
+kb_a,force_off 260,mp_right_sip
+kb_a,force_off,mp_triple_sip_soft
+kb_a,force_off,mp_triple_puff
+kb_a,force_off,mp_right_center_puff
+
+Profile Name,,Groundmode,,,,,,,,Mixed joy
+BF3.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,tap,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+dpad_NE,normal
+dpad_E,normal,,,,,,,,,,,,,,,,,Color-Legend :
+dpad_N,normal,,,,,,,,,,,,,,,,,Moving
+mouse_left,normal,left,,,,,,,,,,,,,,,,"Weapon(Aim,Fire, Mode,etc)"
+mouse_right,normal,right,,,,,,,,,,,,,,,,Flares/smoke & Grenade
+mouse_up,normal,up,,,,,,,,,,,,,,,,"interact (Enter Vehicle, Spotting, etc...)"
+mouse_down,normal,down,,,,,,,,,,,,,,,,Escape/Enter/Stats/Tab to Windows
+dpad_W,,,,,,,,,,,,,,,,,,Function Testing
+kb_left_control,delay_on 500,mp_center_sip
+kb_d,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Drive right
+kb_a,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Drive left
+kb_w,delayed_latch 500,mp_triple_puff,,,,,,,,,,,,,,,,Drive
+kb_s,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,Drive Backwards
+kb_left_shift,delay_on 750 16000,mp_triple_puff,,,,,,,,,,,,,,,,"Faster (Stay's Activated, deactivate: tripple_puff_soft)"
+kb_left_control,tap 300 100,mp_triple_sip,,,,,,,,,,,,,,,,Crouch 
+kb_c,delay_on 300,mp_triple_sip,,,,,,,,,,,,,,,,Lay down
+kb_space,normal,lip,,,,,,,,,,,,,,,,Jump
+mouse_right_button,normal,mp_center_sip,,,,,,,,,,,,,,,,Aim (Hold to Crouch) 
+mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire
+kb_1,normal,mp_left_puff,,,,,,,,,,,,,,,,weapon 1
+kb_2,normal,mp_left_sip,,,,,,,,,,,,,,,,weapon 2
+kb_v,delay_on 250,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Fire mode
+kb_t,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,Tactical
+kb_r,tap 300 100,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload 
+kb_x,tap 300 100,mp_right_center_sip,,,,,,,,,,,,,,,,Flares/smoke
+mouse_middle_button,normal,mp_right_sip,,,,,,,,,,,,,,,,Throw Gernade
+kb_q,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Spotting
+kb_e,tap 300 100,mp_right_puff,,,,,,,,,,,,,,,,interact/enter
+kb_escape,delay_on 250,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu/Pause
+kb_tab,delay_on 250 2000,mp_left_sip_soft,,,,,,,,,,,,,,,,Show Stats
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
+kb_tab,delay_on 500,right_puff
+kb_enter,normal
+kb_e,delay_on 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,goto Walkmode / leave Vehicle
+kb_e,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,goto Airmode / leave Vehicle
+decrement_mode,normal,mp_right_center_sip_soft
+increment_mode,normal,mp_right_center_puff_soft
+kb_w,force_off,right_puff
+kb_w,force_off,right_sip
+kb_w,force_off
+kb_w,force_off,mp_left_center_sip
+kb_w,force_off 700,mp_center_puff
+kb_w,force_off 260,mp_right_center_sip
+kb_w,force_off 260
+kb_w,force_off 260,mp_triple_sip
+kb_w,force_off 260,mp_right_sip
+kb_w,force_off,mp_triple_sip_soft
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off 255
+kb_left_shift,force_off 260
+kb_left_shift,force_off 260
+kb_left_shift,force_off 260
+kb_left_shift,force_off
+kb_s,force_off,right_puff
+kb_s,force_off,right_sip
+kb_s,force_off,mp_right_sip_soft
+kb_s,force_off,mp_triple_puff
+kb_s,force_off 700,mp_center_puff
+kb_s,force_off 260,mp_right_center_sip
+kb_s,force_off 260
+kb_s,force_off 900,mp_left_sip
+kb_s,force_off 260,mp_right_sip
+mouse_right_button,force_off,right_puff
+mouse_right_button,force_off,right_sip
+mouse_right_button,force_off,mp_left_sip_soft
+mouse_right_button,force_off,mp_right_sip_soft
+mouse_right_button,force_off,mp_left_puff
+mouse_right_button,force_off,mp_left_center_puff
+mouse_right_button,force_off,mp_right_center_sip
+mouse_right_button,force_off,mp_right_puff
+mouse_right_button,force_off,mp_right_sip
+mouse_right_button,force_off 800
+kb_left_shift,force_off,right_puff
+kb_left_shift,force_off,right_sip
+kb_left_shift,force_off,mp_right_sip_soft
+kb_left_shift,force_off,mp_left_center_sip
+kb_left_shift,force_off 700,mp_center_puff
+kb_left_shift,force_off 260,mp_right_center_sip
+kb_left_shift,force_off,mp_triple_puff
+kb_left_shift,force_off 900,mp_left_sip
+kb_left_shift,force_off,mp_triple_sip
+kb_left_shift,force_off 260,mp_right_sip
+kb_left_shift,force_off,mp_triple_puff_soft
+kb_d,force_off,mp_right_center_sip
+kb_d,force_off,right_puff
+kb_d,force_off,right_sip
+kb_d,force_off,mp_right_sip_soft
+kb_d,force_off,mp_left_center_sip
+kb_d,force_off 700,mp_center_puff
+kb_d,force_off 260,mp_right_center_sip
+kb_d,force_off 260
+kb_d,force_off 260,mp_triple_sip
+kb_d,force_off 260,mp_right_sip
+kb_d,force_off,mp_triple_sip_soft
+kb_d,force_off,mp_triple_puff
+kb_d,force_off,mp_left_center_puff
+kb_a,force_off,mp_right_center_sip
+kb_a,force_off,right_puff
+kb_a,force_off,right_sip
+kb_a,force_off,mp_right_sip_soft
+kb_a,force_off,mp_left_center_sip
+kb_a,force_off 700,mp_center_puff
+kb_a,force_off 260,mp_right_center_sip
+kb_a,force_off 260
+kb_a,force_off 260,mp_triple_sip
+kb_a,force_off 260,mp_right_sip
+kb_a,force_off,mp_triple_sip_soft
+kb_a,force_off,mp_triple_puff
+kb_a,force_off,mp_right_center_puff
+
+Profile Name,,Airmode,,,,,,,,Mixed joy
+BF3.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,tap,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+dpad_NE,normal
+dpad_E,normal,,,,,,,,,,,,,,,,,Color-Legend :
+dpad_N,normal,,,,,,,,,,,,,,,,,Moving
+mouse_left,normal,left,,,,,,,,,,,,,,,,"Weapon(Aim,Fire, Mode,etc)"
+mouse_right,normal,right,,,,,,,,,,,,,,,,Flares/smoke & Grenade
+mouse_up,normal,up,,,,,,,,,,,,,,,,"interact (Enter Vehicle, Spotting, etc...)"
+mouse_down,normal,down,,,,,,,,,,,,,,,,Escape/Enter/Stats/Tab to Windows
+dpad_W,,,,,,,,,,,,,,,,,,Function Testing
+kb_left_control,delay_on 500,mp_center_sip
+kb_d,normal,right,,,,,,,,,,,,,,,,Drive right
+kb_a,normal,left,,,,,,,,,,,,,,,,Drive left
+kb_w,delayed_latch 500,mp_triple_puff,,,,,,,,,,,,,,,,Drive
+kb_s,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,Drive Backwards
+kb_left_shift,delay_on 750 16000,mp_triple_puff,,,,,,,,,,,,,,,,"Faster (Stay's Activated, deactivate: tripple_puff_soft)"
+kb_left_control,tap 300 100,mp_triple_sip,,,,,,,,,,,,,,,,Crouch 
+kb_c,delay_on 300,mp_triple_sip,,,,,,,,,,,,,,,,Lay down
+kb_space,normal,lip,,,,,,,,,,,,,,,,Jump
+mouse_right_button,normal,mp_center_sip,,,,,,,,,,,,,,,,Aim (Hold to Crouch) 
+mouse_left_button,normal,mp_center_puff,,,,,,,,,,,,,,,,Fire
+kb_1,normal,mp_left_puff,,,,,,,,,,,,,,,,weapon 1
+kb_2,normal,mp_left_sip,,,,,,,,,,,,,,,,weapon 2
+kb_v,delay_on 250,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Fire mode
+kb_t,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,Tactical
+kb_r,tap 300 100,mp_right_sip_soft,,,,,,,,,,,,,,,,Reload 
+kb_x,tap 300 100,mp_right_center_sip,,,,,,,,,,,,,,,,Flares/smoke
+mouse_middle_button,normal,mp_right_sip,,,,,,,,,,,,,,,,Throw Gernade
+kb_q,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Spotting
+kb_e,tap 300 100,mp_right_puff,,,,,,,,,,,,,,,,interact/enter
+kb_escape,delay_on 250,mp_left_puff_soft,,,,,,,,,,,,,,,,Menu/Pause
+kb_tab,delay_on 250 2000,mp_left_sip_soft,,,,,,,,,,,,,,,,Show Stats
+kb_left_alt,delay_on 500,right_puff,,,,,,,,,,,,,,,,Hold to Tab to Windows
+kb_tab,delay_on 500,right_puff
+kb_enter,normal
+kb_e,delay_on 250,mp_right_center_sip_soft,,,,,,,,,,,,,,,,goto Groundmode / leave Vehicle
+kb_e,delay_on 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,goto Walkmode / leave Vehicle 
+decrement_mode,normal,mp_right_center_sip_soft
+decrement_mode,normal,mp_right_center_puff_soft
+decrement_mode,normal,mp_right_center_puff_soft
+kb_w,force_off,right_sip
+kb_w,force_off
+kb_w,force_off,mp_left_center_sip
+kb_w,force_off 700,mp_center_puff
+kb_w,force_off 260,mp_right_center_sip
+kb_w,force_off 260
+kb_w,force_off 260,mp_triple_sip
+kb_w,force_off 260,mp_right_sip
+kb_w,force_off,mp_triple_sip_soft
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off
+kb_left_shift,force_off 255
+kb_left_shift,force_off 260
+kb_left_shift,force_off 260
+kb_left_shift,force_off 260
+kb_left_shift,force_off
+kb_s,force_off,right_puff
+kb_s,force_off,right_sip
+kb_s,force_off,mp_right_sip_soft
+kb_s,force_off,mp_triple_puff
+kb_s,force_off 700,mp_center_puff
+kb_s,force_off 260,mp_right_center_sip
+kb_s,force_off 260
+kb_s,force_off 900,mp_left_sip
+kb_s,force_off 260,mp_right_sip
+mouse_right_button,force_off,right_puff
+mouse_right_button,force_off,right_sip
+mouse_right_button,force_off,mp_left_sip_soft
+mouse_right_button,force_off,mp_right_sip_soft
+mouse_right_button,force_off,mp_left_puff
+mouse_right_button,force_off,mp_left_center_puff
+mouse_right_button,force_off,mp_right_center_sip
+mouse_right_button,force_off,mp_right_puff
+mouse_right_button,force_off,mp_right_sip
+mouse_right_button,force_off 800
+kb_left_shift,force_off,right_puff
+kb_left_shift,force_off,right_sip
+kb_left_shift,force_off,mp_right_sip_soft
+kb_left_shift,force_off,mp_left_center_sip
+kb_left_shift,force_off 700,mp_center_puff
+kb_left_shift,force_off 260,mp_right_center_sip
+kb_left_shift,force_off,mp_triple_puff
+kb_left_shift,force_off 900,mp_left_sip
+kb_left_shift,force_off,mp_triple_sip
+kb_left_shift,force_off 260,mp_right_sip
+kb_left_shift,force_off,mp_triple_puff_soft
+kb_d,force_off,mp_right_center_sip
+kb_d,force_off,right_puff
+kb_d,force_off,right_sip
+kb_d,force_off,mp_right_sip_soft
+kb_d,force_off,mp_left_center_sip
+kb_d,force_off 700,mp_center_puff
+kb_d,force_off 260,mp_right_center_sip
+kb_d,force_off 260
+kb_d,force_off 260,mp_triple_sip
+kb_d,force_off 260,mp_right_sip
+kb_d,force_off,mp_triple_sip_soft
+kb_d,force_off,mp_triple_puff
+kb_d,force_off,mp_left_center_puff
+kb_a,force_off,mp_right_center_sip
+kb_a,force_off,right_puff
+kb_a,force_off,right_sip
+kb_a,force_off,mp_right_sip_soft
+kb_a,force_off,mp_left_center_sip
+kb_a,force_off 700,mp_center_puff
+kb_a,force_off 260,mp_right_center_sip
+kb_a,force_off 260
+kb_a,force_off 260,mp_triple_sip
+kb_a,force_off 260,mp_right_sip
+kb_a,force_off,mp_triple_sip_soft
+kb_a,force_off,mp_triple_puff
+kb_a,force_off,mp_right_center_puff
+
+Profile Name,,Copy of Mouse 1,,,,,,,,Pan Mode,,,,,,,,Comments
+default.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,tap 300 100,right_sip,,,,,,,,right_sip
+decrement_mode,tap,right_puff,,,,,,,,right_puff
+kb_left_alt,delay_on 500,right_puff
+kb_tab,delay_on 500,right_puff
+decrement_mode,delay_on 100,mp_right_puff_soft
+decrement_mode,delay_on 100,mp_right_center_sip_soft
+decrement_mode,delay_on 100,mp_right_center_sip_soft
+increment_mode,delay_on 100,mp_right_center_puff_soft
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal,mp_left_center_puff,,,,,,,,up
+mouse_wheel_down,normal,mp_left_center_sip,,,,,,,,down
+mouse_pan_left,normal,,,,,,,,,left
+mouse_pan_right,normal,,,,,,,,,right
+mouse_left_button,delayed_latch 1000,mp_center_puff,,,,,,,,lip
+kb_space,normal,mp_right_puff,,,,,,,,mp_right_puff
+mouse_middle_button,normal,mp_triple_puff,,,,,,,,mp_center_puff
+kb_enter,normal,mp_right_sip,,,,,,,,mp_right_sip
+kb_escape,normal,mp_left_puff_soft,,,,,,,,mp_left_puff_soft
+kb_tab,normal,circle,,,,,,,,mp_left_sip
+kb_left_control,normal,mp_right_center_puff,,,,,,,,mp_left_center_puff
+kb_a,normal,mp_right_center_puff,,,,,,,,mp_left_center_sip
+kb_backspace,normal,mp_right_sip_soft,,,,,,,,mp_right_puff_soft
+kb_delete,normal,mp_right_puff_soft,,,,,,,,mp_right_sip_soft
+kb_left_control,normal,mp_left_sip,,,,,,,,mp_center_sip_soft
+kb_c,normal,mp_left_sip,,,,,,,,mp_center_sip_soft
+mouse_right_button,normal,mp_center_sip,,,,,,,,mp_center_sip
+kb_left_control,normal,mp_left_puff,,,,,,,,mp_center_puff_soft
+kb_v,normal,mp_left_puff,,,,,,,,mp_center_puff_soft
+kb_left_gui,delay_on 300,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+kb_left_gui,tap 300 100,mp_left_sip_soft
+kb_left_shift,tap 300 100,mp_left_sip_soft
+kb_s,tap 300 100,mp_left_sip_soft
+kb_left_control,delay_on 100,mp_right_center_puff_soft
+kb_space,delay_on 100,mp_right_center_puff_soft
+kb_x,,mp_right_center_sip
+kb_left_control,,mp_right_center_sip
+kb_0,tap 300 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 300 100,right_puff_soft
+kb_left_shift,tap 300 100,right_puff_soft
+kb_left_control,delay_on 300,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 300,right_puff_soft
+kb_8,delay_on 300,right_puff_soft
+kb_left_gui,delay_on 300,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 300,right_sip_soft
+kb_f1,tap 300 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 300 100,right_sip_soft
+kb_left_control,delay_on 150 16000,mp_triple_sip_soft,,,,,,,,mp_center_sip
+kb_left_shift,delay_on 150 16000,mp_triple_puff_soft,,,,,,,,mp_center_sip
+kb_left_shift,force_off,mp_triple_puff_soft
+kb_left_control,force_off,mp_triple_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2
+sip_puff_delay_soft,150,ms

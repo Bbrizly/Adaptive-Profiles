@@ -1,34 +1,111 @@
-Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,
-tunic.csv,,Normal,,,,,,,,Alternate,,,,,,,,
-XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+Profile Name,,Gameplay,,,,,,,,Mixed joy
+tunic.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
 increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
 decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
-left_trigger,toggle,lip,,,,,,,,,,,,,,,,
-B,normal,mp_center_puff,,,,,,,,,,,,,,,,
-X,normal,mp_left_center_puff,,,,,,,,,,,,,,,,
-Y,normal,mp_right_center_puff,,,,,,,,,,,,,,,,
-left_joy_left,normal,left,,,,,,,,,,,,,,,,
-left_joy_right,normal,right,,,,,,,,,,,,,,,,
-left_joy_up,normal,up,,,,,,,,,,,,,,,,
-left_joy_down,normal,down,,,,,,,,,,,,,,,,
-right_bumper,normal,mp_left_center_sip,,,,,,,,,,,,,,,,
-right_trigger,toggle,mp_right_center_sip,,,,,,,,,,,,,,,,
-left_bumper,delay_on 100,mp_triple_puff_soft,,,,,,,,,,,,,,,,
-left_trigger,toggle,mp_triple_sip,,,,,,,,,,,,,,,,
-A,delayed_latch 500,mp_center_sip,,,,,,,,,,,,,,,,
-start,normal,mp_left_puff_soft,,,,,,,,,,,,,,,,
-back,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,
-right_trigger,force_off 200,mp_center_sip,,,,,,,,,,,,,,,,
-A,force_off,mp_left_center_sip,,,,,,,,,,,,,,,,
-A,force_off,mp_right_center_sip,,,,,,,,,,,,,,,,
-A,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,
-A,force_off,mp_triple_sip,,,,,,,,,,,,,,,,
-A,force_off,mp_left_puff_soft,,,,,,,,,,,,,,,,
-A,force_off,mp_right_puff_soft,,,,,,,,,,,,,,,,
-A,force_off,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
-A,force_off,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
-right_trigger,toggle,mp_center_sip_soft,,,,,,,,,,,,,,,,
-A,force_off,mp_center_sip_soft,,,,,,,,,,,,,,,,
-joystick_deflection_maximum,normal,24,,,,,,,,,,,,,,,,
-decrement_mode,normal,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
-increment_mode,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
+left_trigger,toggle,lip
+B,normal,mp_center_puff
+X,normal,mp_left_center_puff
+Y,normal,mp_right_center_puff
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_bumper,normal,mp_left_center_sip
+right_trigger,toggle,mp_right_center_sip
+left_bumper,delay_on 100,mp_triple_puff_soft
+left_trigger,toggle,mp_triple_sip
+A,delayed_latch 500,mp_center_sip
+start,normal,mp_left_puff_soft
+back,normal,mp_right_puff_soft
+right_trigger,force_off 200,mp_center_sip
+A,force_off,mp_left_center_sip
+A,force_off,mp_right_center_sip
+A,force_off,mp_triple_puff_soft
+A,force_off,mp_triple_sip
+A,force_off,mp_left_puff_soft
+A,force_off,mp_right_puff_soft
+A,force_off,mp_right_center_puff_soft
+A,force_off,mp_right_center_sip_soft
+right_trigger,toggle,mp_center_sip_soft
+A,force_off,mp_center_sip_soft
+joystick_deflection_maximum,normal,24
+decrement_mode,normal,mp_right_center_puff_soft
+increment_mode,normal,mp_right_center_sip_soft
+
+Profile Name,,Copy of Gameplay,,,,,,,,Mixed joy
+tunic.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+left_trigger,toggle,lip
+B,normal,mp_center_puff
+X,normal,mp_left_center_puff
+Y,normal,mp_right_center_puff
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_bumper,normal,mp_left_center_sip
+right_trigger,toggle,mp_right_center_sip
+left_bumper,delay_on 100,mp_triple_puff_soft
+left_trigger,toggle,mp_triple_sip
+A,delayed_latch 500,mp_center_sip_soft
+start,normal,mp_left_puff_soft
+back,normal,mp_right_puff_soft
+right_trigger,force_off 200,mp_center_sip_soft
+A,force_off,mp_left_center_sip
+A,force_off,mp_right_center_sip
+A,force_off,mp_triple_puff_soft
+A,force_off,mp_triple_sip
+A,force_off,mp_left_puff_soft
+A,force_off,mp_right_puff_soft
+A,force_off,mp_right_center_puff_soft
+A,force_off,mp_right_center_sip_soft
+right_trigger,normal,mp_center_sip
+right_bumper,delay_on 100,mp_center_puff_soft
+A,force_off,mp_center_sip
+joystick_deflection_maximum,normal,24
+increment_mode,normal,mp_right_center_puff_soft
+decrement_mode,normal,mp_right_center_sip_soft
+
+Profile Name,,Copy of Menu,,,,,,,,Mixed joy
+mwxbox.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+A,normal,mp_center_puff
+B,normal,mp_center_sip
+X,normal,mp_left_center_sip_soft
+Y,normal,mp_left_center_puff_soft
+left_joy_up,pulse 25 5,mp_triple_puff
+left_joy_up,pulse 25 4,mp_triple_sip
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_bumper,normal,mp_right_center_puff
+right_trigger,normal,mp_right_center_sip
+left_bumper,normal,mp_left_center_puff
+left_trigger,normal,mp_left_center_sip
+A,normal,lip
+start,normal,mp_left_puff_soft
+back,normal,mp_right_puff_soft
+increment_mode,normal,mp_right_center_puff_soft
+decrement_mode,normal,mp_right_center_sip_soft
+joystick_deflection_maximum,normal,24
+
+Preferences
+
+Preference,Value,Units,Description
+sip_puff_delay_soft,150,ms
+deflection_multiplier_up,100,percent
+deflection_multiplier_down,115,percent
+deflection_multiplier_left,100,percent
+deflection_multiplier_right,100,percent
+lip_position_minimum,7,percent,Percent of full scale of lip movement to initiate output
+lip_position_maximum,35,percent,Percent of full scale of lip movement for 100% output
+joystick_deflection_maximum,45
+joystick_dead_zone_shape,1
+joystick_deflection_minimum,0
+sip_puff_threshold,40,percent,Percent of full scale Pressure to detect Hard Sip/Puff

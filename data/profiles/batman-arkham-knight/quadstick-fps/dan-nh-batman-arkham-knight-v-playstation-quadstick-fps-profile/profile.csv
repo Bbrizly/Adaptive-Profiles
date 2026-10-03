@@ -1,18 +1,118 @@
-Profile Name,,Mouse Mode,,,,,,,,,,,,,,,,
-batmanarkhamknightv2.csv,,Normal,,,,,,,,,,,,,,,,
-PlayStation Outputs,Function,usb,,,,,,,,,,,,,,,,
+Profile Name,,Main
+batmanarkhamknightv2.csv,,Normal
+PlayStation Outputs,Function,usb
 kb_comma,force_off,right_puff,,,,,,,,,,,,,,,,Force off
 kb_right_control,force_off,right_puff,,,,,,,,,,,,,,,,Force off
 kb_backslash,force_off,right_puff,,,,,,,,,,,,,,,,Force off
-kb_grave_accent_and_tilde,force_off,right_puff,,,,,,,,,,,,,,,,
+kb_grave_accent_and_tilde,force_off,right_puff
 kb_grave_accent_and_tilde,delayed_latch 50,right_sip,,,,,,,,,,,,,,,,Voice chat
 kb_escape,tap 300 50,right_sip_soft,,,,,,,,,,,,,,,,Escape
 kb_enter,tap 300 50,right_puff_soft,,,,,,,,,,,,,,,,Enter/Continue
-increment_mode,delay_on 300 50,right_sip_soft,,,,,,,,Basic mouse only configuration for PC users,,,,,,,,
-decrement_mode,delay_on 300 50,right_puff_soft,,,,,,,,,,,,,,,,
+increment_mode,delay_on 300 50,right_sip_soft,,,,,,,,Basic mouse only configuration for PC users
+decrement_mode,delay_on 300 50,right_puff_soft
 kb_up_arrow,normal,up,,,,,,,,,,,,,,,,Forward
 kb_down_arrow,normal,down,,,,,,,,,,,,,,,,Backwards
 kb_page_up,greater_than 10,left,,,,,,,,,,,,,,,,Left
 kb_page_down,greater_than 10,right,,,,,,,,,,,,,,,,Right
-mouse_left,greater_than 99,left,,,,,,,,,,,,,,,,
-mouse_right,greater_than 99,right,,,,,,,,,,,,,,,,
+mouse_left,greater_than 99,left
+mouse_right,greater_than 99,right
+
+Profile Name,,Batman Gameplay
+batmanarkhamknightv2.csv,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,mp_triple_sip_soft
+decrement_mode,normal,mp_triple_puff_soft
+dpad_N,toggle,mp_triple_puff,,,,,,,,,,,,,,,,Select Gadgets
+dpad_E,normal
+dpad_S,normal
+dpad_W,normal
+left_joy_left,normal,,,,,,,,,,,,,,,,,Left
+left_joy_right,normal,,,,,,,,,,,,,,,,,Right 
+left_joy_up,toggle,lip,,,,,,,,,,,,,,,,Forward
+left_joy_up,delayed_latch,mp_right_puff,,,,,,,,,,,,,,,,Walk Slow
+left_joy_down,normal,,,,,,,,,,,,,,,,,Down 
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Detective Mode / Hold To Scan Environment 
+left_2,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,Aim Gadget / Quickfire Batarang
+left_3,normal,,,,,,,,,,,,,,,,,Center Camera 
+right_1,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Grappling Hook
+right_2,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Crouch / Use Gadget / Double Tap To Quick Fire Batclaw
+right_2,toggle,mp_right_puff_soft,,,,,,,,,,,,,,,,Toggle Crouch 
+right_3,normal,,,,,,,,,,,,,,,,,Zoom Camera
+x,delayed_latch,lip,,,,,,,,,,,,,,,,Run /Glide
+x,normal,lip,,,,,,,,,,,,,,,,Avoid Hits 
+x,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,"Pick Up Items, Open Doors,Etc"
+circle,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Cape Stun
+square,normal,mp_center_puff,,,,,,,,,,,,,,,,Attack / Strike 
+triangle,normal,mp_center_sip,,,,,,,,,,,,,,,,Counter Attack 
+select,normal
+ps3,normal
+start,normal
+touch,normal,,,,,,,,,,,,,,,,,Wayne Technology
+circle,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Special Takedown 1
+triangle,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Special Takedown 1
+square,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Special Takedown 2
+x,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Special Takedown 2
+
+Profile Name,,Mouse,,,,,,,,Comments
+batmanarkhamknightv2.csv,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,delay_on 500,right_sip_soft,,,,,,,,Basic mouse only configuration for PC users
+decrement_mode,delay_on 500,right_puff_soft
+kb_grave_accent_and_tilde,force_off,right_puff
+kb_left_control,force_off,right_puff
+kb_left_shift,force_off,right_puff
+kb_left_alt,force_off,right_puff
+kb_keypad_0,delay_on 200,right_puff,,,,,,,,,,,,,,,,Play
+kb_keypad_1,delay_on 200,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Instant replay
+kb_keypad_3,delay_on 200,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Fast-forward
+kb_left_shift,delay_on 200,mp_right_sip_soft,,,,,,,,,,,,,,,,Cycle between Japanese and English
+kb_left_alt,delay_on 200,mp_right_sip_soft
+digital_out1_toggle,delay_on 200,mp_right_sip_soft
+kb_left_control,normal,mp_left_right_sip,,,,,,,,,,,,,,,,hiragana
+kb_caps_lock,normal,mp_left_right_sip
+kb_left_alt,normal,mp_left_right_puff,,,,,,,,,,,,,,,,katakana
+kb_caps_lock,normal,mp_left_right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_down,normal,mp_right_puff
+mouse_wheel_up,normal,mp_right_sip
+mouse_left_button,delayed_latch 1000,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+mouse_middle_button,normal,mp_right_puff_soft
+kb_enter,normal,lip
+kb_escape,normal,mp_right_center_puff_soft
+kb_tab,normal,mp_left_puff
+kb_backspace,normal,mp_left_center_sip
+kb_space,normal,mp_left_center_puff
+kb_keypad_minus,normal,mp_left_puff_soft
+kb_keypad_plus,normal,mp_left_sip_soft
+kb_left_control,normal,mp_triple_sip
+kb_c,normal,mp_triple_sip
+kb_left_control,normal,mp_triple_puff
+kb_v,normal,mp_triple_puff
+kb_right_alt,normal,mp_triple_puff_soft,,,,,,,,Switch screens
+kb_tab,normal,mp_triple_puff_soft
+kb_grave_accent_and_tilde,delayed_latch 50,right_sip,,,,,,,,,,,,,,,,Voice chat
+kb_left_control,delay_on 1000,mp_right_center_sip,,,,,,,,Activate eye gaze
+kb_left_shift,delay_on 1000,mp_right_center_sip
+kb_f4,delay_on 1000,mp_right_center_sip
+kb_left_control,delay_on 1000,mp_right_center_puff_soft,,,,,,,,Disable interactors
+kb_left_shift,delay_on 1000,mp_right_center_puff_soft
+kb_f8,delay_on 1000,mp_right_center_puff_soft
+kb_left_control,normal,mp_right_center_sip_soft,,,,,,,,Click at gaze point,,,,,,,,Click at gaze point
+kb_left_shift,normal,mp_right_center_sip_soft
+kb_f7,normal,mp_right_center_sip_soft
+kb_pause,normal,mp_right_center_puff,,,,,,,,Click interactor,,,,,,,,Activate interactor
+kb_left_shift,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,Mathematica enter
+kb_enter,normal,mp_triple_sip_soft
+
+Preferences,,,,,,,,,,Pan Mode
+,,,,,,,,,,Alternate
+Preference,Value,Units,,,,,,,,usb
+sip_puff_delay_soft,150,ms,Time delay before detecting Soft Sip/Puff or Inner Joystick Zone

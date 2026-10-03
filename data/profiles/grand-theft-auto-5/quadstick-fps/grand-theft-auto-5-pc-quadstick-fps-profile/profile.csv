@@ -1,36 +1,306 @@
-Profile Name,,Left joy,,,,,,,,Notes
-gta5pc.csv,,Normal,,,,,,,,
-Output or Function,Function,usb,,,,,,,,
+Profile Name,,Movement,,,,,,,,Notes
+gta5pc.csv,,Normal
+Output or Function,Function,usb
 increment_mode,normal,right_sip,,,,,,,,"Based on http://orcz.com/GTA_V:_Keyboard_Controls
 
 This configuration still needs driving and flying modes added"
-decrement_mode,normal,right_puff,,,,,,,,
-mouse_middle_button,normal,,,,,,,,,
-dpad_E,normal,,,,,,,,,
-kb_left_alt,normal,,,,,,,,,
+decrement_mode,normal,right_puff
+mouse_middle_button,normal
+dpad_E,normal
+kb_left_alt,normal
 dpad_W,normal,,,,,,,,,RockStar Games info
-kb_a,greater_than 25,left,,,,,,,,
-kb_d,greater_than 25,right,,,,,,,,
-kb_w,greater_than 25,up,,,,,,,,
-kb_s,greater_than 25,down,,,,,,,,
-mouse_left,normal,,,,,,,,,
-mouse_right,normal,,,,,,,,,
-mouse_up,normal,,,,,,,,,
-mouse_down,normal,,,,,,,,,
-kb_tab,normal,mp_left_sip,,,,,,,,
-mouse_right_button,toggle,mp_left_puff,,,,,,,,
-kb_caps_lock,normal,mp_left_center_sip,,,,,,,,
-kb_t,normal,mp_right_sip,,,,,,,,
-mouse_left_button,normal,lip,,,,,,,,
-mouse_wheel_up,normal,mp_right_center_sip,,,,,,,,
-kb_space,normal,mp_right_puff,,,,,,,,
-kb_o,normal,mp_center_puff,,,,,,,,
-kb_r,normal,mp_center_sip,,,,,,,,
-kb_f,normal,mp_right_center_puff,,,,,,,,
-kb_v,normal,mp_left_sip_soft,,,,,,,,
-kb_left_control,normal,right_sip_soft,,,,,,,,
-kb_keypad_plus,normal,right_sip_soft,,,,,,,,
-kb_p,normal,mp_center_sip_soft,,,,,,,,
-kb_m,normal,mp_right_sip_soft,,,,,,,,
-kb_escape,normal,mp_left_center_puff,,,,,,,,
-kb_left_shift,greater_than 99,up,,,,,,,,
+kb_a,greater_than 25,left
+kb_d,greater_than 25,right
+kb_w,greater_than 25,up
+kb_s,greater_than 25,down
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+kb_tab,normal,mp_left_sip
+mouse_right_button,toggle,mp_left_puff
+kb_caps_lock,normal,mp_left_center_sip
+kb_t,normal,mp_right_sip
+mouse_left_button,normal,lip
+mouse_wheel_up,normal,mp_right_center_sip
+kb_space,normal,mp_right_puff
+kb_o,normal,mp_center_puff
+kb_r,normal,mp_center_sip
+kb_f,normal,mp_right_center_puff
+kb_v,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_p,normal,mp_center_sip_soft
+kb_m,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+kb_left_shift,greater_than 99,up
+
+Profile Name,,Mixed Joystick
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_middle_button,normal
+dpad_E,normal
+kb_left_alt,normal
+dpad_W,normal
+kb_a,greater_than 25
+kb_d,greater_than 25
+kb_w,greater_than 25,up
+kb_s,greater_than 25,down
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal
+mouse_down,normal
+kb_tab,normal,mp_left_sip
+mouse_right_button,toggle,mp_left_puff
+kb_caps_lock,normal,mp_left_center_sip
+kb_t,normal,mp_right_sip
+mouse_left_button,normal,lip
+mouse_wheel_up,normal,mp_right_center_sip
+kb_space,normal,mp_right_puff
+kb_o,normal,mp_center_puff
+kb_r,normal,mp_center_sip
+kb_f,normal,mp_right_center_puff
+kb_v,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_p,normal,mp_center_sip_soft
+kb_m,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+kb_left_shift,greater_than 99,up
+
+Profile Name,,Camera
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_middle_button,normal
+dpad_E,normal
+kb_left_alt,normal
+dpad_W,normal
+kb_a,greater_than 25
+kb_d,greater_than 25
+kb_w,greater_than 25
+kb_s,greater_than 25
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+kb_tab,normal,mp_left_sip
+mouse_right_button,toggle,mp_left_puff
+kb_caps_lock,normal,mp_left_center_sip
+kb_t,normal,mp_right_sip
+mouse_left_button,normal,lip
+mouse_wheel_up,normal,mp_right_center_sip
+kb_space,normal,mp_right_puff
+kb_o,normal,mp_center_puff
+kb_r,normal,mp_center_sip
+kb_f,normal,mp_right_center_puff
+kb_v,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_p,normal,mp_center_sip_soft
+kb_m,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+kb_left_shift,greater_than 99,up
+
+Profile Name,,Switch Characters
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_middle_button,normal
+dpad_E,normal
+kb_left_alt,normal
+dpad_W,normal
+kb_f5,normal,W
+kb_f6,normal,E
+kb_f7,normal,N
+kb_f8,normal,S
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+kb_tab,normal,mp_left_sip
+mouse_right_button,toggle,mp_left_puff
+kb_caps_lock,normal,mp_left_center_sip
+kb_t,normal,mp_right_sip
+mouse_left_button,normal,lip
+mouse_wheel_up,normal,mp_right_center_sip
+kb_space,normal,mp_right_puff
+kb_o,normal,mp_center_puff
+kb_r,normal,mp_center_sip
+kb_f,normal,mp_right_center_puff
+kb_v,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_p,normal,mp_center_sip_soft
+kb_m,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,Drive,,,,,,,,Comment
+gta5pc.csv,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_middle_button,normal
+dpad_E,normal
+kb_left_alt,normal
+dpad_W,normal
+kb_a,greater_than 25,left,,,,,,,,Steer Left
+kb_d,greater_than 25,right,,,,,,,,Steer Right
+kb_w,greater_than 25,up,,,,,,,,Accelerate
+kb_s,greater_than 25,down,,,,,,,,Brake
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+kb_tab,normal,mp_left_sip,,,,,,,,Next Vehicle Weapon
+mouse_right_button,toggle,mp_left_puff,,,,,,,,Aim drive-by weapon
+kb_caps_lock,normal,mp_left_center_sip,,,,,,,,Toggle Special Abilit
+kb_t,normal,mp_right_sip
+mouse_left_button,normal,lip,,,,,,,,Fire drive-by weapon       
+mouse_wheel_up,normal,mp_right_center_sip,,,,,,,,Next Vechicle Weapon
+kb_space,normal,mp_right_puff,,,,,,,,Handbrake
+kb_o,normal,mp_center_puff
+kb_r,normal,mp_center_sip,,,,,,,,Cinematic Camera
+kb_f,normal,mp_right_center_puff,,,,,,,,Exit Vehicle        
+kb_v,normal,mp_left_sip_soft,,,,,,,,Cycle Camera
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_p,normal,mp_center_sip_soft,,,,,,,,Pause
+kb_m,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+kb_left_shift,greater_than 99
+kb_h,normal,,,,,,,,,Headlights
+kb_e,normal,,,,,,,,,Horn
+kb_c,normal,,,,,,,,,Look Behind (in Vehicle)        
+kb_dot,normal,,,,,,,,,Next Radio Station
+kb_comma,normal,,,,,,,,,Previous Radio Station        
+kb_equal,normal,,,,,,,,,Next custom radio track        
+kb_minus,normal,,,,,,,,,Previous custom radio track
+kb_q,normal,,,,,,,,,Radio Wheel
+kb_l,normal,,,,,,,,,Cinematic Slowmo
+kb_x,normal,,,,,,,,,Duck
+joystick_dead_zone_shape,0
+
+Profile Name,,Drive Mouse,,,,,,,,Comment
+gta5pc.csv,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_middle_button,normal
+dpad_E,normal
+kb_left_alt,normal
+dpad_W,normal
+kb_a,greater_than 25
+kb_d,greater_than 25
+kb_w,greater_than 25
+kb_s,greater_than 25
+mouse_left,normal,left,,,,,,,,Steer Left
+mouse_right,normal,right,,,,,,,,Steer Right
+mouse_up,normal,up,,,,,,,,Accelerate
+mouse_down,normal,down,,,,,,,,Brake
+kb_tab,normal,mp_left_sip,,,,,,,,Next Vehicle Weapon
+mouse_right_button,toggle,mp_left_puff,,,,,,,,Aim drive-by weapon
+kb_caps_lock,normal,mp_left_center_sip,,,,,,,,Toggle Special Abilit
+kb_t,normal,mp_right_sip
+mouse_left_button,delayed_latch 750,lip,,,,,,,,Latch on for Mouse driving
+mouse_wheel_up,normal,mp_right_center_sip,,,,,,,,Next Vechicle Weapon
+kb_space,normal,mp_right_puff,,,,,,,,Handbrake
+kb_o,normal,mp_center_puff
+kb_r,normal,mp_center_sip,,,,,,,,Cinematic Camera
+kb_f,normal,mp_right_center_puff,,,,,,,,Exit Vehicle        
+kb_v,normal,mp_left_sip_soft,,,,,,,,Cycle Camera
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_p,normal,mp_center_sip_soft,,,,,,,,Pause
+kb_m,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+kb_left_shift,greater_than 99
+kb_h,normal,,,,,,,,,Headlights
+kb_e,normal,,,,,,,,,Horn
+kb_c,normal,,,,,,,,,Look Behind (in Vehicle)        
+kb_dot,normal,,,,,,,,,Next Radio Station
+kb_comma,normal,,,,,,,,,Previous Radio Station        
+kb_equal,normal,,,,,,,,,Next custom radio track        
+kb_minus,normal,,,,,,,,,Previous custom radio track
+kb_q,normal,,,,,,,,,Radio Wheel
+kb_l,normal,,,,,,,,,Cinematic Slowmo
+kb_x,normal,,,,,,,,,Duck
+joystick_dead_zone_shape,0
+
+Profile Name,,Mouse
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_shift,normal,right_puff_soft
+kb_escape,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+
+Profile Name,,Mouse Scroll
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+mouse_wheel_up,normal,up
+mouse_wheel_down,normal,down
+mouse_pan_left,normal,left
+mouse_pan_right,normal,right
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft

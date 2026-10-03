@@ -1,26 +1,149 @@
-Profile Name,,Left joy,,,,,,,,
-ac1.csv,,Normal,,,,,,,,
-XBox Outputs,Function,usb,,,,,,,,
+Profile Name,,MoveStrafe
+ac1.csv,,Normal
+XBox Outputs,Function,usb
 increment_mode,normal,right_sip,,,,,,,,Default Keyboard with 2 button mouse controller setting
-decrement_mode,normal,right_puff,,,,,,,,
-left_joy_left,normal,left,,,,,,,,
-left_joy_right,normal,right,,,,,,,,
-left_joy_up,normal,up,,,,,,,,
-left_joy_down,normal,down,,,,,,,,
-right_joy_left,normal,,,,,,,,,
-right_joy_right,normal,,,,,,,,,
-right_joy_up,normal,,,,,,,,,
-right_joy_down,normal,,,,,,,,,
-left_bumper,normal,mp_left_sip,,,,,,,,
-left_trigger,normal,mp_left_puff,,,,,,,,
-left_stick,normal,mp_left_center_sip,,,,,,,,
-right_bumper,normal,mp_right_sip,,,,,,,,
-right_trigger,toggle,mp_right_puff,,,,,,,,
-right_stick,normal,mp_right_center_sip,,,,,,,,
-A,normal,lip,,,,,,,,
-B,normal,mp_center_puff,,,,,,,,
-X,normal,mp_center_sip,,,,,,,,
-Y,normal,mp_right_center_puff,,,,,,,,
-guide,normal,mp_center_sip_soft,,,,,,,,
-start,normal,mp_right_sip_soft,,,,,,,,
-back,normal,mp_left_sip_soft,,,,,,,,
+decrement_mode,normal,right_puff
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,toggle,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+back,normal,mp_left_sip_soft
+
+Profile Name,,MoveSteer
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_w,greater_than 20,up
+kb_a,greater_than 20
+kb_s,greater_than 20,down
+kb_d,greater_than 20
+mouse_right,normal,right
+mouse_left,normal,left
+mouse_up,normal
+mouse_down,normal
+mouse_left_button,normal,lip
+mouse_right_button,normal,mp_right_sip
+kb_space,normal,mp_center_sip
+kb_e,normal,mp_center_puff
+kb_f,normal,mp_left_sip
+kb_left_shift,normal,mp_right_center_puff
+kb_q,normal,mp_left_puff
+kb_c,normal,mp_left_puff_soft
+kb_escape,normal,mp_right_sip_soft
+kb_left_alt,normal,mp_center_sip_soft
+kb_f4,normal,mp_center_sip_soft
+kb_tab,normal,mp_left_sip_soft
+mouse_right_button,greater_than 99,up
+kb_space,greater_than 99,up
+mouse_right_button,normal,mp_right_center_sip
+kb_left_shift,normal,mp_right_center_sip
+
+Profile Name,,View
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_w,greater_than 20
+kb_a,greater_than 20
+kb_s,greater_than 20
+kb_d,greater_than 20
+mouse_right,normal,right
+mouse_left,normal,left
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_left_button,normal,lip
+mouse_right_button,normal,mp_right_sip
+kb_space,normal,mp_center_sip
+kb_e,normal,mp_center_puff
+kb_f,normal,mp_left_sip
+kb_left_shift,normal,mp_right_center_puff
+kb_q,normal,mp_left_puff
+kb_c,normal,mp_left_puff_soft
+kb_escape,normal,mp_right_sip_soft
+kb_left_alt,normal,mp_center_sip_soft
+kb_f4,normal,mp_center_sip_soft
+kb_tab,normal,mp_left_sip_soft
+mouse_right_button,greater_than 99,up
+kb_space,greater_than 99,up
+mouse_right_button,normal,mp_right_center_sip
+kb_left_shift,normal,mp_right_center_sip
+
+Profile Name,,Weapon
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_1,normal,W
+kb_2,normal,N
+kb_3,normal,E
+kb_4,normal,S
+mouse_left_button,normal,lip
+mouse_right_button,normal,mp_right_sip
+kb_space,normal,mp_center_sip
+kb_e,normal,mp_center_puff
+kb_f,normal,mp_left_sip
+kb_left_shift,normal,mp_right_center_puff
+kb_q,normal,mp_left_puff
+kb_c,normal,mp_left_puff_soft
+kb_escape,normal,mp_right_sip_soft
+kb_left_alt,normal,mp_center_sip_soft
+kb_f4,normal,mp_center_sip_soft
+kb_tab,normal,mp_left_sip_soft
+
+Profile Name,,Mouse
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2

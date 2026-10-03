@@ -1,44 +1,243 @@
-Profile Name,,Mouse Mode,,,,,,,,Comments
-elite.csv,,,,,,,,,,
-Output or Function,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,
-mouse_left,normal,left,,,,,,,,
-mouse_right,normal,right,,,,,,,,
-mouse_up,normal,up,,,,,,,,
-mouse_down,normal,down,,,,,,,,
-mouse_left_button,normal,lip,,,,,,,,
-mouse_left_button,normal,mp_center_puff,,,,,,,,
-mouse_right_button,normal,mp_center_sip,,,,,,,,
+Profile Name,,Mouse,,,,,,,,Comments
+elite.csv
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_center_puff
+mouse_right_button,normal,mp_center_sip
 kb_space,normal,mp_left_puff,,,,,,,,Select
 mouse_middle_button,normal,mp_right_center_puff,,,,,,,,Toggle Head Look
-kb_escape,normal,mp_center_sip_soft,,,,,,,,
+kb_escape,normal,mp_center_sip_soft
 kb_left_control,normal,mp_right_sip_soft,,,,,,,,Exit game
-kb_left_alt,normal,mp_right_sip_soft,,,,,,,,
-kb_delete,normal,mp_right_sip_soft,,,,,,,,
+kb_left_alt,normal,mp_right_sip_soft
+kb_delete,normal,mp_right_sip_soft
 kb_enter,normal,mp_right_puff,,,,,,,,Quick Comms Panel
 kb_y,normal,mp_left_center_sip,,,,,,,,Cycle Next Subsystem
 kb_n,normal,mp_left_center_puff,,,,,,,,Cycle Fire Group Next
 kb_delete,normal,mp_right_sip,,,,,,,,Toggle Button Up Input
 kb_l,normal,mp_right_center_sip,,,,,,,,Ship Spot Light Toggle
 kb_p,normal,mp_center_puff_soft,,,,,,,,Pause
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+
+Profile Name,,Flight Roll,,,,,,,,Comments
+
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+left_joy_left,normal,left,,,,,,,,Roll
+left_joy_right,normal,right
+left_joy_up,normal,up,,,,,,,,Pitch
+left_joy_down,normal,down
+mouse_left_button,normal,mp_center_puff,,,,,,,,Fire Primary Weapon
+increment_mode,tap,mp_center_sip,,,,,,,,Next mode
+mouse_middle_button,normal,mp_left_center_sip,,,,,,,,Go to Head Look mode
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+mouse_right_button,normal,mp_left_center_puff,,,,,,,,Fire Secondary Weapon
+kb_w,delay_on 500,mp_right_center_puff,,,,,,,,Increase Throttle
+kb_tab,tap,mp_right_center_puff,,,,,,,,Boost
+kb_s,delay_on 500,mp_right_center_sip,,,,,,,,Decrease Throttle
+kb_x,tap,mp_right_center_sip,,,,,,,,Throttle 0
+kb_h,delay_on 500,mp_right_puff,,,,,,,,Select Highest Threat
+kb_t,tap,mp_right_puff,,,,,,,,Select Target
+kb_g,normal,mp_right_sip,,,,,,,,Cycle Next Target
+increment_mode,normal,mp_left_sip,,,,,,,,Go to Select Panel
+increment_mode,normal,mp_left_sip
+increment_mode,normal,mp_left_sip
+kb_left_arrow,normal,mp_left_center_puff_soft,,,,,,,,Increase Systems Power
+kb_up_arrow,normal,mp_center_puff_soft,,,,,,,,Increase Engine Power
+kb_right_arrow,normal,mp_right_center_puff_soft,,,,,,,,Increase Weapons Power
+kb_down_arrow,normal,mp_center_sip_soft,,,,,,,,Reset Power Distribution
+kb_end,delay_on 500,mp_left_puff_soft,,,,,,,,Eject Cargo
+kb_v,tap,mp_left_puff_soft,,,,,,,,Deploy Heat Sink
+kb_home,delay_on 500,mp_left_sip_soft,,,,,,,,Toggle Cargo Scoop
+kb_u,tap,mp_left_sip_soft,,,,,,,,Toggle Hard Point
+kb_insert,normal,mp_left_center_sip_soft,,,,,,,,Toggle Landing Gear
+kb_j,normal,mp_right_center_sip_soft,,,,,,,,Jump to hyperspace
+kb_page_up,normal,mp_right_puff_soft,,,,,,,,Radar Increase Range
+kb_page_down,normal,mp_right_sip_soft,,,,,,,,Radar Decrease Range
+kb_z,normal,mp_left_puff,,,,,,,,Toggle Flight Assist
+
+Profile Name,,Flight Yaw,,,,,,,,Comments
+
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+right_joy_up,normal,left,,,,,,,,Yaw
+right_joy_down,normal,right
+left_joy_up,normal,up,,,,,,,,Pitch
+left_joy_down,normal,down
+mouse_left_button,normal,mp_center_puff,,,,,,,,Fire Primary Weapon
+increment_mode,tap,mp_center_sip,,,,,,,,Next mode
+mouse_middle_button,normal,mp_left_center_sip,,,,,,,,Go to Head Look mode
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+mouse_right_button,normal,mp_left_center_puff,,,,,,,,Fire Secondary Weapon
+kb_w,delay_on 500,mp_right_center_puff,,,,,,,,Increase Throttle
+kb_tab,tap,mp_right_center_puff,,,,,,,,Boost
+kb_s,delay_on 500,mp_right_center_sip,,,,,,,,Decrease Throttle
+kb_x,tap,mp_right_center_sip,,,,,,,,Throttle 0
+kb_h,delay_on 500,mp_right_puff,,,,,,,,Select Highest Threat
+kb_t,tap,mp_right_puff,,,,,,,,Select Target
+kb_g,normal,mp_right_sip,,,,,,,,Cycle Next Target
+increment_mode,normal,mp_left_sip,,,,,,,,Go to Select Panel
+increment_mode,normal,mp_left_sip
+kb_left_arrow,normal,mp_left_center_puff_soft,,,,,,,,Increase Systems Power
+kb_up_arrow,normal,mp_center_puff_soft,,,,,,,,Increase Engine Power
+kb_right_arrow,normal,mp_right_center_puff_soft,,,,,,,,Increase Weapons Power
+kb_down_arrow,normal,mp_center_sip_soft,,,,,,,,Reset Power Distribution
+kb_end,delay_on 500,mp_left_puff_soft,,,,,,,,Eject Cargo
+kb_v,tap,mp_left_puff_soft,,,,,,,,Deploy Heat Sink
+kb_home,delay_on 500,mp_left_sip_soft,,,,,,,,Toggle Cargo Scoop
+kb_u,tap,mp_left_sip_soft,,,,,,,,Toggle Hard Point
+kb_insert,normal,mp_left_center_sip_soft,,,,,,,,Toggle Landing Gear
+kb_j,normal,mp_right_center_sip_soft,,,,,,,,Jump to hyperspace
+kb_page_up,normal,mp_right_puff_soft,,,,,,,,Radar Increase Range
+kb_page_down,normal,mp_right_sip_soft,,,,,,,,Radar Decrease Range
+kb_z,normal,mp_left_puff,,,,,,,,Toggle Flight Assist
+
+Profile Name,,Flight Thrust,,,,,,,,Comments
+
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_q,greater_than 20,left,,,,,,,,Thrust
+kb_e,greater_than 20,right
+kb_r,greater_than 20,up
+kb_f,greater_than 20,down
+mouse_left_button,normal,mp_center_puff,,,,,,,,Fire Primary Weapon
+decrement_mode,tap,mp_center_sip
+decrement_mode,tap,mp_center_sip,,,,,,,,Next mode
+mouse_middle_button,normal,mp_left_center_sip,,,,,,,,Go to Head Look mode
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+increment_mode,delay_on 200,mp_left_center_sip
+mouse_right_button,normal,mp_left_center_puff,,,,,,,,Fire Secondary Weapon
+kb_w,delay_on 500,mp_right_center_puff,,,,,,,,Increase Throttle
+kb_tab,tap,mp_right_center_puff,,,,,,,,Boost
+kb_s,delay_on 500,mp_right_center_sip,,,,,,,,Decrease Throttle
+kb_x,tap,mp_right_center_sip,,,,,,,,Throttle 0
+kb_h,delay_on 500,mp_right_puff,,,,,,,,Select Highest Threat
+kb_t,tap,mp_right_puff,,,,,,,,Select Target
+kb_g,normal,mp_right_sip,,,,,,,,Cycle Next Target
+increment_mode,normal,mp_left_sip,,,,,,,,Go to Select Panel
+kb_left_arrow,normal,mp_left_center_puff_soft,,,,,,,,Increase Systems Power
+kb_up_arrow,normal,mp_center_puff_soft,,,,,,,,Increase Engine Power
+kb_right_arrow,normal,mp_right_center_puff_soft,,,,,,,,Increase Weapons Power
+kb_down_arrow,normal,mp_center_sip_soft,,,,,,,,Reset Power Distribution
+kb_end,delay_on 500,mp_left_puff_soft,,,,,,,,Eject Cargo
+kb_v,tap,mp_left_puff_soft,,,,,,,,Deploy Heat Sink
+kb_home,delay_on 500,mp_left_sip_soft,,,,,,,,Toggle Cargo Scoop
+kb_u,tap,mp_left_sip_soft,,,,,,,,Toggle Hard Point
+kb_insert,normal,mp_left_center_sip_soft,,,,,,,,Toggle Landing Gear
+kb_j,normal,mp_right_center_sip_soft,,,,,,,,Jump to hyperspace
+kb_page_up,normal,mp_right_puff_soft,,,,,,,,Radar Increase Range
+kb_page_down,normal,mp_right_sip_soft,,,,,,,,Radar Decrease Range
+kb_z,normal,mp_left_puff,,,,,,,,Toggle Flight Assist
+
+Profile Name,,Select Panel,,,,,,,,Comments
+,,Select panel to operate
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_2,normal,N,,,,,,,,Focus Comms Panel
+kb_1,normal,W,,,,,,,,Focus Left Panel
+kb_3,normal,S,,,,,,,,Focus Radar Panel
+kb_4,normal,E,,,,,,,,Focus Right Panel
+increment_mode,delay_on 100,N,,,,,,,,Switch to Selected Panel sheet
+increment_mode,delay_on 100,W
+increment_mode,delay_on 100,S
+increment_mode,delay_on 100,E
+decrement_mode,normal,mp_center_sip,,,,,,,,Go back to Flight Roll mode
+decrement_mode,normal,mp_center_sip
+decrement_mode,normal,mp_center_sip
+decrement_mode,normal,mp_center_puff
+decrement_mode,normal,mp_center_puff
+decrement_mode,normal,mp_center_puff
+
+Profile Name,,Panel Operation,,,,,,,,Comments
+,,Operate panel
+Output or Function,Function,usb
+increment_mode,delay_on 100,right_sip
+decrement_mode,delay_on 100,right_puff
+kb_left_shift,normal,right_sip,,,,,,,,Cancel panel on mode change
+kb_left_shift,normal,right_puff
+kb_w,normal,N,,,,,,,,UI Up
+kb_a,normal,W,,,,,,,,UI Left
+kb_s,normal,S,,,,,,,,UI Down
+kb_d,normal,E,,,,,,,,UI Right
+kb_e,normal,mp_right_center_sip,,,,,,,,Cycle Next Panel
+kb_q,normal,mp_left_center_sip,,,,,,,,Cycle Previous Panel
+kb_space,normal,mp_center_puff,,,,,,,,UI Select
+kb_left_shift,normal,mp_center_sip,,,,,,,,Go to Flight Roll mode
+decrement_mode,delay_on 100,mp_center_sip
+decrement_mode,delay_on 100,mp_center_sip
+decrement_mode,delay_on 100,mp_center_sip
+decrement_mode,delay_on 100,mp_center_sip
+
+Profile Name,,Head Look,,,,,,,,Comments
+
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_middle_button,normal,mp_center_sip,,,,,,,,Sip again to go back
+decrement_mode,delay_on 100,mp_center_sip
+decrement_mode,delay_on 100,mp_center_sip
+decrement_mode,delay_on 100,mp_center_sip
+decrement_mode,delay_on 100,mp_center_sip
+decrement_mode,delay_on 100,mp_center_sip
+
+Profile Name,,CAM,,,,,,,,Comments
+
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+kb_t,normal,,,,,,,,,Cam Pitch Up
+kb_g,normal,,,,,,,,,Cam Pitch Down
+kb_q,normal,,,,,,,,,Cam Pitch Left
+kb_e,normal,,,,,,,,,Cam Pitch Right
+kb_w,normal,,,,,,,,,Cam Translate Forward
+kb_s,normal,,,,,,,,,Cam Translate Backward
+kb_a,normal,,,,,,,,,Cam Translate Left
+kb_d,normal,,,,,,,,,Cam Translate Right
+kb_r,normal,,,,,,,,,Cam Translate Up
+kb_f,normal,,,,,,,,,Cam Translate Down
+kb_z,normal,,,,,,,,,Cam Zoom In
+kb_x,normal,,,,,,,,,Cam Zoom Out

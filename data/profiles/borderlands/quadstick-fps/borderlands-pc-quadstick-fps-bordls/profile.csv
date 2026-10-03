@@ -1,4 +1,4 @@
-Profile Name,,Left joy
+Profile Name,,Left
 Bordls.csv,,Normal
 XBox Outputs,Function,usb
 increment_mode,normal,right_sip
@@ -10,17 +10,17 @@ dpad_E,tap 399,mp_triple_puff
 dpad_E,normal,mp_left_puff_soft
 dpad_E,normal,mp_center_puff_soft
 dpad_S,delay_on 400,mp_triple_sip
-dpad_W,normal,
+dpad_W,normal
 dpad_W,tap 399,mp_triple_sip
 dpad_W,normal,mp_right_puff_soft
 left_joy_left,normal,left
 left_joy_right,normal,right
 left_joy_up,normal,up
 left_joy_down,normal,down
-right_joy_left,normal,
-right_joy_right,normal,
-right_joy_up,normal,
-right_joy_down,normal,
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
 A,normal,mp_left_center_puff
 left_bumper,normal,mp_left_puff
 left_trigger,normal,lip
@@ -34,3 +34,107 @@ Y,normal,mp_right_puff
 back,normal,mp_left_sip_soft
 guide,normal,mp_center_sip_soft
 start,normal,mp_right_sip_soft
+
+Profile Name,,Gameplay,,,,,,,,Mixed joy
+Bordls.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+decrement_mode,normal,mp_right_center_puff_soft
+dpad_N,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,Weapon up
+dpad_E,normal,mp_right_puff_soft
+dpad_S,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Weapon down
+dpad_W,normal,mp_left_puff_soft
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,delayed_latch 200,mp_center_puff
+left_joy_down,delayed_latch 50,mp_left_center_sip
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+A,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Jump 
+left_bumper,normal,mp_left_puff,,,,,,,,,,,,,,,,Action skill
+left_trigger,toggle,lip,,,,,,,,,,,,,,,,Aim/ Ironsight
+left_stick,normal ,mp_center_puff
+right_bumper,normal,mp_right_sip,,,,,,,,,,,,,,,,Gernade
+right_trigger,normal,mp_center_sip,,,,,,,,,,,,,,,,Fire
+right_stick,normal,mp_left_sip,,,,,,,,,,,,,,,,Melee 
+X,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Reload/ grab items
+B,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Crouch 
+Y,normal,mp_right_puff,,,,,,,,,,,,,,,,Cycle weapons
+back,normal,mp_left_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+left_joy_up,force_off,right_sip
+left_joy_up,force_off,right_puff
+left_joy_up,force_off,mp_left_sip_soft
+left_joy_up,force_off,mp_right_sip_soft
+left_joy_up,force_off 350,mp_left_sip
+left_joy_up,force_off,mp_left_center_sip
+left_joy_up,normal
+left_joy_up,force_off 350,mp_right_center_sip
+left_joy_up,force_off 500,mp_right_center_puff
+left_trigger,force_off,right_sip
+left_trigger,force_off,right_puff
+left_trigger,force_off,mp_right_sip
+left_trigger,force_off,mp_right_center_sip
+left_trigger,force_off,mp_left_sip_soft
+left_trigger,force_off,mp_center_sip_soft
+left_trigger,force_off,mp_right_sip_soft
+left_joy_down,force_off,right_sip
+left_joy_down,force_off,right_puff
+left_joy_down,force_off,mp_left_sip_soft
+left_joy_down,force_off,mp_right_sip_soft
+left_joy_down,force_off 350,mp_left_sip
+left_joy_down,force_off,mp_center_puff
+left_joy_down,force_off 600,mp_right_center_sip
+left_joy_down,force_off 350,mp_right_center_sip
+left_joy_down,force_off 500,mp_right_center_puff
+
+Profile Name,,Mouse,,,,,,,,Comments
+
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal,mp_center_puff
+mouse_wheel_down,normal,mp_right_center_sip
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft,,,,,,,,Open OSK
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft,,,,,,,,Cut
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip,,,,,,,,Copy
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft,,,,,,,,Paste
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_right_center_puff
+kb_left_control,normal,mp_right_center_puff,,,,,,,,Toggle DNS microphone
+kb_o,normal,mp_right_center_puff
+kb_keypad_plus,normal,right_sip_soft
+joystick_dead_zone_shape,normal,1
+kb_left_gui,normal,mp_left_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2
+sip_puff_delay_soft,300,ms

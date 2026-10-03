@@ -1,39 +1,233 @@
-Profile Name,,Left joy,,,,,,,,No fishing mode
-rdr2.csv,,Normal,,,,,,,,
-PlayStation Outputs,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-dpad_N,normal,,,,,,,,,
-dpad_NE,normal,,,,,,,,,
-dpad_E,normal,,,,,,,,,
-dpad_SE,normal,,,,,,,,,
-dpad_S,normal,,,,,,,,,
-dpad_SW,normal,,,,,,,,,
-dpad_W,normal,,,,,,,,,
-dpad_NW,normal,,,,,,,,,
-left_joy_left,normal,left,,,,,,,,
-left_joy_right,normal,right,,,,,,,,
-left_joy_up,normal,up,,,,,,,,
-left_joy_down,normal,down,,,,,,,,
-right_joy_left,normal,,,,,,,,,
-right_joy_right,normal,,,,,,,,,
-right_joy_up,normal,,,,,,,,,
-right_joy_down,normal,,,,,,,,,
-left_1,normal,mp_left_sip,,,,,,,,
-left_2,normal,mp_left_puff,,,,,,,,
+Profile Name,,Left,,,,,,,,No fishing mode
+rdr2.csv,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+increment_mode,normal,right_puff
+increment_mode,normal,right_puff
+increment_mode,normal,right_puff
+increment_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,mp_left_puff
 left_3,normal,mp_left_center_sip,,,,,,,,Crouch or Calm
-right_1,normal,mp_right_sip,,,,,,,,
-right_2,normal,mp_right_puff,,,,,,,,
-right_3,normal,mp_right_center_sip,,,,,,,,
-x,normal,lip,,,,,,,,
-circle,normal,mp_center_puff,,,,,,,,
-square,normal,mp_center_sip,,,,,,,,
-triangle,normal,mp_right_center_puff,,,,,,,,
-select,normal,mp_left_sip_soft,,,,,,,,
-ps3,normal,mp_center_sip_soft,,,,,,,,
-start,normal,mp_right_sip_soft,,,,,,,,
-touch,normal,mp_left_puff_soft,,,,,,,,
+right_1,normal,mp_right_sip
+right_2,normal,mp_right_puff
+right_3,normal,mp_right_center_sip
+x,normal,lip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+touch,normal,mp_left_puff_soft
 decrement_mode,delay_on 500,mp_left_sip,,,,,,,,Weapon Wheel
+
+Profile Name,,Mixed
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,toggle,mp_left_center_sip,,,,,,,,Crouch
+right_1,normal,mp_right_sip
+right_2,normal,lip
+right_3,normal,mp_right_center_sip,,,,,,,,Dead Eye
+x,normal,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal
+start,normal,mp_right_sip_soft
+decrement_mode,delay_on 500,mp_left_sip,,,,,,,,Weapon Wheel
+decrement_mode,delay_on 500,mp_left_sip
+left_3,normal,mp_left_center_sip_soft,,,,,,,,Eagle Eye
+right_3,normal,mp_left_center_sip_soft
+
+Profile Name,,Right
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,toggle,mp_left_center_sip,,,,,,,,Crouch
+right_1,normal,mp_right_sip
+right_2,normal,lip
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal
+start,normal,mp_right_sip_soft
+decrement_mode,delay_on 500,mp_left_sip,,,,,,,,Weapon Wheel
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+anti_dead_zone,normal,20
+left_3,normal,mp_left_center_sip_soft,,,,,,,,Eagle Eye
+right_3,normal,mp_left_center_sip_soft
+increment_mode,normal,right_sip_soft,,,,,,,,Fishing
+
+Profile Name,,D-Pad
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_NE,normal,NE
+dpad_E,normal,E
+dpad_SE,normal,SE
+dpad_S,normal,S
+dpad_SW,normal,SW
+dpad_W,normal,W
+dpad_NW,normal,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,normal,mp_left_center_sip
+right_1,normal,mp_right_sip
+right_2,normal,lip
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,delay_on 100
+
+Profile Name,,Riding
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,constant
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,toggle,mp_left_center_sip,,,,,,,,Calm horse
+right_1,normal,mp_right_sip
+right_2,normal,lip,,,,,,,,shoot
+right_3,normal,mp_right_center_sip
+x,delayed_latch,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal
+start,normal,mp_right_sip_soft
+select,normal,mp_right_puff_soft
+circle,delay_on 100,mp_right_puff_soft
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+
+Profile Name,,Weapon Wheel
+
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left,,,,,,,,Point to item
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,normal,constant,,,,,,,,Hold L1 for wheel
+left_2,normal,mp_left_puff,,,,,,,,Select Item
+left_3,toggle
+right_1,toggle,mp_right_sip,,,,,,,,Select Tab
+right_2,toggle,mp_right_puff,,,,,,,,Select Item
+right_3,normal,mp_right_center_sip,,,,,,,,Maintain
+x,normal,lip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+start,normal,mp_right_sip_soft
+increment_mode,normal,mp_left_sip,,,,,,,,Release Wheel
+increment_mode,normal,mp_left_sip,,,,,,,,go to mode 2
+right_2,force_off,mp_left_sip
+right_1,force_off,mp_left_sip

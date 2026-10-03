@@ -1,37 +1,273 @@
-Profile Name,,Left joy,,,,,,,,comment
-rcktlgx.csv,,Normal,,,,,,,,
-XBox Outputs,Function,usb,,,,,,,,
+Profile Name,,Left Analog,,,,,,,,comment
+rcktlgx.csv,,Normal
+XBox Outputs,Function,usb
 increment_mode,normal,right_sip,,,,,,,,REQUIRES X360CE
-decrement_mode,normal,right_puff,,,,,,,,
-dpad_N,normal,,,,,,,,,
-dpad_NE,normal,,,,,,,,,
-dpad_E,normal,,,,,,,,,
-dpad_SE,normal,,,,,,,,,
-dpad_S,normal,,,,,,,,,
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
 dpad_SW,normal,,,,,,,,,See quadstick.com support article about X360CE
-dpad_W,normal,,,,,,,,,
-dpad_NW,normal,,,,,,,,,
-left_joy_left,normal,left,,,,,,,,
-left_joy_right,normal,right,,,,,,,,
-left_joy_up,normal,up,,,,,,,,
-left_joy_down,normal,down,,,,,,,,
-right_joy_left,normal,,,,,,,,,
-right_joy_right,normal,,,,,,,,,
-right_joy_up,normal,,,,,,,,,
-right_joy_down,normal,,,,,,,,,
-left_bumper,normal,mp_left_sip,,,,,,,,
-left_trigger,normal,mp_left_puff,,,,,,,,
-left_stick,normal,mp_left_center_sip,,,,,,,,
-right_bumper,normal,mp_right_sip,,,,,,,,
-right_trigger,normal,mp_right_puff,,,,,,,,
-right_stick,normal,mp_right_center_sip,,,,,,,,
-A,normal,lip,,,,,,,,
-B,normal,mp_center_puff,,,,,,,,
-X,normal,mp_center_sip,,,,,,,,
-Y,normal,mp_right_center_puff,,,,,,,,
-back,normal,mp_left_sip_soft,,,,,,,,
-kb_left_control,normal,right_sip_soft,,,,,,,,
-kb_keypad_plus,normal,right_sip_soft,,,,,,,,
-guide,normal,mp_center_sip_soft,,,,,,,,
-start,normal,mp_right_sip_soft,,,,,,,,
-kb_escape,normal,mp_left_center_puff,,,,,,,,
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,Mixed Joystick
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,Right Analog
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,D-Pad
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_NE,normal,NE
+dpad_E,normal,E
+dpad_SE,normal,SE
+dpad_S,normal,S
+dpad_SW,normal,SW
+dpad_W,normal,W
+dpad_NW,normal,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,mp_left_sip
+left_trigger,normal,mp_left_puff
+left_stick,normal,mp_left_center_sip
+right_bumper,normal,mp_right_sip
+right_trigger,normal,mp_right_puff
+right_stick,normal,mp_right_center_sip
+A,normal,lip
+B,normal,mp_center_puff
+X,normal,mp_center_sip
+Y,normal,mp_right_center_puff
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+kb_escape,normal,mp_left_center_puff
+
+Profile Name,,Drive,,,,,,,,comment
+rcktlgx.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left,,,,,,,,steer left
+left_joy_right,normal,right,,,,,,,,steer right
+left_joy_up,normal,up,,,,,,,,air pitch up
+left_joy_down,normal,down,,,,,,,,air pitch down
+right_joy_left,normal,mp_left_sip,,,,,,,,camera swivel left
+right_joy_right,normal,mp_right_sip,,,,,,,,camera swivel right
+right_joy_up,normal
+right_joy_down,normal
+left_bumper,normal,,,,,,,,,scoreboard
+left_trigger,normal,down,,,,,,,,drive backwards
+left_stick,normal,mp_left_center_sip
+right_bumper,toggle,mp_left_center_puff,,,,,,,,voice chat
+right_trigger,delayed_latch 500,up,,,,,,,,drive forwards
+right_trigger,force_off,down,,,,,,,,clear latch drive forward
+right_stick,normal,mp_right_center_sip,,,,,,,,skip music track/rear view
+A,normal,lip,,,,,,,,jump
+B,normal,mp_center_puff,,,,,,,,boost
+X,normal,mp_center_sip,,,,,,,,power slide
+Y,normal,mp_right_center_puff,,,,,,,,focus on ball
+back,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_escape,normal,mp_center_sip_soft,,,,,,,,pause game
+start,normal,mp_right_sip_soft
+joystick_dead_zone_shape,normal,0
+
+Profile Name,,Mouse
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_shift,normal,right_puff_soft
+kb_escape,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+joystick_dead_zone_shape,normal,1
+
+Profile Name,,Mouse Scroll
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+mouse_wheel_up,normal,up
+mouse_wheel_down,normal,down
+mouse_pan_left,normal,left
+mouse_pan_right,normal,right
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+joystick_dead_zone_shape,normal,0
+
+Preferences,,,Can be set in prefs.csv or Preferences page in game csv file
+prefs.csv,,,"Can be changed with voice command, or file"
+Preference,Value,Units,"Can be changed on Mode sheet, Command or file"
+digital_out_1,1,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2
+enable_DS3_emulation,2,,"0=Normal composite device mode, 1=Dual Shock 3 emulation, 2=X360CE mode"

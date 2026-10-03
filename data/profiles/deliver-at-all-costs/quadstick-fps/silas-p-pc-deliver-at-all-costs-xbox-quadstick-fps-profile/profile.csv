@@ -1,18 +1,18 @@
-Profile Name,,Right joy,,,,,,,,Mixed joy,,,,,,,,
-DeliverAtAllCosts.csv,,Normal,,,,,,,,Alternate,,,,,,,,
-XBox Outputs,Function,usb,,,,,,,,usb,,,,,,,,
+Profile Name,,Drive,,,,,,,,Mixed joy
+DeliverAtAllCosts.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
 increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
 decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
-increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
-decrement_mode,tap,right_puff,,,,,,,,,,,,,,,,
-joystick_deflection_maximum,normal,24,,,,,,,,,,,,,,,,
-dpad_S,normal,,,,,,,,,,,,,,,,,
+increment_mode,normal,right_sip
+decrement_mode,tap,right_puff
+joystick_deflection_maximum,normal,24
+dpad_S,normal
 left_joy_left,normal,left,,,,,,,,,,,,,,,,Steer Left
 left_joy_right,normal,right,,,,,,,,,,,,,,,,Steer Right
 right_trigger,normal,up,,,,,,,,,,,,,,,,Throttle
 left_trigger,normal,down,,,,,,,,,,,,,,,,Reverse
 X,normal,mp_center_puff,,,,,,,,,,,,,,,,Jump
-B,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,
+B,normal,mp_center_puff_soft
 A,normal,mp_center_sip,,,,,,,,,,,,,,,,Handbrake
 right_joy_right,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Camera Angle 2
 right_joy_left,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Camera Angle 1
@@ -27,6 +27,156 @@ right_joy_up,normal,mp_triple_puff,,,,,,,,,,,,,,,,Pitch Bike Forward
 right_joy_down,normal,mp_triple_sip,,,,,,,,,,,,,,,,Pitch Bike Backward
 right_stick,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Delivery Gadget
 B,normal,mp_right_center_sip,,,,,,,,,,,,,,,,Utility Gadget
-decrement_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
-decrement_mode,tap 250,mp_right_center_puff_soft,,,,,,,,,,,,,,,,
-increment_mode,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,
+decrement_mode,tap 250,mp_right_center_puff_soft
+decrement_mode,tap 250,mp_right_center_puff_soft
+increment_mode,normal,mp_right_center_sip_soft
+
+Profile Name,,Walk,,,,,,,,Mixed joy
+DeliverAtAllCosts.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+joystick_deflection_maximum,normal,24
+left_joy_left,normal,left,,,,,,,,,,,,,,,,Move Left
+left_joy_right,normal,right,,,,,,,,,,,,,,,,Move Right
+left_joy_up,normal,up,,,,,,,,,,,,,,,,Move Up
+left_joy_down,normal,down,,,,,,,,,,,,,,,,Move Down
+right_trigger,greater_than 75,left,,,,,,,,,,,,,,,,Sprint
+right_trigger,greater_than 75,right,,,,,,,,,,,,,,,,Sprint
+right_trigger,greater_than 75,up,,,,,,,,,,,,,,,,Sprint
+right_trigger,greater_than 75,down,,,,,,,,,,,,,,,,Sprint
+Y,normal,mp_center_sip,,,,,,,,,,,,,,,,Interact/Enter car
+A,normal,mp_center_puff,,,,,,,,,,,,,,,,Jump
+right_stick,delay_on 250,mp_right_center_sip,,,,,,,,,,,,,,,,Skip Dialogue/Cinematic
+right_bumper,tap 250,mp_right_center_sip,,,,,,,,,,,,,,,,Shove
+B,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Back
+left_bumper,normal,mp_triple_sip,,,,,,,,,,,,,,,,Kick
+right_joy_left,normal,mp_left_center_sip,,,,,,,,,,,,,,,,Camera Angle 1
+right_joy_right,normal,mp_left_center_puff,,,,,,,,,,,,,,,,Camera Angle 2
+start,normal,mp_left_puff_soft
+back,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,Map
+dpad_N,normal,mp_left_center_puff_soft,,,,,,,,,,,,,,,,Radio
+dpad_S,normal,mp_left_center_sip_soft,,,,,,,,,,,,,,,,Journal
+increment_mode,tap 250,mp_right_center_puff_soft
+decrement_mode,normal,mp_right_center_sip_soft
+
+Profile Name,,Menu,,,,,,,,Mixed joy
+mwxbox.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,,,,,,,,,look in preferences for puff_soft adjustments!
+decrement_mode,tap,right_puff,,,,,,,,right_puff,,,,,,,,Questions? pasi2708@gmx.de
+A,normal,mp_center_puff
+B,normal,mp_center_sip
+X,normal,mp_left_center_sip_soft
+Y,normal,mp_left_center_puff_soft
+left_joy_up,pulse 25 5,mp_triple_puff
+B,normal,mp_triple_sip
+decrement_mode,delay_on 10,mp_triple_sip
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_bumper,normal,mp_right_center_puff
+right_trigger,normal,mp_right_center_sip
+left_bumper,normal,mp_left_center_puff
+left_trigger,normal,mp_left_center_sip
+A,normal,lip
+start,normal,mp_left_puff_soft
+back,normal,mp_right_puff_soft
+joystick_deflection_maximum,normal,24
+increment_mode,delay_on 100,mp_center_sip_soft,,,,,,,,,,,,,,,,switch mouse (qmp 4+)
+decrement_mode,normal,mp_right_center_sip_soft
+decrement_mode,tap 250,mp_right_center_puff_soft
+decrement_mode,tap 250,mp_right_center_puff_soft
+
+Profile Name,,Mouse,,,,,,,,Pan Mode,,,,,,,,Comments
+default.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,tap 250 100,right_sip,,,,,,,,right_sip
+decrement_mode,tap,right_puff,,,,,,,,right_puff
+kb_left_alt,delay_on 500,right_puff
+kb_tab,delay_on 500,right_puff
+kb_left_alt,delay_on 400,mp_right_sip
+kb_tab,delay_on 400,mp_right_sip
+kb_h,tap 200 100,mp_right_center_sip_soft
+kb_left_gui,tap 200 100,mp_right_center_sip_soft
+kb_f5,delay_on 200 ,mp_right_center_sip_soft
+decrement_mode,delay_on 200,mp_triple_sip
+increment_mode,tap 200,mp_triple_sip
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal,mp_left_center_puff,,,,,,,,up
+mouse_wheel_down,normal,mp_left_center_sip,,,,,,,,down
+mouse_pan_left,normal,,,,,,,,,left
+kb_f10,normal,lip,,,,,,,,right
+mouse_left_button,delayed_latch 1000,mp_center_puff,,,,,,,,lip
+mouse_left_button,repeat 14,mp_left_center_puff_soft
+kb_space,normal,mp_right_puff,,,,,,,,mp_right_puff
+mouse_middle_button,normal,mp_triple_puff,,,,,,,,mp_center_puff
+kb_enter,tap 400 100,mp_right_sip,,,,,,,,mp_right_sip
+kb_escape,normal,mp_left_puff_soft,,,,,,,,mp_left_puff_soft
+kb_tab,normal,circle,,,,,,,,mp_left_sip
+kb_left_control,normal,mp_right_center_puff,,,,,,,,mp_left_center_puff
+kb_a,normal,mp_right_center_puff,,,,,,,,mp_left_center_sip
+kb_delete,delay_on 100,mp_right_puff_soft
+kb_backspace,delay_on 100,mp_right_sip_soft,,,,,,,,mp_right_puff_soft
+kb_left_control,tap 250 ,mp_left_sip,,,,,,,,mp_center_sip_soft
+kb_c,tap 250,mp_left_sip,,,,,,,,mp_center_sip_soft
+mouse_right_button,normal,mp_center_sip,,,,,,,,mp_center_sip
+kb_left_control,normal,mp_left_puff,,,,,,,,mp_center_puff_soft
+kb_v,normal,mp_left_puff,,,,,,,,mp_center_puff_soft
+kb_v,delay_on 250 ,mp_left_sip
+kb_left_gui,delay_on 250 ,mp_left_sip
+kb_left_gui,delay_on 250 ,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+kb_left_gui,tap 250 100,mp_left_sip_soft
+kb_left_shift,tap 250 100,mp_left_sip_soft
+kb_s,tap 250 100,mp_left_sip_soft
+kb_x,normal,mp_right_center_sip
+kb_left_control,normal,mp_right_center_sip
+kb_0,tap 250 100,right_puff_soft,,,,,,,,,,,,,,,,Mute
+kb_left_control,tap 250 100,right_puff_soft
+kb_left_shift,tap 250 100,right_puff_soft
+kb_left_control,delay_on 250 ,right_puff_soft,,,,,,,,,,,,,,,,Nvdia Shadow
+kb_left_shift,delay_on 250 ,right_puff_soft
+kb_8,delay_on 250 ,right_puff_soft
+kb_left_gui,delay_on 250 ,right_sip_soft,,,,,,,,,,,,,,,,Windows Gamebar
+kb_g,delay_on 250 ,right_sip_soft
+kb_f1,tap 250 100,right_sip_soft,,,,,,,,,,,,,,,,Screenshot
+kb_left_alt,tap 250 100,right_sip_soft
+kb_left_control,delay_on 100 16000,mp_triple_sip_soft,,,,,,,,mp_center_sip
+kb_left_shift,delay_on 100 16000,mp_triple_puff_soft,,,,,,,,mp_center_sip
+kb_left_control,tap 250 100,mp_left_center_sip_soft
+kb_left_gui,tap 250 100,mp_left_center_sip_soft,,,,,,,,,,,,,,,, 
+kb_o,tap 250 100,mp_left_center_sip_soft
+kb_left_gui,delay_on 250 ,mp_left_center_sip_soft
+kb_dot,delay_on 250 ,mp_left_center_sip_soft
+joystick_deflection_maximum,normal,50
+mouse_speed,normal,550
+deflection_multiplier_down,normal,130
+deflection_multiplier_up,normal,126
+deflection_multiplier_left,normal,100
+deflection_multiplier_right,normal,100
+sip_puff_threshold,normal,25
+kb_z,force_off,left,,,,,,,,,,,,,,,,voicechat
+kb_left_shift,force_off 115,mp_center_sip_soft,,,,,,,,,,,,,,,,deactivate shift + control
+kb_left_control,force_off 115,mp_center_sip_soft,,,,,,,,,,,,,,,,deactivate shift + control
+kb_left_shift,force_off,mp_triple_puff_soft,,,,,,,,,,,,,,,,deactivate shift
+kb_left_control,force_off,mp_triple_sip_soft,,,,,,,,,,,,,,,,deactivate control
+
+Preferences
+
+Preference,Value,Units,Description
+sip_puff_delay_soft,150,ms
+deflection_multiplier_down,115,percent
+deflection_multiplier_up,100,percent
+deflection_multiplier_left,100,percent
+deflection_multiplier_right,100,percent
+lip_position_minimum,7,percent,Percent of full scale of lip movement to initiate output
+lip_position_maximum,35,percent,Percent of full scale of lip movement for 100% output
+joystick_deflection_maximum,45
+joystick_dead_zone_shape,1
+joystick_deflection_minimum,0
+sip_puff_threshold,40,percent,Percent of full scale Pressure to detect Hard Sip/Puff
+enable_DS3_emulation,0,,"0=Normal, 1=DS 3, 2=X360CE, 3=XBox 360, 4=DS 4, 5=Switch"

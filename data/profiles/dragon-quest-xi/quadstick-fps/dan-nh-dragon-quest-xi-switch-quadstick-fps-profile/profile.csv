@@ -1,8 +1,8 @@
-Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,
-dragonquestxi.csv,,Normal,,,,,,,,Alternate,,,,,,,,
-Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
-kb_l,force_off,right_puff,,,,,,,,,,,,,,,,
-kb_up_arrow,force_off,right_puff,,,,,,,,,,,,,,,,
+Profile Name,,Primary,,,,,,,,Pan Mode
+dragonquestxi.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+kb_l,force_off,right_puff
+kb_up_arrow,force_off,right_puff
 kb_home,normal,mp_left_center_puff,,,,,,,,,,,,,,,,autorun
 kb_space,greater_than 99,up,,,,,,,,,,,,,,,,jump(B)
 kb_w,greater_than 15,up,,,,,,,,,,,,,,,,up
@@ -24,6 +24,14 @@ kb_l,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,dash(RT)
 kb_escape,normal,mp_right_center_sip_soft,,,,,,,,,,,,,,,,quit menu
 kb_v,delayed_latch 1000,mp_center_puff_soft,,,,,,,,,,,,,,,,"confirm, examine(LT)"
 kb_right_alt,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,Switch screens
-kb_tab,normal,mp_triple_puff_soft,,,,,,,,,,,,,,,,
+kb_tab,normal,mp_triple_puff_soft
 kb_p,normal,mp_triple_sip,,,,,,,,,,,,,,,,first-person mode(L*Stick)
 kb_enter,normal,mp_center_puff,,,,,,,,,,,,,,,,"confirm, examine(A)"
+
+Preferences,,,,,,,,,,Pan Mode
+,,,,,,,,,,Alternate
+Preference,Value,Units,,,,,,,,usb
+sip_puff_delay_soft,200,ms,Time delay before detecting Soft Sip/Puff or Inner Joystick Zone
+joystick_D_Pad_inner,0,percent
+joystick_D_Pad_outer,5,percent
+joystick_dead_zone,0

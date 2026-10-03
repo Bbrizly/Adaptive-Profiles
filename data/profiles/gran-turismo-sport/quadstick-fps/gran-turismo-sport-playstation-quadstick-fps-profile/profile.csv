@@ -1,24 +1,24 @@
-Profile Name,,Left joy
+Profile Name,,Left
 granturismo.csv,,Normal
 PlayStation Outputs,Function,usb
 increment_mode,normal,right_sip
 decrement_mode,normal,right_puff
-dpad_N,normal,
-dpad_NE,normal,
-dpad_E,normal,
-dpad_SE,normal,
-dpad_S,normal,
-dpad_SW,normal,
-dpad_W,normal,
-dpad_NW,normal,
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
 left_joy_left,normal,left
 left_joy_right,normal,right
 left_joy_up,normal,up
 left_joy_down,normal,down
-right_joy_left,normal,
-right_joy_right,normal,
-right_joy_up,normal,
-right_joy_down,normal,
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
 left_1,normal,mp_left_sip
 left_2,normal,mp_left_puff
 left_3,normal,mp_left_center_sip
@@ -33,3 +33,115 @@ select,normal,mp_left_sip_soft
 select,normal,right_sip_soft
 ps3,normal,mp_center_sip_soft
 start,normal,mp_right_sip_soft
+
+Profile Name,,Drive
+,,Normal
+PlayStation Outputs,Function,usb,,,,,,,,Comments
+increment_mode,normal,right_sip,,,,,,,,Game set to Button Layout 1
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal
+left_joy_down,normal,mp_left_puff
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,down
+left_3,normal,mp_left_center_sip
+right_1,normal
+right_2,normal,up
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_puff
+circle,normal,mp_right_sip
+square,normal
+triangle,normal,mp_center_sip
+select,normal,mp_left_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+
+Profile Name,,Auto Drive
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal
+left_joy_down,normal,mp_left_puff
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,down
+left_3,normal,mp_left_center_sip
+right_2,toggle,lip
+right_2,normal,up
+right_2,force_off,down
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_puff
+circle,normal,mp_right_sip
+square,normal
+triangle,normal,mp_center_sip
+select,normal,mp_left_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+
+Profile Name,,D-Pad
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_NE,normal,NE
+dpad_E,normal,E
+dpad_SE,normal,SE
+dpad_S,normal,S
+dpad_SW,normal,SW
+dpad_W,normal,W
+dpad_NW,normal,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,mp_left_puff
+left_3,normal,mp_left_center_sip
+right_1,normal,mp_right_sip
+right_2,normal,mp_right_puff
+right_3,normal,mp_right_center_sip
+x,normal,lip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+select,normal,right_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+
+Preferences,,,Must be set in prefs.csv 
+prefs.csv,,,"Can be changed with voice command, or game configuration file"
+Preference,Value,Units,"Can be changed on Mode sheet, Command or file"
+joystick_dead_zone_shape,0,,"0=Square, 1=Circle"

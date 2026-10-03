@@ -1,8 +1,8 @@
-Profile Name,,Left joy,,,,,,,,Mixed joy,,,,,,,,comment
-stmlego.csv,,Normal,,,,,,,,Alternate,,,,,,,,
-Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,right_sip,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,right_puff,,,,,,,,
+Profile Name,,PS3 Left,,,,,,,,Mixed joy,,,,,,,,comment
+stmlego.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
 kb_f,greater_than 20,,,,,,,,,,,,,,,,,divert beam
 kb_a,greater_than 20,left,,,,,,,,,,,,,,,,move left
 kb_d,greater_than 20,right,,,,,,,,,,,,,,,,move right
@@ -21,3 +21,154 @@ kb_u,normal,mp_right_center_puff,,,,,,,,,,,,,,,,tag
 kb_m,normal,right_sip_soft,,,,,,,,,,,,,,,,show map
 kb_enter,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,start/pause
 ,,,,,,,,,,,,,,,,,,rotate map
+
+Profile Name,,PS3 Mixed,,,,,,,,Mixed joy
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+kb_f,greater_than 20
+kb_a,greater_than 20
+kb_d,greater_than 20
+kb_w,greater_than 20,up
+kb_s,greater_than 20,down
+kb_l,greater_than 20,left
+kb_apostrophe,greater_than 20,right
+kb_p,greater_than 20
+kb_semicolon,greater_than 20
+kb_left_control,normal,mp_left_sip
+kb_space,normal,mp_right_sip
+kb_j,normal,lip
+kb_k,normal,mp_center_puff
+kb_h,normal,mp_center_sip
+kb_u,normal,mp_right_center_puff
+kb_m,normal,right_sip_soft
+kb_enter,normal,mp_right_sip_soft
+
+Profile Name,,PS3 Right,,,,,,,,Mixed joy
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+kb_f,greater_than 20
+kb_a,greater_than 20
+kb_d,greater_than 20
+kb_w,greater_than 20
+kb_s,greater_than 20
+kb_l,greater_than 20,left
+kb_apostrophe,greater_than 20,right
+kb_p,greater_than 20,up
+kb_semicolon,greater_than 20,down
+kb_left_control,normal,mp_left_sip
+kb_space,normal,mp_right_sip
+kb_j,normal,lip
+kb_k,normal,mp_center_puff
+kb_h,normal,mp_center_sip
+kb_u,normal,mp_right_center_puff
+kb_m,normal,right_sip_soft
+kb_enter,normal,mp_right_sip_soft
+
+Profile Name,,D-Pad,,,,,,,,D-Pad
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+kb_f,greater_than 20,up
+kb_a,greater_than 20
+kb_d,greater_than 20
+kb_w,greater_than 20
+kb_s,greater_than 20
+kb_l,greater_than 20
+kb_apostrophe,greater_than 20
+kb_p,greater_than 20
+kb_semicolon,greater_than 20
+kb_left_control,normal,mp_left_sip
+kb_space,normal,mp_right_sip
+kb_j,normal,lip
+kb_k,normal,mp_center_puff
+kb_h,normal,mp_center_sip
+kb_u,normal,mp_right_center_puff
+kb_m,normal,right_sip_soft
+kb_enter,normal,mp_right_sip_soft
+
+Profile Name,,Mouse,,,,,,,,Pan Mode
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal,,,,,,,,,up
+mouse_wheel_down,normal,,,,,,,,,down
+mouse_pan_left,normal,,,,,,,,,left
+mouse_pan_right,normal,,,,,,,,,right
+mouse_left_button,normal,lip,,,,,,,,lip
+mouse_right_button,normal,mp_right_puff,,,,,,,,mp_right_puff
+mouse_right_button,normal,mp_right_center_puff,,,,,,,,mp_right_center_puff
+mouse_middle_button,normal,mp_right_sip,,,,,,,,mp_right_sip
+mouse_middle_button,normal,mp_right_center_sip,,,,,,,,mp_right_center_sip
+kb_enter,normal,mp_left_puff,,,,,,,,mp_left_puff
+kb_escape,normal,mp_left_sip,,,,,,,,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_center_puff_soft
+kb_backspace,normal,mp_left_sip_soft
+joystick_dead_zone_shape,normal,1
+
+Profile Name,,Mouse Scroll,,,,,,,,Pan Mode
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+mouse_wheel_up,normal,up,,,,,,,,up
+mouse_wheel_down,normal,down,,,,,,,,down
+mouse_pan_left,normal,left,,,,,,,,left
+mouse_pan_right,normal,right,,,,,,,,right
+mouse_left_button,normal,lip,,,,,,,,lip
+mouse_right_button,normal,mp_right_puff,,,,,,,,mp_right_puff
+mouse_right_button,normal,mp_right_center_puff,,,,,,,,mp_right_center_puff
+mouse_middle_button,normal,mp_right_sip,,,,,,,,mp_right_sip
+mouse_middle_button,normal,mp_right_center_sip,,,,,,,,mp_right_center_sip
+kb_enter,normal,mp_left_puff,,,,,,,,mp_left_puff
+kb_escape,normal,mp_left_sip,,,,,,,,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_center_puff_soft
+kb_backspace,normal,mp_left_sip_soft
+joystick_dead_zone_shape,normal,0
+
+Profile Name,,Arrows,,,,,,,,Pan Mode
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+kb_left_arrow,greater_than 20,right
+kb_right_arrow,greater_than 20,left
+kb_up_arrow,greater_than 20,up
+kb_down_arrow,greater_than 20,down
+mouse_left_button,normal,lip,,,,,,,,lip
+mouse_right_button,normal,mp_right_puff,,,,,,,,mp_right_puff
+mouse_right_button,normal,mp_right_center_puff,,,,,,,,mp_right_center_puff
+mouse_middle_button,normal,mp_right_sip,,,,,,,,mp_right_sip
+mouse_middle_button,normal,mp_right_center_sip,,,,,,,,mp_right_center_sip
+kb_enter,normal,mp_left_puff,,,,,,,,mp_left_puff
+kb_escape,normal,mp_left_sip,,,,,,,,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_center_puff_soft
+kb_backspace,normal,mp_left_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,1,on/off,Initial output state for relay 1
+digital_out_2,0,on/off,Initial output state for relay 2

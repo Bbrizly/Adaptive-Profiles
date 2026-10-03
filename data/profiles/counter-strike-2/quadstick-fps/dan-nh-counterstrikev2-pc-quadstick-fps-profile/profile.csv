@@ -1,8 +1,8 @@
-Profile Name,,Mouse Mode,,,,,,,,Pan Mode,,,,,,,,
-counterstrike.csv,,Normal,,,,,,,,Alternate,,,,,,,,
-Output or Function,Function,usb,,,,,,,,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,,,,,,,,,
+Profile Name,,Mouse,,,,,,,,Pan Mode
+counterstrike.csv,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
 kb_enter,greater_than 20,left,,,,,,,,,,,,,,,,strafe right
 kb_right_control,greater_than 20,right,,,,,,,,,,,,,,,,strafe right
 kb_up_arrow,greater_than 20,up,,,,,,,,,,,,,,,,Up

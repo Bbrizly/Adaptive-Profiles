@@ -1,28 +1,28 @@
-Profile Name,,Right joy,,,,,,,,
+Profile Name,,Menu
 codmw.csv,,Normal,,,,,,,,https://www.youtube.com/watch?v=ON0lcmxjIf4&t=6s
-XBox Outputs,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
 increment_mode,normal,mp_right_center_puff_soft,,,,,,,,2nd mode
 dpad_N,normal,mp_triple_puff,,,,,,,,Scorestreak select 
 dpad_N,normal,,,,,,,,,I use this mode for menu navigation 
-dpad_E,normal,mp_left_center_sip,,,,,,,,
+dpad_E,normal,mp_left_center_sip
 dpad_E,normal,mp_left_center_puff_soft,,,,,,,,tactical butt layout 
-dpad_E,normal,mp_center_puff_soft,,,,,,,,
-dpad_E,normal,mp_left_puff_soft,,,,,,,,
-dpad_E,normal,mp_right_puff_soft,,,,,,,,
+dpad_E,normal,mp_center_puff_soft
+dpad_E,normal,mp_left_puff_soft
+dpad_E,normal,mp_right_puff_soft
 dpad_S,normal,mp_triple_sip,,,,,,,,Scorestreak select 
-dpad_SW,normal,,,,,,,,,
-dpad_W,normal,mp_left_center_sip_soft,,,,,,,,
-dpad_NW,normal,,,,,,,,,
-left_joy_left,normal,,,,,,,,,
-left_joy_right,normal,,,,,,,,,
+dpad_SW,normal
+dpad_W,normal,mp_left_center_sip_soft
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
 left_stick,normal,mp_center_puff,,,,,,,,Sprint
-left_joy_down,normal,,,,,,,,,
+left_joy_down,normal
 left_joy_left,normal,left,,,,,,,,Right Stick = Turn Direction
-left_joy_right,normal,right,,,,,,,,
-left_joy_up,normal,up,,,,,,,,
-left_joy_down,normal,down,,,,,,,,
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
 left_bumper,normal,mp_left_puff,,,,,,,,Heal
 left_trigger,normal,lip,,,,,,,,Aim
 left_stick,normal,,,,,,,,,Sprint
@@ -33,7 +33,54 @@ A,normal,mp_left_center_puff,,,,,,,,Jump
 B,normal,mp_right_center_sip,,,,,,,,Melee
 X,normal,mp_right_center_puff,,,,,,,,Reload
 Y,normal,mp_right_puff,,,,,,,,Change weapon
-back,normal,mp_left_sip_soft,,,,,,,,
-guide,normal,mp_center_sip_soft,,,,,,,,
-start,normal,mp_right_sip_soft,,,,,,,,
-left_joy_up,force_off,mp_right_center_puff_soft,,,,,,,,
+back,normal,mp_left_sip_soft
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+left_joy_up,force_off,mp_right_center_puff_soft
+
+Profile Name,,multiplayer
+codMW.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+decrement_mode,normal,mp_right_center_puff_soft,,,,,,,,1st mode
+dpad_N,normal,,,,,,,,,Scorestreak select 
+dpad_N,normal,,,,,,,,,I use this mode for Gameplay 
+dpad_E,normal,mp_left_center_puff_soft
+dpad_E,normal
+dpad_E,normal,mp_center_puff_soft,,,,,,,,tactical butt layout 
+dpad_E,normal,mp_left_puff_soft
+dpad_E,normal,mp_right_puff_soft
+dpad_S,normal
+left_joy_up,delayed_latch 250,mp_triple_puff,,,,,,,,Walking 
+left_joy_down,delayed_latch 50,mp_left_center_sip,,,,,,,,Walk back 
+left_joy_up,delayed_latch 250,mp_center_puff,,,,,,,,Left Stick = Move up
+left_stick,normal,mp_center_puff,,,,,,,,Sprint
+right_joy_left,normal,left,,,,,,,,Right Stick = Turn Direction
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_bumper,normal,mp_left_puff,,,,,,,,tactical
+left_trigger,toggle,lip,,,,,,,,Aim
+right_bumper,normal,mp_right_sip,,,,,,,,Use equipment 
+right_stick,normal,mp_left_sip,,,,,,,,"Crouch, hold for prone"
+A,normal,mp_left_center_puff,,,,,,,,Jump
+left_trigger,normal,mp_center_sip,,,,,,,,Aim
+right_trigger,repeat 27,mp_center_sip,,,,,,,,Right Trigger = Fire Weapon
+right_trigger,repeat 30,mp_right_center_sip,,,,,,,,hip fire
+B,normal,mp_left_center_sip_soft,,,,,,,,Melee
+dpad_W,normal,mp_right_center_sip_soft,,,,,,,, fire rate
+X,normal,mp_right_center_puff,,,,,,,,Reload
+Y,normal,mp_right_puff,,,,,,,,Change weapon
+back,normal,mp_left_sip_soft,,,,,,,,map
+guide,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+left_bumper,normal,mp_triple_sip,,,,,,,,special 
+right_bumper,normal,mp_triple_sip
+
+Preferences
+
+Preference,Value,Units,Description
+sip_puff_delay_soft,250,ms
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2

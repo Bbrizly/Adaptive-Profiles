@@ -1,9 +1,9 @@
-Profile Name,,Normal Mode,,,,,,,,,,,,,,,,
-FallenOrder.csv,,Normal,,,,,,,,,,,,,,,,
-XBox Outputs,Function,usb,,,,,,,,,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,,,,,,,,,
-decrement_mode,normal,right_sip,,,,,,,,,,,,,,,,
-increment_mode,normal,mp_left_center_sip,,,,,,,,,,,,,,,,
+Profile Name,,Fallen Order
+FallenOrder.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_puff
+decrement_mode,normal,right_sip
+increment_mode,normal,mp_left_center_sip
 left_joy_up,normal,up,,,,,,,,,,,,,,,,Walk forward
 left_joy_left,normal,left,,,,,,,,,,,,,,,,Walk Left
 left_joy_down,normal,down,,,,,,,,,,,,,,,,Walk Backwards 
@@ -14,14 +14,14 @@ right_joy_right,normal,digital_in_1,,,,,,,,,,,,,,,,Look Right
 X,repeat 15,mp_center_puff,,,,,,,,,,,,,,,,Attack/Swim Downward/Map Zoom In
 left_bumper,delayed_latch 600,mp_right_center_sip,,,,,,,,,,,,,,,,Parry/Block/Swim Upwards/Map Zoom Out
 A,normal,mp_right_center_puff,,,,,,,,,,,,,,,,Jump
-A,normal,mp_left_center_puff,,,,,,,,,,,,,,,,
+A,normal,mp_left_center_puff
 left_trigger,delay_on 600,mp_left_center_puff,,,,,,,,,,,,,,,,Pull/Climb
-left_trigger,delay_on 600,mp_right_center_puff,,,,,,,,,,,,,,,,
+left_trigger,delay_on 600,mp_right_center_puff
 B,tap 299,mp_center_sip,,,,,,,,,,,,,,,,Evade/Drop
 right_stick,delay_on 300,mp_center_sip,,,,,,,,,,,,,,,,Target/Snap to Current Location (Map)
 Y,normal,lip,,,,,,,,,,,,,,,,Force Attack
 B,normal,mp_left_puff,,,,,,,,,,,,,,,,Evasive Kick
-X,normal,mp_left_puff,,,,,,,,,,,,,,,,
+X,normal,mp_left_puff
 B,repeat 15,mp_right_sip,,,,,,,,,,,,,,,,Repeat B
 dpad_W,normal,mp_center_puff_soft,,,,,,,,,,,,,,,,Single Blade
 dpad_E,normal,mp_center_sip_soft,,,,,,,,,,,,,,,,Double Blade
@@ -32,3 +32,74 @@ right_trigger,normal,mp_triple_puff,,,,,,,,,,,,,,,,Push
 left_trigger,delayed_latch 600,mp_triple_sip,,,,,,,,,,,,,,,,Pull/Climb
 back,tap 299,mp_triple_sip_soft,,,,,,,,,,,,,,,,Map
 start,delay_on 300,mp_triple_sip_soft,,,,,,,,,,,,,,,,Open Menu
+
+Profile Name,,Navigation
+Apex.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_puff
+decrement_mode,normal,right_sip
+decrement_mode,normal,mp_left_center_sip
+right_joy_up,normal,up,,,,,,,,,,,,,,,,Walk forward
+right_joy_left,normal,left,,,,,,,,,,,,,,,,Walk Left
+right_joy_down,normal,down,,,,,,,,,,,,,,,,Walk Backwards 
+right_joy_right,normal,right,,,,,,,,,,,,,,,,Walk Right
+A,normal,mp_right_center_puff,,,,,,,,,,,,,,,,A
+B,normal,mp_center_sip,,,,,,,,,,,,,,,,B
+X,normal,mp_center_puff,,,,,,,,,,,,,,,,X
+right_bumper,normal,lip,,,,,,,,,,,,,,,,Y
+start,normal,mp_triple_sip_soft,,,,,,,,,,,,,,,,Open Menu
+dpad_N,normal,mp_right_puff_soft,,,,,,,,,,,,,,,,Heal/Map Level Up
+dpad_S,normal,mp_right_sip_soft,,,,,,,,,,,,,,,,Map Level Down
+
+Profile Name,,AT-AT
+Apex.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_puff
+decrement_mode,normal,right_sip
+right_joy_up,normal,up,,,,,,,,,,,,,,,,Walk forward
+right_joy_left,normal,left,,,,,,,,,,,,,,,,Walk Left
+right_joy_down,normal,down,,,,,,,,,,,,,,,,Walk Backwards 
+right_joy_right,normal,right,,,,,,,,,,,,,,,,Walk Right
+left_joy_up,toggle,mp_center_sip,,,,,,,,,,,,,,,,Walk forward
+left_joy_left,normal,digital_in_2,,,,,,,,,,,,,,,,Walk Left
+left_joy_down,toggle,mp_left_center_sip,,,,,,,,,,,,,,,,Walk Backwards 
+left_joy_right,normal,digital_in_1,,,,,,,,,,,,,,,,Walk Right
+left_trigger,normal,mp_center_puff
+right_trigger,normal,mp_right_center_puff
+A,normal,mp_triple_puff,,,,,,,,,,,,,,,,A
+B,normal,mp_right_center_sip,,,,,,,,,,,,,,,,B
+X,normal,mp_triple_sip,,,,,,,,,,,,,,,,X
+right_bumper,normal,lip,,,,,,,,,,,,,,,,Y
+start,normal,mp_triple_sip_soft
+dpad_N,normal,mp_right_puff_soft
+dpad_S,normal,mp_right_sip_soft
+left_joy_down,force_off,mp_center_sip
+left_joy_up,force_off,mp_left_center_sip
+
+Profile Name,,Mouse,,,,,,,,Pan Mode
+Zmouse.csv,,Normal,,,,,,,,Alternate
+XBox Outputs,Function,usb,,,,,,,,usb
+increment_mode,normal,right_puff,,,,,,,,right_sip
+decrement_mode,normal,right_sip
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal,,,,,,,,,up
+mouse_wheel_down,normal,,,,,,,,,down
+mouse_pan_left,normal,,,,,,,,,left
+mouse_pan_right,normal,,,,,,,,,right
+mouse_left_button,normal,mp_center_sip,,,,,,,,mp_center_sip
+mouse_right_button,normal,mp_center_puff,,,,,,,,mp_center_puff
+kb_escape,normal,mp_triple_puff
+kb_enter,normal,mp_triple_sip
+kb_left_alt,normal,lip
+kb_left_control,normal,lip
+kb_delete,normal,lip
+kb_left_alt,normal,mp_left_sip
+kb_tab,normal,mp_left_sip
+
+Preferences
+
+Preference,Value,Units,Description
+sip_puff_delay_soft,125,ms

@@ -1,24 +1,24 @@
-Profile Name,,Left joy,,,,,,,,Mixed joy
+Profile Name,,PS3 Left,,,,,,,,Mixed joy
 mlb13.csv,,Normal,,,,,,,,Alternate
 Output or Function,Function,usb,,,,,,,,usb
 increment_mode,normal,right_sip,,,,,,,,right_sip
 decrement_mode,normal,right_puff,,,,,,,,right_puff
-dpad_N,normal,,,,,,,,,
-dpad_NE,normal,,,,,,,,,
-dpad_E,normal,,,,,,,,,
-dpad_SE,normal,,,,,,,,,
-dpad_S,normal,,,,,,,,,
-dpad_SW,normal,,,,,,,,,
-dpad_W,normal,,,,,,,,,
-dpad_NW,normal,,,,,,,,,
-left_joy_left,normal,left,,,,,,,,
-left_joy_right,normal,right,,,,,,,,
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
 left_joy_up,normal,up,,,,,,,,up
 left_joy_down,normal,down,,,,,,,,down
 right_joy_left,normal,,,,,,,,,left
 right_joy_right,normal,,,,,,,,,right
-right_joy_up,normal,,,,,,,,,
-right_joy_down,normal,,,,,,,,,
+right_joy_up,normal
+right_joy_down,normal
 left_1,normal,mp_left_sip,,,,,,,,mp_left_sip
 left_2,normal,mp_left_puff,,,,,,,,mp_left_puff
 left_3,normal,mp_left_center_sip,,,,,,,,mp_left_center_sip
@@ -33,3 +33,158 @@ select,normal,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
 select,normal,right_sip_soft,,,,,,,,right_sip_soft
 ps3,normal,mp_center_sip_soft,,,,,,,,mp_center_sip_soft
 start,normal,mp_right_sip_soft,,,,,,,,mp_right_sip_soft
+
+Profile Name,,PS3 Mixed,,,,,,,,Mixed joy
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up,,,,,,,,up
+left_joy_down,normal,down,,,,,,,,down
+right_joy_left,normal,left,,,,,,,,left
+right_joy_right,normal,right,,,,,,,,right
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip,,,,,,,,mp_left_sip
+left_2,normal,mp_left_puff,,,,,,,,mp_left_puff
+left_3,normal,mp_left_center_sip,,,,,,,,mp_left_center_sip
+right_1,normal,mp_right_sip,,,,,,,,mp_right_sip
+right_2,normal,mp_right_puff,,,,,,,,mp_right_puff
+right_3,normal,mp_right_center_sip,,,,,,,,mp_right_center_sip
+x,normal,lip,,,,,,,,lip
+circle,normal,mp_center_puff,,,,,,,,mp_center_puff
+square,normal,mp_center_sip,,,,,,,,mp_center_sip
+triangle,normal,mp_right_center_puff,,,,,,,,mp_right_center_puff
+select,normal,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+select,normal,right_sip_soft,,,,,,,,right_sip_soft
+ps3,normal,mp_center_sip_soft,,,,,,,,mp_center_sip_soft
+start,normal,mp_right_sip_soft,,,,,,,,mp_right_sip_soft
+
+Profile Name,,PS3 Right,,,,,,,,Mixed joy
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,,,,,,,,,left
+left_joy_right,normal,,,,,,,,,right
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up,,,,,,,,up
+right_joy_down,normal,down,,,,,,,,down
+left_1,normal,mp_left_sip,,,,,,,,mp_left_sip
+left_2,normal,mp_left_puff,,,,,,,,mp_left_puff
+left_3,normal,mp_left_center_sip,,,,,,,,mp_left_center_sip
+right_1,normal,mp_right_sip,,,,,,,,mp_right_sip
+right_2,normal,mp_right_puff,,,,,,,,mp_right_puff
+right_3,normal,mp_right_center_sip,,,,,,,,mp_right_center_sip
+x,normal,lip,,,,,,,,lip
+circle,normal,mp_center_puff,,,,,,,,mp_center_puff
+square,normal,mp_center_sip,,,,,,,,mp_center_sip
+triangle,normal,mp_right_center_puff,,,,,,,,mp_right_center_puff
+select,normal,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+select,normal,right_sip_soft,,,,,,,,right_sip_soft
+ps3,normal,mp_center_sip_soft,,,,,,,,mp_center_sip_soft
+start,normal,mp_right_sip_soft,,,,,,,,mp_right_sip_soft
+
+Profile Name,,D-Pad,,,,,,,,D-Pad
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+dpad_N,normal,N,,,,,,,,N
+dpad_NE,normal,NE,,,,,,,,NE
+dpad_E,normal,E,,,,,,,,E
+dpad_SE,normal,SE,,,,,,,,SE
+dpad_S,normal,S,,,,,,,,S
+dpad_SW,normal,SW,,,,,,,,SW
+dpad_W,normal,W,,,,,,,,W
+dpad_NW,normal,NW,,,,,,,,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip,,,,,,,,mp_left_sip
+left_2,normal,mp_left_puff,,,,,,,,mp_left_puff
+left_3,normal,mp_left_center_sip,,,,,,,,mp_left_center_sip
+right_1,normal,mp_right_sip,,,,,,,,mp_right_sip
+right_2,normal,mp_right_puff,,,,,,,,mp_right_puff
+right_3,normal,mp_right_center_sip,,,,,,,,mp_right_center_sip
+x,normal,lip,,,,,,,,lip
+circle,normal,mp_center_puff,,,,,,,,mp_center_puff
+square,normal,mp_center_sip,,,,,,,,mp_center_sip
+triangle,normal,mp_right_center_puff,,,,,,,,mp_right_center_puff
+select,normal,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+select,normal,right_sip_soft,,,,,,,,right_sip_soft
+ps3,normal,mp_center_sip_soft,,,,,,,,mp_center_sip_soft
+start,normal,mp_right_sip_soft,,,,,,,,mp_right_sip_soft
+
+Profile Name,,PS3 Left swap X-T,,,,,,,,Mixed joy,,,,,,,,Comments
+,,Normal,,,,,,,,Alternate
+Output or Function,Function,usb,,,,,,,,usb
+increment_mode,normal,right_sip,,,,,,,,right_sip,,,,,,,,"Use this mode with aircraft while on the ground or during takeoff and landing.
+
+Stick controls rudder and elevator.
+
+Center Hole Puff increases throttle
+Center Hole Sip decreases throttle"
+decrement_mode,normal,right_puff,,,,,,,,right_puff
+dpad_N,normal
+dpad_NE,normal,,,,,,,,,,,,,,,,,Swaps X and Triangle buttons
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up,,,,,,,,up
+left_joy_down,normal,down,,,,,,,,down
+right_joy_left,normal,,,,,,,,,left
+right_joy_right,normal,,,,,,,,,right
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip,,,,,,,,mp_left_sip
+left_2,normal,mp_left_puff,,,,,,,,mp_left_puff
+left_3,normal,mp_left_center_sip,,,,,,,,mp_left_center_sip
+right_1,normal,mp_right_sip,,,,,,,,mp_right_sip
+right_2,normal,mp_right_puff,,,,,,,,mp_right_puff
+right_3,normal,mp_right_center_sip,,,,,,,,mp_right_center_sip
+x,normal,mp_right_center_puff,,,,,,,,mp_right_center_puff
+circle,normal,mp_center_puff,,,,,,,,mp_center_puff
+square,normal,mp_center_sip,,,,,,,,mp_center_sip
+triangle,normal,lip,,,,,,,,lip
+select,normal,mp_left_sip_soft,,,,,,,,mp_left_sip_soft
+select,normal,right_sip_soft,,,,,,,,right_sip_soft
+ps3,normal,mp_center_sip_soft,,,,,,,,mp_center_sip_soft
+start,normal,mp_right_sip_soft,,,,,,,,mp_right_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,1,on/off,Initial output state for relay 1
+digital_out_2,0,on/off,Initial output state for relay 2

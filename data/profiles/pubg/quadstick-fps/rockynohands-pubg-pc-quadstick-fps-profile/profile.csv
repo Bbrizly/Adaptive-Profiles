@@ -1,16 +1,16 @@
-Profile Name,,Inputs,,,,,,,,Comment
-pubg.csv,,,,,,,,,,
-Output or Function,Function,usb,,,,,,,,
+Profile Name,,running,,,,,,,,Comment
+pubg.csv
+Output or Function,Function,usb
 increment_mode,normal,mp_center_sip,,,,,,,,https://pubg.gamepedia.com/Controls
-decrement_mode,normal,,,,,,,,,
+decrement_mode,normal
 kb_w,normal,up,,,,,,,,Forward
 kb_a,normal,,,,,,,,,Left
 kb_s,normal,down,,,,,,,,Backward
 kb_d,normal,,,,,,,,,Right
 mouse_right,normal,right,,,,,,,,Turn Right
 mouse_left,normal,left,,,,,,,,Turn Left
-mouse_up,normal,,,,,,,,,
-mouse_down,normal,,,,,,,,,
+mouse_up,normal
+mouse_down,normal
 mouse_wheel_up,normal,mp_left_center_puff_soft,,,,,,,,Cycle weapon 
 mouse_wheel_down,normal,mp_right_center_puff_soft,,,,,,,,Cycle weapon 
 mouse_left_button,normal,mp_center_puff,,,,,,,,Shoot
@@ -40,5 +40,90 @@ kb_equal,normal,mp_left_center_sip_soft,,,,,,,,Auto Run
 kb_left_alt,toggle,mp_triple_puff,,,,,,,,ALT
 kb_w,toggle,right_sip,,,,,,,,Forward toggle
 kb_w,force_off,down,,,,,,,,Clear forward toggle
-joystick_dead_zone_shape,normal,0,,,,,,,,
+joystick_dead_zone_shape,normal,0
 load_file,delay_on 3000,mp_center_puff_soft,,,,,,,,Load new CSV file
+
+Profile Name,,looking,,,,,,,,Comment
+
+Output or Function,Function,usb
+increment_mode,normal,mp_center_sip
+decrement_mode,normal
+kb_w,normal,,,,,,,,,Forward
+kb_a,normal,,,,,,,,,Left
+kb_s,normal,,,,,,,,,Backward
+kb_d,normal,,,,,,,,,Right
+mouse_right,normal,right,,,,,,,,Turn Right
+mouse_left,normal,left,,,,,,,,Turn Left
+mouse_up,normal,up,,,,,,,,Look Up
+mouse_down,normal,down,,,,,,,,Look Down
+mouse_wheel_up,normal,mp_left_center_puff_soft,,,,,,,,Cycle weapon 
+mouse_wheel_down,normal,mp_right_center_puff_soft,,,,,,,,Cycle weapon 
+mouse_left_button,normal,mp_center_puff,,,,,,,,Shoot
+mouse_right_button,normal,lip,,,,,,,,Scope
+kb_space,normal,mp_left_center_sip,,,,,,,,Jump
+kb_c,normal,mp_right_center_sip,,,,,,,,Crouch
+kb_q,toggle,mp_left_puff,,,,,,,,Lean Left
+kb_f,delayed_latch 3000,mp_right_center_puff,,,,,,,,Interact
+kb_escape,normal,right_puff_soft,,,,,,,,Pause Game
+kb_r,normal,mp_left_center_puff,,,,,,,,Cooking grenade
+kb_z,normal,right_puff,,,,,,,,Prone
+kb_left_shift,normal,mp_left_sip,,,,,,,,Sprint
+kb_e,toggle,mp_right_puff,,,,,,,,Lean Right
+kb_v,normal,mp_right_center_sip_soft,,,,,,,,Toggle View
+kb_m,normal,right_sip_soft,,,,,,,,Map
+kb_i,normal,mp_triple_sip,,,,,,,,Inventory
+kb_g,normal,mp_right_sip,,,,,,,,??
+kb_b,normal,mp_left_puff_soft,,,,,,,,Fire-mode Toggle
+kb_page_up,normal,mp_center_puff_soft,,,,,,,,Change zeroing
+kb_page_down,normal,mp_right_puff_soft,,,,,,,,Change zeroing
+kb_7,normal,mp_left_sip_soft,,,,,,,,Medical Kit
+kb_8,normal,mp_right_sip_soft,,,,,,,,First Aid Kit
+kb_9,normal,mp_center_sip_soft,,,,,,,,Bandages
+kb_0,normal,mp_triple_sip_soft,,,,,,,,Energy Drink
+kb_right_control,normal,mp_triple_puff_soft,,,,,,,,Split Items
+kb_equal,normal,mp_left_center_sip_soft,,,,,,,,Auto Run
+kb_left_alt,toggle,mp_triple_puff,,,,,,,,ALT
+kb_w,toggle,right_sip,,,,,,,,Forward toggle
+
+Profile Name,,drive,,,,,,,,Comments
+
+Output or Function,Function,usb
+increment_mode,normal,mp_center_sip
+decrement_mode,normal
+kb_w,greater_than 20,up
+kb_a,greater_than 20,left
+kb_s,greater_than 20,down
+kb_d,greater_than 20,right
+mouse_right,normal
+mouse_left,normal
+mouse_up,normal
+mouse_down,normal
+mouse_wheel_up,normal,mp_left_center_puff_soft,,,,,,,,Cycle weapon 
+mouse_wheel_down,normal,mp_right_center_puff_soft,,,,,,,,Cycle weapon 
+mouse_left_button,normal,mp_center_puff,,,,,,,,Shoot
+mouse_right_button,normal,lip,,,,,,,,Scope
+kb_space,normal,mp_left_center_sip,,,,,,,,Jump
+kb_c,normal,mp_right_center_sip,,,,,,,,Crouch
+kb_q,toggle,mp_left_puff,,,,,,,,Lean Left
+kb_f,delayed_latch 3000,mp_right_center_puff,,,,,,,,Interact
+kb_escape,normal,right_puff_soft,,,,,,,,Pause Game
+kb_r,normal,mp_left_center_puff,,,,,,,,Cooking grenade
+kb_z,normal,right_puff,,,,,,,,Prone
+kb_left_shift,normal,mp_left_sip,,,,,,,,Sprint
+kb_e,toggle,mp_right_puff,,,,,,,,Lean Right
+kb_v,normal,mp_right_center_sip_soft,,,,,,,,Toggle View
+kb_m,normal,right_sip_soft,,,,,,,,Map
+kb_i,normal,mp_triple_sip,,,,,,,,Inventory
+kb_g,normal,mp_right_sip,,,,,,,,??
+kb_b,normal,mp_left_puff_soft,,,,,,,,Fire-mode Toggle
+kb_page_up,normal,mp_center_puff_soft,,,,,,,,Change zeroing
+kb_page_down,normal,mp_right_puff_soft,,,,,,,,Change zeroing
+kb_7,normal,mp_left_sip_soft,,,,,,,,Medical Kit
+kb_8,normal,mp_right_sip_soft,,,,,,,,First Aid Kit
+kb_9,normal,mp_center_sip_soft,,,,,,,,Bandages
+kb_0,normal,mp_triple_sip_soft,,,,,,,,Energy Drink
+kb_right_control,normal,mp_triple_puff_soft,,,,,,,,Split Items
+kb_equal,normal,mp_left_center_sip_soft,,,,,,,,Auto Run
+kb_left_alt,toggle,mp_triple_puff,,,,,,,,ALT
+kb_w,toggle,right_sip,,,,,,,,Forward toggle
+joystick_dead_zone_shape,normal,0

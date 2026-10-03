@@ -1,0 +1,104 @@
+Profile Name,,Left Analog,,,,,,,,comment
+Fortnitepc.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,mp_center_sip,,,,,,,,Change mode
+dpad_N,normal,mp_left_center_puff,,,,,,,,Inventory
+dpad_E,normal,mp_triple_sip,,,,,,,,Squad Commands
+dpad_S,normal,mp_triple_puff,,,,,,,,Emotes
+dpad_W,normal,mp_left_center_puff_soft,,,,,,,,-
+left_joy_up,normal,up,,,,,,,,Move forward
+left_joy_down,normal,down,,,,,,,,Move backward
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_stick,greater_than 99,up,,,,,,,,Sprint
+right_joy_up,normal
+right_joy_left,normal,,,,,,,,,Look / Move left 
+right_joy_right,normal,,,,,,,,,Look / Move left 
+right_joy_down,normal,,,,,,,,,Look Down
+left_bumper,normal,mp_left_puff,,,,,,,,Previous Weapon 
+left_trigger,toggle,lip,,,,,,,,Aim down sights
+right_bumper,normal,mp_right_puff,,,,,,,,Next Piece 
+right_trigger,normal,mp_center_puff,,,,,,,,Fire / Interact
+right_stick,normal,mp_right_center_sip,,,,,,,,Tap=Crouch Hold=Repair
+A,normal,mp_left_center_sip,,,,,,,,Jump
+B,normal,mp_right_sip,,,,,,,,Build 
+X,normal,mp_left_sip,,,,,,,,Trap/Reload
+Y,normal,mp_right_center_puff,,,,,,,,Harvest Weapon 
+back,normal,mp_left_sip_soft,,,,,,,,Map
+guide,normal,mp_center_sip_soft,,,,,,,,Game Menu 
+start,normal,right_sip_soft,,,,,,,,ESC
+left_joy_up,toggle,right_sip,,,,,,,,Latch running on
+left_joy_up,force_off,right_puff
+left_joy_up,force_off,down
+
+Profile Name,,Mixed Joy,,,,,,,,comment
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,mp_center_sip,,,,,,,,Change mode
+dpad_N,normal,mp_left_center_puff,,,,,,,,Inventory
+dpad_E,normal,mp_triple_sip,,,,,,,,Squad Commands
+dpad_S,normal,mp_triple_puff,,,,,,,,Emotes
+dpad_W,normal,mp_left_center_puff_soft,,,,,,,,-
+left_joy_up,normal,up,,,,,,,,Move forward
+left_joy_down,normal,down,,,,,,,,Move backward
+left_joy_left,normal
+left_joy_right,normal
+left_stick,greater_than 99,up,,,,,,,,Sprint
+right_joy_up,normal
+right_joy_left,normal,left,,,,,,,,Look / Move left 
+right_joy_right,normal,right,,,,,,,,Look / Move left 
+right_joy_down,normal,,,,,,,,,Look Down
+left_bumper,normal,mp_left_puff,,,,,,,,Previous Weapon 
+left_trigger,toggle,lip,,,,,,,,Aim down sights
+right_bumper,normal,mp_right_puff,,,,,,,,Next Piece 
+right_trigger,normal,mp_center_puff,,,,,,,,Fire / Interact
+right_stick,normal,mp_right_center_sip,,,,,,,,Tap=Crouch Hold=Repair
+A,normal,mp_left_center_sip,,,,,,,,Jump
+B,normal,mp_right_sip,,,,,,,,Build 
+X,normal,mp_left_sip,,,,,,,,Trap/Reload
+Y,normal,mp_right_center_puff,,,,,,,,Harvest Weapon 
+back,normal,mp_left_sip_soft,,,,,,,,Map
+guide,normal,mp_center_sip_soft,,,,,,,,Game Menu 
+start,normal,right_sip_soft,,,,,,,,ESC
+left_joy_up,toggle,right_sip,,,,,,,,Latch running on
+left_joy_up,force_off,right_puff
+left_joy_up,force_off,down
+joystick_dead_zone_shape,normal,0
+
+Profile Name,,Right Analog,,,,,,,,comment
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,mp_center_sip,,,,,,,,Change mode
+dpad_N,normal,mp_left_center_puff,,,,,,,,Inventory
+dpad_E,normal,mp_triple_sip,,,,,,,,Squad Commands
+dpad_S,normal,mp_triple_puff,,,,,,,,Emotes
+dpad_W,normal,mp_left_center_puff_soft,,,,,,,,-
+left_joy_up,normal,,,,,,,,,Move forward
+left_joy_down,normal,,,,,,,,,Move backward
+left_joy_left,normal
+left_joy_right,normal
+right_joy_up,normal,up
+right_joy_down,normal,down,,,,,,,,Look Down
+right_joy_left,normal,left,,,,,,,,Look / Move left 
+right_joy_right,normal,right,,,,,,,,Look / Move left 
+left_bumper,normal,mp_left_puff,,,,,,,,Previous Weapon 
+left_trigger,toggle,lip,,,,,,,,Aim down sights
+right_bumper,normal,mp_right_puff,,,,,,,,Next Piece 
+right_trigger,normal,mp_center_puff,,,,,,,,Fire / Interact
+right_stick,normal,mp_right_center_sip,,,,,,,,Tap=Crouch Hold=Repair
+A,normal,mp_left_center_sip,,,,,,,,Jump
+B,normal,mp_right_sip,,,,,,,,Build 
+X,normal,mp_left_sip,,,,,,,,Trap/Reload
+Y,normal,mp_right_center_puff,,,,,,,,Harvest Weapon 
+back,normal,mp_left_sip_soft,,,,,,,,Map
+guide,normal,mp_center_sip_soft,,,,,,,,Game Menu 
+start,normal,right_sip_soft,,,,,,,,ESC
+left_joy_up,toggle,right_sip,,,,,,,,Latch running on
+left_joy_up,force_off,right_puff
+
+Preferences,,,Can be set in prefs.csv or Preferences page in game csv file
+,,,"Can be changed with voice command, or file"
+Preference,Value,Units,"Can be changed on Mode sheet, Command or file"
+digital_out_1,0,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2
+enable_DS3_emulation,3,,"0=Normal composite device mode, 1=Dual Shock 3 emulation, 2=X360CE mode, 3=XBox 360 emulation"

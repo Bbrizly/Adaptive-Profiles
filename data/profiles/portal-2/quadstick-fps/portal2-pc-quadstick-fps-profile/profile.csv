@@ -1,16 +1,16 @@
-Profile Name,,Left joy,,,,,,,,
-portal2.csv,,Normal,,,,,,,,
-Output or Function,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,
-kb_w,greater_than 20,up,,,,,,,,
-kb_a,greater_than 20,left,,,,,,,,
-kb_s,greater_than 20,down,,,,,,,,
-kb_d,greater_than 20,right,,,,,,,,
-mouse_right,normal,,,,,,,,,
-mouse_left,normal,,,,,,,,,
-mouse_up,normal,,,,,,,,,
-mouse_down,normal,,,,,,,,,
+Profile Name,,Strafe
+portal2.csv,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_w,greater_than 20,up
+kb_a,greater_than 20,left
+kb_s,greater_than 20,down
+kb_d,greater_than 20,right
+mouse_right,normal
+mouse_left,normal
+mouse_up,normal
+mouse_down,normal
 mouse_left_button,normal,mp_center_sip,,,,,,,,Blue portal
 mouse_right_button,normal,mp_center_puff,,,,,,,,Orange portal
 kb_space,normal,lip,,,,,,,,Jump
@@ -19,48 +19,174 @@ kb_left_control,toggle,mp_left_puff,,,,,,,,Crouch
 kb_f6,normal,mp_center_sip_soft,,,,,,,,Quick save
 kb_f7,normal,mp_right_sip_soft,,,,,,,,Quick load
 kb_f12,normal,mp_right_puff_soft,,,,,,,,Screen capture
-kb_pause,normal,mp_left_sip_soft,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
-,normal,,,,,,,,,
+kb_pause,normal,mp_left_sip_soft
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+,normal
+
+Profile Name,,Steer
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_w,greater_than 20,up
+kb_a,greater_than 20
+kb_s,greater_than 20,down
+kb_d,greater_than 20
+mouse_right,normal,right
+mouse_left,normal,left
+mouse_up,normal
+mouse_down,normal
+mouse_left_button,normal,mp_center_sip
+mouse_right_button,normal,mp_center_puff
+kb_space,normal,lip
+kb_e,normal,mp_right_puff
+kb_left_control,toggle,mp_left_puff
+kb_f6,normal,mp_center_sip_soft
+kb_f7,normal,mp_right_sip_soft
+kb_f12,normal,mp_right_puff_soft
+kb_pause,normal,mp_left_sip_soft
+
+Profile Name,,Aim
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_w,normal
+kb_a,normal
+kb_s,normal
+kb_d,normal
+mouse_right,normal,right
+mouse_left,normal,left
+mouse_up,normal,down
+mouse_down,normal,up
+kb_space,normal,lip
+kb_e,normal,mp_right_puff
+kb_left_control,toggle,mp_left_puff
+kb_f6,normal,mp_center_sip_soft
+kb_f7,normal,mp_right_sip_soft
+kb_f12,normal,mp_right_puff_soft
+kb_pause,normal,mp_left_sip_soft
+mouse_wheel_down,greater_than 99,mp_center_sip
+mouse_middle_button,normal,mp_center_sip
+mouse_left_button,greater_than 99,mp_center_sip
+mouse_wheel_down,greater_than 99,mp_center_puff
+mouse_middle_button,normal,mp_center_puff
+mouse_right_button,greater_than 99,mp_center_puff
+
+Profile Name,,Mouse
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+
+Profile Name,,Mouse Scroll
+,,Normal
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal
+mouse_right,normal
+mouse_up,normal
+mouse_down,normal
+mouse_wheel_up,normal,up
+mouse_wheel_down,normal,down
+mouse_pan_left,normal,left
+mouse_pan_right,normal,right
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,right_puff_soft
+kb_left_alt,normal,right_puff_soft
+kb_k,normal,right_puff_soft
+kb_left_shift,normal,mp_left_center_puff
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_right_sip_soft
+kb_left_control,normal,mp_center_sip_soft
+kb_x,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft
+kb_left_gui,normal,mp_left_sip_soft
+
+Preferences
+
+Preference,Value,Units,Description
+digital_out_1,1,on/off,Initial output state for relay 1
+digital_out_2,0,on/off,Initial output state for relay 2

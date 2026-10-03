@@ -1,24 +1,24 @@
 Profile Name,,Gameplay,,,,,,,,Comments
-FishPlanet.csv,,,,,,,,,,
-Output or Function,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,
+FishPlanet.csv
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
 increment_mode,normal,lip,,,,,,,,1st mode
 kb_w,delayed_latch 500,mp_center_puff,,,,,,,,Forward
 kb_left_shift,delay_on 1000,mp_center_puff,,,,,,,,speed up
 kb_s,normal,mp_left_center_sip,,,,,,,,backwards
-mouse_left,normal,left,,,,,,,,
+mouse_left,normal,left
 mouse_right,normal,right,,,,,,,,camera
-mouse_up,normal,up,,,,,,,,
-mouse_down,normal,down,,,,,,,,
+mouse_up,normal,up
+mouse_down,normal,down
 mouse_right_button,delayed_latch 800,mp_left_center_puff,,,,,,,,pull/strick/aim-cast
 mouse_left_button,delayed_latch 800,mp_center_sip,,,,,,,,pitch/cast/reel on
 mouse_wheel_up,normal,mp_right_center_puff,,,,,,,,reeling speed/scroll
-mouse_wheel_down,normal,mp_right_center_sip,,,,,,,,
+mouse_wheel_down,normal,mp_right_center_sip
 kb_keypad_plus,normal,mp_right_puff,,,,,,,,drag setting 
-kb_keypad_minus,normal,mp_right_sip,,,,,,,,
+kb_keypad_minus,normal,mp_right_sip
 kb_p,normal,mp_left_puff,,,,,,,,leader setting 
-kb_o,normal,mp_left_sip,,,,,,,,
+kb_o,normal,mp_left_sip
 kb_i,normal,mp_left_sip_soft,,,,,,,,inventory 
 kb_f11,normal,mp_center_sip_soft,,,,,,,,Pitch on/off
 kb_escape,normal,mp_right_sip_soft,,,,,,,,Map/go back
@@ -28,33 +28,104 @@ kb_b,normal,mp_right_puff_soft,,,,,,,, break-line
 kb_1,normal,mp_triple_puff,,,,,,,,1st rod
 kb_2,normal,mp_triple_sip,,,,,,,,2nd rod
 kb_3,normal,mp_center_puff_soft,,,,,,,,3rd rod
-kb_w,force_off,mp_left_puff,,,,,,,,
-kb_w,force_off,mp_left_sip,,,,,,,,
-kb_w,force_off,mp_left_center_puff,,,,,,,,
-kb_w,force_off,mp_left_center_sip,,,,,,,,
-kb_w,force_off,mp_center_sip,,,,,,,,
-kb_w,force_off,mp_right_center_puff,,,,,,,,
-kb_w,force_off,mp_right_center_sip,,,,,,,,
-kb_w,force_off,mp_right_puff,,,,,,,,
-kb_w,force_off,mp_left_sip_soft,,,,,,,,
-kb_w,force_off,mp_right_sip_soft,,,,,,,,
-mouse_right_button,force_off 250,mp_left_puff,,,,,,,,
-mouse_right_button,force_off 250,mp_left_sip,,,,,,,,
-mouse_right_button,force_off,mp_center_puff,,,,,,,,
-mouse_right_button,force_off 250,mp_center_sip,,,,,,,,
-mouse_right_button,force_off,mp_left_center_sip,,,,,,,,
-mouse_right_button,force_off,mp_right_center_puff,,,,,,,,
-mouse_right_button,force_off,mp_right_center_sip,,,,,,,,
-mouse_right_button,force_off 250,mp_right_puff,,,,,,,,
-mouse_right_button,force_off 250,mp_right_sip,,,,,,,,
-mouse_right_button,force_off,mp_right_sip_soft,,,,,,,,
-mouse_left_button,force_off 250,mp_left_puff,,,,,,,,
-mouse_left_button,force_off 250,mp_left_sip,,,,,,,,
-mouse_left_button,force_off,mp_center_puff,,,,,,,,
-mouse_left_button,force_off 250,mp_left_center_puff,,,,,,,,
-mouse_left_button,force_off,mp_left_center_sip,,,,,,,,
-mouse_left_button,force_off,mp_left_sip_soft,,,,,,,,
-mouse_left_button,force_off,mp_center_puff_soft,,,,,,,,
-mouse_left_button,force_off 250,mp_right_puff,,,,,,,,
-mouse_left_button,force_off 250,mp_right_sip,,,,,,,,
-mouse_left_button,force_off,mp_right_sip_soft,,,,,,,,
+kb_w,force_off,mp_left_puff
+kb_w,force_off,mp_left_sip
+kb_w,force_off,mp_left_center_puff
+kb_w,force_off,mp_left_center_sip
+kb_w,force_off,mp_center_sip
+kb_w,force_off,mp_right_center_puff
+kb_w,force_off,mp_right_center_sip
+kb_w,force_off,mp_right_puff
+kb_w,force_off,mp_left_sip_soft
+kb_w,force_off,mp_right_sip_soft
+mouse_right_button,force_off 250,mp_left_puff
+mouse_right_button,force_off 250,mp_left_sip
+mouse_right_button,force_off,mp_center_puff
+mouse_right_button,force_off 250,mp_center_sip
+mouse_right_button,force_off,mp_left_center_sip
+mouse_right_button,force_off,mp_right_center_puff
+mouse_right_button,force_off,mp_right_center_sip
+mouse_right_button,force_off 250,mp_right_puff
+mouse_right_button,force_off 250,mp_right_sip
+mouse_right_button,force_off,mp_right_sip_soft
+mouse_left_button,force_off 250,mp_left_puff
+mouse_left_button,force_off 250,mp_left_sip
+mouse_left_button,force_off,mp_center_puff
+mouse_left_button,force_off 250,mp_left_center_puff
+mouse_left_button,force_off,mp_left_center_sip
+mouse_left_button,force_off,mp_left_sip_soft
+mouse_left_button,force_off,mp_center_puff_soft
+mouse_left_button,force_off 250,mp_right_puff
+mouse_left_button,force_off 250,mp_right_sip
+mouse_left_button,force_off,mp_right_sip_soft
+
+Profile Name,,Rod selection,,,,,,,,Comments
+FishPlanet.csv
+Output or Function,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+decrement_mode,normal,lip,,,,,,,,2nd mode
+kb_w,greater_than 25,up,,,,,,,,Forward
+kb_s,greater_than 25,down,,,,,,,,Backwards
+kb_a,greater_than 25,left,,,,,,,,Left
+kb_d,greater_than 25,right,,,,,,,,Right 
+kb_i,normal,mp_left_sip_soft,,,,,,,,inventory 
+kb_f11,normal,mp_center_sip_soft,,,,,,,,Pitch on/off
+kb_escape,normal,mp_right_sip_soft,,,,,,,,Map/go back
+kb_escape,normal,mp_triple_sip
+kb_h,normal,mp_right_center_puff_soft
+kb_t,normal,mp_left_puff_soft,,,,,,,,next hour
+kb_t,normal,mp_triple_puff
+kb_b,normal,mp_right_puff_soft,,,,,,,, break-line
+kb_1,normal,mp_left_center_puff,,,,,,,,1st rod
+kb_2,normal,mp_center_puff,,,,,,,,2nd rod
+kb_3,normal,mp_right_center_puff,,,,,,,,3rd rod
+kb_4,normal,mp_left_center_sip,,,,,,,,4th rod
+kb_5,normal,mp_center_sip,,,,,,,,5th rod
+kb_6,normal,mp_right_center_sip,,,,,,,,6th rod
+kb_7,normal,mp_right_sip,,,,,,,,7th rod
+kb_0,normal,mp_right_puff,,,,,,,,empty hand
+kb_8,normal,mp_left_sip,,,,,,,,hand casting 
+kb_9,normal,mp_left_puff,,,,,,,,rod stands
+
+Profile Name,,Mouse,,,,,,,,Comments
+PCsimu.csv,,Normal
+Output or Function,Function,usb,,,,,,,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,lip
+mouse_left_button,normal,mp_left_puff
+mouse_right_button,normal,mp_right_puff
+mouse_middle_button,normal,mp_center_puff
+kb_enter,normal,mp_right_sip
+kb_escape,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_sip
+kb_left_control,normal,mp_left_center_puff,,,,,,,,Task manager -recommend
+kb_left_alt,normal,mp_left_center_puff,,,,,,,,(escapes most game to reach desktop easier)
+kb_k,normal,right_puff_soft
+kb_left_shift,normal
+kb_left_control,normal,mp_left_center_sip
+kb_backspace,normal,mp_right_puff_soft
+kb_delete,normal,mp_left_center_puff
+kb_left_alt,normal,mp_center_sip_soft,,,,,,,,Steam short window
+kb_enter,normal,mp_center_sip_soft
+kb_left_control,normal,mp_center_sip,,,,,,,,Msi afterburner status
+kb_c,normal,mp_center_sip
+kb_left_control,normal,mp_center_puff_soft
+kb_v,normal,mp_center_puff_soft,,,,,,,,Desktop menu
+kb_left_gui,normal,mp_left_sip_soft
+kb_left_control,normal,right_sip_soft
+kb_keypad_plus,normal,right_sip_soft
+kb_tab,normal,mp_triple_puff,,,,,,,,Steam menu tab
+kb_left_shift,normal,mp_triple_puff
+mouse_wheel_up,normal,mp_right_center_puff
+mouse_wheel_down,normal,mp_right_center_sip
+kb_f12,normal,mp_triple_sip,,,,,,,,Screenshot

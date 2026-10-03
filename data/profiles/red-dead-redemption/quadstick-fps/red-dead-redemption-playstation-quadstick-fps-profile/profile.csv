@@ -1,39 +1,329 @@
-Profile Name,,Left joy,,,,,,,,
-rdr2.csv,,Normal,,,,,,,,
-PlayStation Outputs,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-increment_mode,normal,right_puff,,,,,,,,
-dpad_N,normal,,,,,,,,,
-dpad_NE,normal,,,,,,,,,
-dpad_E,normal,,,,,,,,,
-dpad_SE,normal,,,,,,,,,
-dpad_S,normal,,,,,,,,,
-dpad_SW,normal,,,,,,,,,
-dpad_W,normal,,,,,,,,,
-dpad_NW,normal,,,,,,,,,
-left_joy_left,normal,left,,,,,,,,
-left_joy_right,normal,right,,,,,,,,
-left_joy_up,normal,up,,,,,,,,
-left_joy_down,normal,down,,,,,,,,
-right_joy_left,normal,,,,,,,,,
-right_joy_right,normal,,,,,,,,,
-right_joy_up,normal,,,,,,,,,
-right_joy_down,normal,,,,,,,,,
-left_1,normal,mp_left_sip,,,,,,,,
-left_2,normal,mp_left_puff,,,,,,,,
+Profile Name,,Left
+rdr2.csv,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+increment_mode,normal,right_puff
+increment_mode,normal,right_puff
+increment_mode,normal,right_puff
+increment_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,normal,mp_left_puff
 left_3,normal,mp_left_center_sip,,,,,,,,Crouch or Calm
-right_1,normal,mp_right_sip,,,,,,,,
-right_2,normal,mp_right_puff,,,,,,,,
-right_3,normal,mp_right_center_sip,,,,,,,,
-x,normal,lip,,,,,,,,
-circle,normal,mp_center_puff,,,,,,,,
-square,normal,mp_center_sip,,,,,,,,
-triangle,normal,mp_right_center_puff,,,,,,,,
-select,normal,mp_left_sip_soft,,,,,,,,
-ps3,normal,mp_center_sip_soft,,,,,,,,
-start,normal,mp_right_sip_soft,,,,,,,,
-touch,normal,mp_left_puff_soft,,,,,,,,
+right_1,normal,mp_right_sip
+right_2,normal,mp_right_puff
+right_3,normal,mp_right_center_sip
+x,normal,lip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal,mp_center_sip_soft
+start,normal,mp_right_sip_soft
+touch,normal,mp_left_puff_soft
 decrement_mode,delay_on 500,mp_left_sip,,,,,,,,Weapon Wheel
+
+Profile Name,,Mixed
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,up
+left_joy_down,normal,down
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,toggle,mp_left_center_sip,,,,,,,,Crouch
+right_1,normal,mp_right_sip
+right_2,normal,lip
+right_3,normal,mp_right_center_sip,,,,,,,,Dead Eye
+x,normal,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal
+start,normal,mp_right_sip_soft
+decrement_mode,delay_on 500,mp_left_sip,,,,,,,,Weapon Wheel
+decrement_mode,delay_on 500,mp_left_sip
+left_3,normal,mp_left_center_sip_soft,,,,,,,,Eagle Eye
+right_3,normal,mp_left_center_sip_soft
+
+Profile Name,,Right
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,toggle,mp_left_center_sip,,,,,,,,Crouch
+right_1,normal,mp_right_sip
+right_2,normal,lip
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal
+start,normal,mp_right_sip_soft
+decrement_mode,delay_on 500,mp_left_sip,,,,,,,,Weapon Wheel
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+anti_dead_zone,normal,20
+left_3,normal,mp_left_center_sip_soft,,,,,,,,Eagle Eye
+right_3,normal,mp_left_center_sip_soft
+increment_mode,normal,right_sip_soft,,,,,,,,Fishing
+
+Profile Name,,D-Pad
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_NE,normal,NE
+dpad_E,normal,E
+dpad_SE,normal,SE
+dpad_S,normal,S
+dpad_SW,normal,SW
+dpad_W,normal,W
+dpad_NW,normal,NW
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal
+right_joy_right,normal
+right_joy_up,normal
+right_joy_down,normal
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,normal,mp_left_center_sip
+right_1,normal,mp_right_sip
+right_2,normal,lip
+right_3,normal,mp_right_center_sip
+x,normal,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,delay_on 100
+
+Profile Name,,Riding
+,,Normal
+PlayStation Outputs,Function,usb
+decrement_mode,normal,right_sip
+decrement_mode,normal,right_sip
+decrement_mode,normal,right_sip
+decrement_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal,constant
+left_joy_down,normal
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,normal,mp_left_sip
+left_2,toggle,mp_left_puff
+left_3,toggle,mp_left_center_sip,,,,,,,,Calm horse
+right_1,normal,mp_right_sip
+right_2,normal,lip,,,,,,,,shoot
+right_3,normal,mp_right_center_sip
+x,delayed_latch,mp_right_puff
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+ps3,normal
+start,normal,mp_right_sip_soft
+select,normal,mp_right_puff_soft
+circle,delay_on 100,mp_right_puff_soft
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+decrement_mode,delay_on 500,mp_left_sip
+
+Profile Name,,NE quadrant
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"Starts with Right Analog stick in UP position, then as mp_center_sip is increased, the Right Analog will rotate counter clockwise down to the RIGHT position. At this point the mode will increment to handle the South East quadrant of the rotation."
+decrement_mode,normal,right_puff
+right_joy_left,normal,,,,,,,,,Puff to move Right Analog left
+right_joy_right,normal,mp_center_sip,,,,,,,,Sip to move Right Analog right
+right_joy_up,normal,constant,,,,,,,,Start with joystick straight up
+right_joy_down,normal,mp_center_sip,,,,,,,,Push to move Right Analog down.
+increment_mode,greater_than 90,mp_center_sip,,,,,,,,When pressure reaches maximum switch to next mode
+sip_puff_threshold,normal,10,,,,,,,,Allow a wide range of pressure for accurate control
+sip_puff_maximum,normal,100
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+
+Profile Name,,SE quadrant
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"When this mode is entered, the mp_center_sip will be at 100%.  As the sip decreases towards 0, the Right Analog stick will continue rotating  clockwise until it is pointing DOWN.  When the sip reaches 0, the mode will increment to handle the South West quadrant."
+decrement_mode,normal,right_puff
+right_joy_left,normal,,,,,,,,,Puff to move Right Analog left
+right_joy_right,normal,mp_center_sip,,,,,,,,Sip to move Right Analog right
+right_joy_up,normal,mp_center_sip
+right_joy_down,normal,constant,,,,,,,,Push to move Right Analog down.
+increment_mode,less_than 1,mp_center_sip
+sip_puff_threshold,normal,10
+sip_puff_maximum,normal,100
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+
+Profile Name,,SW quadrant
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"When this mode is entered, the mp_center_sip and mp_center_puff will both be at 0%.  As the puff increases towards 100%, the Right Analog stick will continue rotating clockwise until it is pointing WEST.  When the puff reaches 100, the mode will increment to handle the North West quadrant."
+decrement_mode,normal,right_puff
+right_joy_left,normal,mp_center_puff,,,,,,,,Puff to move Right Analog left
+right_joy_right,normal,,,,,,,,,Sip to move Right Analog right
+right_joy_up,normal,mp_center_puff
+right_joy_down,normal,constant,,,,,,,,Push to move Right Analog down.
+increment_mode,greater_than 90,mp_center_puff
+sip_puff_threshold,normal,10
+sip_puff_maximum,normal,100
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+
+Profile Name,,NW quadrant
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip,,,,,,,,"When this mode is entered, the mp_center_puff will be at 100%.  As the puff decreases towards 0, the Right Analog stick will continue rotating clockwise until it is pointing UP.  "
+decrement_mode,normal,right_puff
+right_joy_left,normal,mp_center_puff,,,,,,,,Puff to move Right Analog left
+right_joy_right,normal,,,,,,,,,Sip to move Right Analog right
+right_joy_up,normal,constant
+right_joy_down,normal,mp_center_puff,,,,,,,,Push to move Right Analog down.
+increment_mode,less_than 1,mp_center_puff,,,,,,,,Go back to the first mode.
+sip_puff_threshold,normal,10
+sip_puff_maximum,normal,100
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+
+Profile Name,,Again
+,,Normal
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip,,,,,,,,This mode holds the right analog stick UP until the a sip is started on the center hole.  Then it will change the mode to the NE quadrant to start the cycle again.
+decrement_mode,normal,right_puff
+right_joy_left,normal,,,,,,,,,Sip to move Right Analog left
+right_joy_right,normal,,,,,,,,,Puff to move Right Analog right
+right_joy_up,normal,constant
+right_joy_down,normal,,,,,,,,,Push to move Right Analog down.
+decrement_mode,normal,mp_center_sip,,,,,,,,Go back to the first mode.
+decrement_mode,normal,mp_center_sip
+decrement_mode,normal,mp_center_sip
+decrement_mode,normal,mp_center_sip
+sip_puff_threshold,normal,10
+sip_puff_maximum,normal,100
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+decrement_mode,normal,right_sip_soft
+
+Profile Name,,Weapon Wheel
+
+PlayStation Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal
+dpad_NE,normal
+dpad_E,normal
+dpad_SE,normal
+dpad_S,normal
+dpad_SW,normal
+dpad_W,normal
+dpad_NW,normal
+left_joy_left,normal
+left_joy_right,normal
+left_joy_up,normal
+left_joy_down,normal
+right_joy_left,normal,left,,,,,,,,Point to item
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+left_1,normal,constant,,,,,,,,Hold L1 for wheel
+left_2,normal,mp_left_puff,,,,,,,,Select Item
+left_3,toggle
+right_1,toggle,mp_right_sip,,,,,,,,Select Tab
+right_2,toggle,mp_right_puff,,,,,,,,Select Item
+right_3,normal,mp_right_center_sip,,,,,,,,Maintain
+x,normal,lip
+circle,normal,mp_center_puff
+square,normal,mp_center_sip
+triangle,normal,mp_right_center_puff
+select,normal,mp_left_sip_soft
+start,normal,mp_right_sip_soft
+increment_mode,normal,mp_left_sip,,,,,,,,Release Wheel
+increment_mode,normal,mp_left_sip,,,,,,,,go to mode 2
+right_2,force_off,mp_left_sip
+right_1,force_off,mp_left_sip

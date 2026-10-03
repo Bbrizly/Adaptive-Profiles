@@ -1,27 +1,27 @@
-Profile Name,,Left joy,,,,,,,,comment
-nba2k.csv,,Normal,,,,,,,,
-XBox Outputs,Function,usb,,,,,,,,
-increment_mode,normal,right_sip,,,,,,,,
-decrement_mode,normal,right_puff,,,,,,,,
-left_joy_left,normal,left,,,,,,,,
-left_joy_right,normal,right,,,,,,,,
-left_joy_up,normal,up,,,,,,,,
-left_joy_down,normal,down,,,,,,,,
+Profile Name,,GamePlay,,,,,,,,comment
+nba2k.csv,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+left_joy_left,normal,left
+left_joy_right,normal,right
+left_joy_up,normal,up
+left_joy_down,normal,down
 right_trigger,normal,lip,,,,,,,,Sprint
 left_trigger,normal,mp_left_sip,,,,,,,,LT / Post Up
-left_trigger,pulse 6000,mp_left_sip_soft,,,,,,,,
+left_trigger,pulse 6000,mp_left_sip_soft
 left_bumper,normal,mp_right_sip,,,,,,,,LB / Call Pick
-left_bumper,pulse 4000,mp_right_sip_soft,,,,,,,,
+left_bumper,pulse 4000,mp_right_sip_soft
 right_bumper,normal,mp_right_puff,,,,,,,,RB / Icon Pass
 A,normal,mp_center_sip,,,,,,,,Pass / Steal
-A,pulse 6000,mp_center_sip_soft,,,,,,,,
+A,pulse 6000,mp_center_sip_soft
 B,normal,mp_right_center_sip,,,,,,,,Bounce Pass / Take Charge / Control Receiver
 X,normal,mp_center_puff,,,,,,,,Shoot / Steal
-X,pulse 2000,mp_center_puff_soft,,,,,,,,
+X,pulse 2000,mp_center_puff_soft
 Y,normal,mp_left_puff,,,,,,,,Lob Pass / Rebound / Cut to Basket
-Y,pulse 2000,mp_left_puff_soft,,,,,,,,
+Y,pulse 2000,mp_left_puff_soft
 right_trigger,normal,mp_triple_puff,,,,,,,,Dunk
-X,normal,mp_triple_puff,,,,,,,,
+X,normal,mp_triple_puff
 right_joy_down,normal,mp_right_center_puff,,,,,,,,RS Down
 right_joy_up,normal,mp_left_center_puff,,,,,,,,RS Up
 dpad_W,normal,mp_left_center_sip_soft,,,,,,,,Call Play
@@ -31,3 +31,80 @@ dpad_S,normal,mp_right_center_puff_soft,,,,,,,,Edit Line Up
 start,normal,mp_triple_sip,,,,,,,,Pause Game
 back,normal,mp_right_puff_soft,,,,,,,,Time Out / Intentional Foul
 decrement_mode,normal,mp_left_center_sip,,,,,,,,RS Control
+
+Profile Name,,D-Pad
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+dpad_N,normal,N
+dpad_E,normal,E
+dpad_S,normal,S
+dpad_W,normal,W
+start,normal,mp_left_sip
+back,normal,mp_right_sip
+left_stick,normal,mp_left_puff
+right_stick,normal,mp_right_puff
+guide,normal,mp_center_puff
+kb_space,normal,mp_center_sip
+kb_left_shift,normal,mp_left_puff_soft
+kb_tab,normal,mp_left_puff_soft
+kb_f3,normal,mp_right_sip_soft
+kb_select,normal,mp_left_sip_soft
+kb_escape,normal,mp_triple_puff
+kb_left_control,normal,mp_triple_sip
+kb_left_alt,normal,mp_triple_sip
+kb_delete,normal,mp_triple_sip
+
+Profile Name,,Mouse
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+mouse_left,normal,left
+mouse_right,normal,right
+mouse_up,normal,up
+mouse_down,normal,down
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+mouse_pan_right,normal
+mouse_left_button,normal,mp_center_puff
+mouse_right_button,normal,mp_center_sip
+
+Profile Name,,ArrowKeys
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+kb_left_arrow,normal,W
+kb_right_arrow,normal,E
+kb_up_arrow,normal,N
+kb_down_arrow,normal,S
+mouse_wheel_up,normal
+mouse_wheel_down,normal
+mouse_pan_left,normal
+left_joy_down,normal,mp_left_center_sip
+left_joy_up,normal,mp_left_center_puff
+A,normal,mp_right_puff
+B,normal,mp_right_puff
+start,normal,mp_left_puff
+Y,normal,mp_left_puff
+
+Profile Name,,RightStick,,,,,,,,comment
+,,Normal
+XBox Outputs,Function,usb
+increment_mode,normal,right_sip
+decrement_mode,normal,right_puff
+right_joy_left,normal,left
+right_joy_right,normal,right
+right_joy_up,normal,up
+right_joy_down,normal,down
+right_trigger,normal,lip
+increment_mode,less_than,mp_left_center_sip
+
+Preferences,,,Can be set in prefs.csv or Preferences page in game csv file
+,,,"Can be changed with voice command, or file"
+Preference,Value,Units,"Can be changed on Mode sheet, Command or file"
+digital_out_1,1,on/off,Initial output state for relay 1
+digital_out_2,1,on/off,Initial output state for relay 2
